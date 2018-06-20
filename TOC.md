@@ -11,20 +11,17 @@ Check out the new SPDocKit version delights. See the changes in the latest versi
 Make sure that your environment and the account used for the application meet SPDocKit requirements. 
 ## [Supported SharePoint Editions](supported-sharepoint-editions.md)
 ## [System Requirements](system-requirements.md)
-## [SharePoint On-Premises User Permissions Requirements](sharepoint-on-premises-user-permissions-requirements.md)
-## [SharePoint Online User Permissions Requirements](sharepoint-online-user-permissions-requirements.md)
+## [SharePoint On-Premises User Permissions Requirements](user-permissions-requirements.md)
 ## [Server Load Permission Requirements](server-load-permission-requirements.md)
 ## [Project Server Load Requirements](project-server-requirements.md)
 ## [Search Service Application Requirements](search-service-requirements.md)
 ## [User Profile Service Application Requirements](user-profile-service-requirements.md)
-## [Requirements FAQ](requirements-faq.md)
 
 # [Installation](installation)
 Learn how to install SPDocKit or update it to the latest version. 
 ## [Installation Guide](installation-guide.md)
 ## [Upgrade to the Latest Version](upgrade-to-the-latest-version.md)
 ## [Uninstallation Guide](uninstallation-guide.md)
-## [Installation FAQ](installation-faq.md)
 
 # [Activation](activation)
 Activate your fully featured version and explore all the amazing reports. 

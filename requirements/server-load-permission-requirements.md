@@ -35,7 +35,7 @@ During the Take Snapshot process SPDocKit will try to retrieve information about
 
 ### Solution
 
-1. Add your SPDocKit user accounts to the __Local Administrators__ group on the specified server.
+1. Add your SPDocKit user account to the __Local Administrators__ group on the specified server.
 In case you have a very strict security policy and cannot add this account to the __Local Administrators__ group, you can use this procedure to get most of the reports working:
   * Add your SPDocKit accounts to the following local groups: __Backup Operators__ and __Performance Log Users__. This will allow us to remotely execute WMI queries and get information about SQL servers.
   * Start __winmgmt.msc__, right click on WMI Control and select Properties.

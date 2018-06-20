@@ -29,7 +29,7 @@ When I tried to load a SharePoint farm with SPDocKit I received the following er
 
 ### Solution:
 * The product needs to run on the same server as SharePoint, so make sure SharePoint is installed on the server where you are trying to load the farm.
-* In order to load the SharePoint farm you need to have proper privileges. Check [this article](#internal/requirements/sharepoint-on-premises-user-permissions-requirements) for more details.
+* In order to load the SharePoint farm you need to have proper privileges. Check [this article](#internal/requirements/user-permissions-requirements) for more details.
 
 
 ## Error occurred while upgrading to the latest version.

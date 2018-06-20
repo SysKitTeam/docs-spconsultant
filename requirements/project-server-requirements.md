@@ -22,6 +22,6 @@ During the Take Snapshot process SPDocKit will try to retrieve information about
 1. In a browser navigate to your Project server site.
 2. Click __Settings__ > __PWA Settings__ to open up the PWA Settings page.
 3. Under __Security__ click __Manage Users__.
-4. Click __New User__ and add your __SPDocKit user accounts__ (console account and the service account, if you are using automatic snapshots).
+4. Click __New User__ and add your __SPDocKit user account__ 
     * Under __User logon account__ specify the __Domain\Username__ of the __SPDocKit user account__.
     * Under __Security Groups__ make sure that this user is a member of the __Administrators__ security group.
