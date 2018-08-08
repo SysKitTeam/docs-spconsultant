@@ -5,46 +5,60 @@ author: Tomislav Sirovec
 date: 19/6/2018
 ---
 
-This section describes how you can use the SPDocKit Consultant Snapshot wizard to collect SharePoint farm settings and permissions.
-Please note! Adjustments and settings you make using this wizard apply to the current snapshot-taking process only. If you wish to configure a default snapshot-taking setting, use the [Options wizard](#internal/get-to-know-spdockit/backstage-screen/options-wizard). The selection you make there will be used as a default load template.
+This section describes how you can use SPDocKit Snapshot Wizard - Consultant or the PowerShell module to collect SharePoint farm settings and permissions.
+Please note! Adjustments and settings you make when using SPDocKit Snapshot Wizard - Consultant will be saved and used the next time you run it.
+The PowerShell module has no such abilities. However, you can copy and save your favorite command with a defined set of parameters in a text file and copy-paste it to PowerShell the next time you want to create a snapshot.
 
-1. Navigate to the Backstage Actions Screen and click the Take Snapshot button.
-1. Select the snapshot mode you wish the application to execute. There are three choices:
-    * __Default__ – Performs a load using the setup provided in the [Snapshot Options](#internal/get-to-know-spdockit/backstage-screen/options-wizard) and [Load Target](#internal/get-to-know-spdockit/backstage-screen/options-wizard). This includes farm settings, features and solutions, and permissions down to the subsite level on the whole farm by default, and can be changed by the user at any time in the Options Wizard.
-    * __Custom__ – Allows the user to specify exactly what information should be loaded. You can also choose which Web applications, site collections or even subsites data will be retrieved.
-    It can be the fastest load option if the user wishes to have access only to specific data, and is aware what data he is interested in. This mode is recommended for more advanced users who are looking to generate specific reports.
-    * __Full__ – Performs a load that collects all available information where possible (some data will still not be collected if a database is not used with SPDocKit).
-    This is the recommended load mode if you don’t mind waiting and want to be sure you have all the data once the load finishes.
+## SPDocKit Snapshot Wizard - Consultant
 
-   __Please note!__ What you choose to take a snapshot of, within the Custom mode, applies only to the current load and does not affect loading executed by the SPDocKit service.
-1. Choose what you would like to load. This page is only available if you have chosen the Custom mode; otherwise it will be skipped together with the Target page.
+SPDocKit Snapshot Wizard - Consultant files can be found in the installation folder of SPDocKit Consultant on your workstation.
+To easily locate it, open SPDocKit Consultant and click the __Take Snapshot__ button on the Backstage screen. An info window on how to take a snapshot appears. 
+Click the __Quick Open__ button - folder containing the SPDocKit Snapshot Wizard - Consultant is opened and the .zip file is selected. 
 
-   With the Load Depth option you can specify the depth to which you want to crawl your farm.
+Copy the preselected archive to the SharePoint server where you want to take a snapshot and extract the contents.
+Locate the __SPDocKitSnapshotWizard.exe__ among the extracted files and run it - the SPDocKit Snapshot Wizard - Consultant opens. 
+
+__Note:__ When creating a snapshot on clients' farm you want to leave minimal or no traces behind you. With the SPDocKit Snapshot Wizard - Consultant there are no files left behind since the installation is not required. 
+
+Let's take a closer look at the steps and the options available:
+
+#### Welcome
+  * __Snapshot Location__ - Define where to save the snapshot file after the load is completed. By default, the snapshots will be placed in the __Snapshots__ folder in the same location as the SPDocKit Snapshot Wizard - Consultant .exe file. 
+  * __Verbose Logging__ - Check this option for a more detailed logging when troubleshooting.
+
+#### Load Options
+
+  * __Load Depth__ - Specify the depth to which you want to crawl your farm. You can choose between Web Applications and Site Collections. 
    
-   We redesigned the load screen to be more user friendly, and added more loading options. There are 4 categories:  
-   * __SharePoint__
-     * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
-     * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
-     * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
-     * __Features and Solutions__, __Workflows__
+  * __SharePoint__
+    * __Farm Settings__ - Farm settings are loaded by default and this option cannot be changed. 
+    * __Features and Solutions__
+    * __Workflows__
 
-   * __Security__ 
-     * __Database Permissions__ - Selecting this will enable you to view the Database Permissions report. This report shows information about all users, across all databases on a SQL Server. 
-     * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
-     * __Administrative Actions Log__ - this option will be visible only for SharePoint 2016 FP1 farms and enables you to browse and analyze administrative actions logs collected from your SharePoint farm.
-     * __Security Audit__ - this option is required for Permission Audit report which enables you to see complete history of permission changes on site collection.
+  * __Security__ 
+    * __Database Permissions__ - Check this option to view the Database Permissions report. This report shows information about all users, across all databases on a SQL Server. 
 
-   * __Server Settings__ 
-     * __Installed Programs and available Updates__
-     * __SQL Server and IIS Settings Information__
+  * __Server Settings__ 
+    * __Installed Programs and available Updates__
+    * __SQL Server Information__
+    * __IIS Settings Information__
 
-   * __Project Server__ 
-     * __Settings__
-     * __Projects__  
+  * __Project Server__ 
+    * __Settings__
+    * __Projects__  
 
    To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load.
 
-4. Select the snapshot target.  
-Again, this step will be skipped unless you chose the Custom snapshot mode. Some data is collected from the Central Administration and farm servers regardless of the selection here; however, permissions, workflows, content types, etc., will not show information for items that have not been selected here. You can choose your target to be the entire farm, Web application, site collection or specific subsites. 
+#### Target
+You can choose your target to be the entire farm, Web application or specific site collection.
+Click Next and the loading will start.
 
-1. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](#internal/get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports) and [permission reports](#internal/get-to-know-spdockit/permissions-reports-screen) will be ready for use!
+#### Loading Progress  
+Shows the current loading progress. When the load is finished, it is possible to save the loading log by clicking the __Save Log__ button.
+
+#### Finish
+The last step enables you to easily navigate to the created snapshot by clicking the __Open Snapshot Location__ button. 
+
+The snapshot can now be copied to the workstation and imported with SPDocKit Consultant for further analysis.
+
+## SPDocKit PowerShell Module
