@@ -17,7 +17,7 @@ To easily locate it, open SPDocKit Consultant and click the __Take Snapshot__ bu
 Click the __Quick Open__ button - folder containing the SPDocKit Snapshot Wizard - Consultant is opened and the .zip file is selected. 
 
 Copy the preselected archive to the SharePoint server where you want to take a snapshot and extract the contents.
-Locate the __SPDocKitSnapshotWizard.exe__ among the extracted files and run it - the SPDocKit Snapshot Wizard - Consultant opens. 
+Locate the __SPDocKitSnapshotWizard.exe__ among the extracted files and run it - the __SPDocKit Snapshot Wizard - Consultant__ opens. 
 
 __Note:__ When creating a snapshot on clients' farm you want to leave minimal or no traces behind you. With the SPDocKit Snapshot Wizard - Consultant there are no files left behind since the installation is not required. 
 
@@ -95,4 +95,6 @@ Get-Help New-SPDocKitSnapshot -full
 
 [//]: # (TODO - provjeriti ovaj link za online dokumentaciju kada se ona postavi online)
 
-The documentation is also available for you to view [online](https://www.powershellgallery.com/Errors/404?aspxerrorpath=/packages/SysKit.SPDocKit.PS/1.0.1/Documentation)
+The documentation is also available for you to view [online](https://www.powershellgallery.com/Errors/404?aspxerrorpath=/packages/SysKit.SPDocKit.PS/1.0.1/Documentation).
+
+
