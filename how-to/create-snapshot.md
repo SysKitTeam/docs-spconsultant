@@ -63,7 +63,7 @@ The snapshot can now be copied to the workstation and imported with SPDocKit Con
 
 ## SPDocKit PowerShell Module
 
-The SysKit.SPDocKit.PS PowerShell module can be aquired from [PowerShell Gallery](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS/) or [SysKit Customers Web](https://my.syskit.com).
+The SysKit.SPDocKit.PS PowerShell module can be acquired from [PowerShell Gallery](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS/) or [SysKit Customers Web](https://my.syskit.com).
 
 Once you've downloaded the __SysKit.SPDocKit.PS.zip__ file, extract the contents to __SysKit.SPDocKit.PS__ folder.
 The folder should then be copied to one of the default PowerShell module paths. You can easily discover them by running the following command in PowerShell:
