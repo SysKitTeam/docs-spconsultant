@@ -93,8 +93,9 @@ To find all about the __New-SPDocKitSnapshot__ command use the following command
 Get-Help New-SPDocKitSnapshot -full
 ```
 
-[//]: # (TODO - provjeriti ovaj link za online dokumentaciju kada se ona postavi online)
+[//]: # (TODO - provjeriti ovaj link za online dokumentaciju kada se ona postavi online i za verziju PS-a)
 
 The documentation is also available for you to view [online](https://www.powershellgallery.com/Errors/404?aspxerrorpath=/packages/SysKit.SPDocKit.PS/1.0.1/Documentation).
 
 
+__Please note!__ The PowerShell module can be used with __PowerShell version 3.0 or higher.__
