@@ -62,3 +62,36 @@ The last step enables you to easily navigate to the created snapshot by clicking
 The snapshot can now be copied to the workstation and imported with SPDocKit Consultant for further analysis.
 
 ## SPDocKit PowerShell Module
+
+The SysKit.SPDocKit.PS PowerShell module can be aquired from [PowerShell Gallery](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS/) or [SysKit Customers Web](https://my.syskit.com).
+
+Once you've downloaded the __SysKit.SPDocKit.PS.zip__ file, extract the contents to __SysKit.SPDocKit.PS__ folder.
+The folder should then be copied to one of the default PowerShell module paths. You can easily discover them by running the following command in PowerShell:
+
+```powershell
+$env:PSModulePath -split ';'
+```
+
+Now copy the __SysKit.SPDocKit.PS__ folder to one of the displayed paths. 
+
+First, let's check the __SysKit.SPDocKit.PS__ module version. Type the following command into PowerShell:
+
+```powershell
+Get-SPDocKitVersion
+```
+
+To create a snapshot with the __SysKit.SPDocKit.PS__ module, the following command is used:
+```powershell
+New-SPDocKitSnapshot
+```
+The load starts and the current Loading Target is displayed in the progress bar.
+
+To find all about the __New-SPDocKitSnapshot__ command use the following command:
+
+```powershell
+Get-Help New-SPDocKitSnapshot -full
+```
+
+[//]: # (TODO - provjeriti ovaj link za online dokumentaciju kada se ona postavi online)
+
+The documentation is also available for you to view [online](https://www.powershellgallery.com/Errors/404?aspxerrorpath=/packages/SysKit.SPDocKit.PS/1.0.1/Documentation)
