@@ -55,7 +55,7 @@ If there are multiple consultants in a firm, you might want to try our [Team Sub
 
 
 ### Will it run on my workstation and connect to the farm without installing on the actual servers?
-If you purchase the Consultant license, you will be able to run SPDocKit on your workstation and generate documentation from it, but in order to gather data you will still need to run the SPDocKit Consultant Snapshooter tool on the actual SharePoint On-Premises server.
+If you purchase the Consultant license, you will be able to run SPDocKit on your workstation and generate documentation from it, but in order to gather data you will still need to run the SPDocKit Consultant Snapshot Wizard tool on the actual SharePoint On-Premises server.
 
 ### How do I cancel my SPDocKit subscription?
 

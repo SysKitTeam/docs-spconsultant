@@ -6,7 +6,7 @@ description: This article explains how to install SPDocKit Consultant.
 ---
 This article explains how to install SPDocKit Consultant.
 
-__System Requirements:__ The product uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. The SPDocKit Consultant Snapshooter needs to be run on a __SharePoint 2010, SharePoint 2013 or SharePoint 2016 server to load farm information.__
+__System Requirements:__ The product uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. The SPDocKit Consultant Snapshot Wizard needs to be run on a __SharePoint 2010, SharePoint 2013 or SharePoint 2016 server to load farm information.__
 
 The application can be installed on a workstation with a __Windows 7, Windows 8 or Windows 10__ operating system, but you will not be able to load SharePoint farm settings, only open already saved snapshots. [Read more about required system settings.](#internal/requirements/system-requirements/)
 
