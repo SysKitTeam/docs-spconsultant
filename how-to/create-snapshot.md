@@ -10,7 +10,9 @@ This section describes how you can use SPDocKit Snapshot Wizard - Consultant or 
 __Please note!__ Adjustments and settings you make when using SPDocKit Snapshot Wizard - Consultant will be saved and used the next time you run it.
 The PowerShell module has no such abilities. However, you can copy and save your favorite command with a defined set of parameters in a text file and copy-paste it to PowerShell the next time you want to create a snapshot.
 
-## SPDocKit Snapshot Wizard - Consultant
+There are two ways of creating a snapshot for the selected farm (both need to be run on the selected farm).
+
+## 1. SPDocKit Snapshot Wizard - Consultant
 
 SPDocKit Snapshot Wizard - Consultant files can be found in the installation folder of SPDocKit Consultant on your workstation.
 To easily locate it, open SPDocKit Consultant and click the __Take Snapshot__ button on the Backstage screen. An info window on how to take a snapshot appears. 
@@ -19,7 +21,7 @@ Click the __Quick Open__ button - folder containing the SPDocKit Snapshot Wizard
 Copy the preselected archive to the SharePoint server where you want to take a snapshot and extract the contents.
 Locate the __SPDocKitSnapshotWizard.exe__ among the extracted files and run it - the __SPDocKit Snapshot Wizard - Consultant__ opens. 
 
-__Note:__ When creating a snapshot on clients' farm you want to leave minimal or no traces behind you. With the SPDocKit Snapshot Wizard - Consultant there are no files left behind since the installation is not required. 
+__Note:__ When creating a snapshot on clients' farm you want to leave minimal or no traces behind you. With the SPDocKit Snapshot Wizard - Consultant there are __no files left behind__ since the installation is not required. 
 
 Let's take a closer look at the steps and the options available:
 
@@ -62,9 +64,13 @@ The last step enables you to easily navigate to the created snapshot by clicking
 
 The snapshot can now be copied to the workstation and imported with SPDocKit Consultant for further analysis.
 
-## SPDocKit PowerShell Module
+## 2. SPDocKit PowerShell Module
 
 The SysKit.SPDocKit.PS PowerShell module can be acquired from [PowerShell Gallery](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS/) or [SysKit Customers Web](https://my.syskit.com).
+
+### There are two ways to import the module:
+
+__1. Manually by copy and pasting it:__
 
 Once you've downloaded the __SysKit.SPDocKit.PS.zip__ file, extract the contents to __SysKit.SPDocKit.PS__ folder.
 The folder should then be copied to one of the default PowerShell module paths. You can easily discover them by running the following command in PowerShell:
@@ -72,16 +78,47 @@ The folder should then be copied to one of the default PowerShell module paths. 
 ```powershell
 $env:PSModulePath -split ';'
 ```
-
 Now copy the __SysKit.SPDocKit.PS__ folder to one of the displayed paths. 
 
-First, let's check the __SysKit.SPDocKit.PS__ module version. Type the following command into PowerShell:
+You can check the __SysKit.SPDocKit.PS__ module version. Type the following command into PowerShell:
 
 ```powershell
 Get-SPDocKitVersion
 ```
+__2. Using the < Install-Module > command__
+
+1. Inspect:
+  ```powershell
+  Save-Module -Name SysKit.SPDocKit.PS -Path <path>
+  ```
+2. Install:
+  ```powershell
+  Install-Module -Name SysKit.SPDocKit.PS
+  ```
+
+Please note that for this to work __PowerShell 5 is required.__
+
+### Where to install the module?
+
+[Microsoft](https://docs.microsoft.com/en-us/powershell/developer/module/installing-a-powershell-module#where-to-install-modules) recommends the following:  
+
+__Installing Modules for a Specific User__
+
+If you want the module to be available for your user account only, install it to:  
+> $home\Documents\WindowsPowerShell\Modules\<Module Folder>\<Module Files>
+
+__Installing Modules for all Users in Program Files__ 
+If you want a module to be available to all user accounts on the computer, install the module in the Program Files location.
+
+> $Env:ProgramFiles\WindowsPowerShell\Modules\<Module Folder>\<Module Files>
+
+__Please note:__ 
+The Program Files location is added to the value of the PSModulePath environment variable by default in Windows PowerShell 4.0 and later. For earlier versions of Windows PowerShell, you can manually create the Program Files location (%ProgramFiles%\WindowsPowerShell\Modules) and add this path to your PSModulePath environment variable as described above.
+
+### Creating a snapshot:
 
 To create a snapshot with the __SysKit.SPDocKit.PS__ module, the following command is used:
+
 ```powershell
 New-SPDocKitSnapshot
 ```
