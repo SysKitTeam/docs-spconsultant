@@ -14,7 +14,7 @@ There are two ways of creating a snapshot for the selected farm (both need to be
 
 ## 1. SPDocKit Snapshot Wizard - Consultant
 
-SPDocKit Snapshot Wizard - Consultant files can be found in the installation folder of SPDocKit Consultant on your workstation.
+SPDocKit Snapshot Wizard - Consultant files can be found in the installation folder of SPDocKit Consultant or [SysKit Customers Web](https://my.syskit.com).
 To easily locate it, open SPDocKit Consultant and click the __Take Snapshot__ button on the Backstage screen. An info window on how to take a snapshot appears. 
 Click the __Quick Open__ button - folder containing the SPDocKit Snapshot Wizard - Consultant is opened and the .zip file is selected. 
 
@@ -96,7 +96,7 @@ __2. Using the < Install-Module > command__
   Install-Module -Name SysKit.SPDocKit.PS
   ```
 
-Please note that for this to work __PowerShell 5 is required.__
+Please note that for this to work __PowerShell 5 is required.__ If you have a lower version use option 1 - to __manually install it.__
 
 ### Where to install the module?
 
@@ -132,7 +132,9 @@ Get-Help New-SPDocKitSnapshot -full
 
 [//]: # (TODO - provjeriti ovaj link za online dokumentaciju kada se ona postavi online)
 
-The documentation is also available for you to view [online](https://www.powershellgallery.com/Errors/404?aspxerrorpath=/packages/SysKit.SPDocKit.PS/1.0.1/Documentation).
+The documentation is also available [here](https://www.powershellgallery.com/Errors/404?aspxerrorpath=/packages/SysKit.SPDocKit.PS/1.0.1/Documentation).
 
 
-__Please note!__ The PowerShell module can be used with __PowerShell version 3.0 or higher.__ To create a snapshot in such environments, please use __SPDocKit Snapshot Wizard - Consultant.__
+__Please note!__  
+- The PowerShell module can be used with __PowerShell version 3.0 or higher.__ To create a snapshot in such environments, please use __SPDocKit Snapshot Wizard - Consultant.__
+- Creation of snapshot of SharePoint 2010 cannot be done using the PowerShell.
