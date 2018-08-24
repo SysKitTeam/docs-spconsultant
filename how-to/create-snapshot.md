@@ -109,6 +109,7 @@ Get-Help New-SPDocKitSnapshot -full
 
 The documentation is also available [here](#internal/get-to-know-spdockit/powershell-commands/).
 
+---
 
 __Please note!__  
 - The PowerShell module can be used with __PowerShell version 3.0 or higher.__ To create a snapshot in such environments, please use __SPDocKit Snapshot Wizard - Consultant.__
