@@ -73,12 +73,9 @@ The SysKit.SPDocKit.PS PowerShell module can be acquired from [PowerShell Galler
 __1. Manually by copy and pasting it:__
 
 Once you've downloaded the __SysKit.SPDocKit.PS.zip__ file, extract the contents to __SysKit.SPDocKit.PS__ folder.
-The folder should then be copied to one of the default PowerShell module paths. You can easily discover them by running the following command in PowerShell:
+The folder should then be copied to one of the default PowerShell module paths, such as: __%ProgramFiles%\WindowsPowerShell\Modules__
 
-```powershell
-$env:PSModulePath -split ';'
-```
-Now copy the __SysKit.SPDocKit.PS__ folder to one of the displayed paths. 
+For more information on where you can install the module see [Microsoft's article](https://docs.microsoft.com/en-us/powershell/developer/module/installing-a-powershell-module#where-to-install-modules).
 
 You can check the __SysKit.SPDocKit.PS__ module version. Type the following command into PowerShell:
 
@@ -97,23 +94,6 @@ __2. Using the < Install-Module > command__
   ```
 
 Please note that for this to work __PowerShell 5 is required.__ If you have a lower version use option 1 - to __manually install it.__
-
-### Where to install the module?
-
-[Microsoft](https://docs.microsoft.com/en-us/powershell/developer/module/installing-a-powershell-module#where-to-install-modules) recommends the following:  
-
-__Installing Modules for a Specific User__
-
-If you want the module to be available for your user account only, install it to:  
-> $home\Documents\WindowsPowerShell\Modules\<Module Folder>\<Module Files>
-
-__Installing Modules for all Users in Program Files__ 
-If you want a module to be available to all user accounts on the computer, install the module in the Program Files location.
-
-> $Env:ProgramFiles\WindowsPowerShell\Modules\<Module Folder>\<Module Files>
-
-__Please note:__ 
-The Program Files location is added to the value of the PSModulePath environment variable by default in Windows PowerShell 4.0 and later. For earlier versions of Windows PowerShell, you can manually create the Program Files location (%ProgramFiles%\WindowsPowerShell\Modules) and add this path to your PSModulePath environment variable as described above.
 
 ### Creating a snapshot:
 
