@@ -110,8 +110,6 @@ To find all about the __New-SPDocKitSnapshot__ command use the following command
 Get-Help New-SPDocKitSnapshot -full
 ```
 
-[//]: # (TODO - provjeriti ovaj link za online dokumentaciju kada se ona postavi online)
-
 The documentation is also available [here](#internal/get-to-know-spdockit/powershell-commands/).
 
 
