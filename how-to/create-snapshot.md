@@ -11,7 +11,7 @@ There are two ways of creating a snapshot for the selected farm (both need to be
 
 ## 1. SPDocKit Snapshot Wizard - Consultant
 
-SPDocKit Snapshot Wizard - Consultant files can be found in the installation folder of SPDocKit Consultant or [SysKit Customers Web](https://my.syskit.com).
+SPDocKit Snapshot Wizard - Consultant files can be found in the installation folder of SPDocKit Consultant or, downloaded from [SysKit Customers Web](https://my.syskit.com).
 To easily locate it, open SPDocKit Consultant and click the __Take Snapshot__ button on the Backstage screen. An info window on how to take a snapshot appears. 
 Click the __Quick Open__ button - folder containing the SPDocKit Snapshot Wizard - Consultant is opened and the .zip file is selected. 
 
