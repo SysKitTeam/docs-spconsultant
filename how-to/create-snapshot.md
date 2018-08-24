@@ -132,7 +132,7 @@ Get-Help New-SPDocKitSnapshot -full
 
 [//]: # (TODO - provjeriti ovaj link za online dokumentaciju kada se ona postavi online)
 
-The documentation is also available [here](https://www.powershellgallery.com/Errors/404?aspxerrorpath=/packages/SysKit.SPDocKit.PS/1.0.1/Documentation).
+The documentation is also available [here](#internal/get-to-know-spdockit/powershell-commands/).
 
 
 __Please note!__  
