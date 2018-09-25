@@ -20,4 +20,4 @@ The following options are available:
 
 Visit our [best practices library](https://docs.syskit.com/bp/) to read more about the available best practice reports.
 
-Check our [SPDocKit resources center](https://www.spdockit.com/resources/reports) for videos and samples of SharePoint documentation and reports by SPDocKit.
+Check our [SPDocKit resources center](https://www.syskit.com/products/spdockit/resources/) for videos and samples of SharePoint documentation and reports by SPDocKit.

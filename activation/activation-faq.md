@@ -9,13 +9,13 @@ The trial is the latest released application version containing all available ap
 
 ### What are the trial limitations?
 The trial version of SPDocKit Consultant has a couple of limitations:
-* Limited information in the generated documentation and exported reports. Export to .docx or .xlsx formats is not available. You can see examples of how exported [reports](https://www.spdockit.com/resources/reports/) and [documentation](https://www.spdockit.com/resources/documentation-examples/) look like in the full version.
+* Limited information in the generated documentation and exported reports. Export to .docx or .xlsx formats is not available. You can see examples of how exported [reports](https://www.syskit.com/products/spdockit/resources/reports/) and [documentation](https://www.syskit.com/products/spdockit/resources/documentation-examples/) look like in the full version.
 * Best Practices reports are limited to the dashboard overview.
 * Permissions management is limited to 20 actions.
 * The comparison feature is completely functional when comparing the same farm.
     * Comparison of different farms with snapshots made with the trial software is not possible.
 
-If you would like to see more about the limited features, [contact us](https://www.spdockit.com/support/contact-us/) and we will be more than happy to organize a demo for you and your colleagues to show SPDocKit at its full strength.
+If you would like to see more about the limited features, [contact us](https://www.syskit.com/products/spdockit/support/contact-us/) and we will be more than happy to organize a demo for you and your colleagues to show SPDocKit at its full strength.
 
 ### What happens during product activation?
 
@@ -64,12 +64,12 @@ One SPDocKit Consultant license can be activated on a single machine. However yo
 SysKit does not charge extra for different SharePoint versions simultaneously running in your environments.
 
 ### Where can I find the EULA for SPDocKit?
-Our End User License Agreement is located at the following [link](https://www.spdockit.com/eula).
+Our End User License Agreement is located at the following [link](https://www.syskit.com/eula/).
 
 ### I forgot my password — can you tell me how to reset it?
 To reset your password, please go to the [following link](https://my.syskit.com/ForgotPassword.aspx).
 1. Enter the email address associated with your account
 1. Click on __Reset Password__.
 1. Instructions on how to reset your password will be emailed to you. Please note: sometimes these notifications can end up in your junk folder, so please check there if you don’t see our email within a few minutes. To avoid these situations, please add our email address to your __Safe Senders List__.
-1. If for some reason you are still unable to retrieve the new password, please [contact us](https://www.spdockit.com/support/contact-us/)  for further assistance.
+1. If for some reason you are still unable to retrieve the new password, please [contact us](https://www.syskit.com/company/contact-us/)  for further assistance.
 

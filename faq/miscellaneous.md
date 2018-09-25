@@ -17,7 +17,7 @@ After you copy these files, please restart the application in order to apply the
 
 This is the issue on servers that don’t have access to the Internet. The Windows server will try to check the code signing certificate that was used to sign the application executables. Allow Internet access on the server, then start the service and the issue is solved. Please note that you need to do this only once — the first time Windows will check the SysKit code signing certificate and from then on it will work fine.
 
-If this is not possible [contact us](https://www.spdockit.com/support/contact-us/) and we will provide you with a certificate and instructions on how to import it to your problematic server.
+If this is not possible [contact us](https://www.syskit.com/company/contact-us/) and we will provide you with a certificate and instructions on how to import it to your problematic server.
 
 ## I am getting "This product cannot be activated since it is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator".
 
@@ -45,7 +45,7 @@ When this error occurs you are not able to start the application and you cannot 
 The installation was not able to remove the Windows service. The existing installation needs to be repaired and then removed before you can proceed with the upgrade.
 
 Here is what you need to do:
-1. Obtain the original MSI file you used to install the product (product version e.g. 1.0.3 is listed in **Control Panel > Programs**, but you can [contact us](https://www.spdockit.com/support/contact-us/) to obtain the original installation).
+1. Obtain the original MSI file you used to install the product (product version e.g. 1.0.3 is listed in **Control Panel > Programs**, but you can [contact us](https://www.syskit.com/company/contact-us/) to obtain the original installation).
 2. Right-click the MSI file and choose **Repair** to repair the application.
 3. Use **Control Panel > Programs** to uninstall the application.
 4. Once uninstalled, you can **install** the latest version as planned.

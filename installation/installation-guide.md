@@ -10,7 +10,7 @@ __System Requirements:__ The product uses the SharePoint Server Object Model to 
 
 The application can be installed on a workstation with a __Windows 7, Windows 8 or Windows 10__ operating system, but you will not be able to load SharePoint farm settings, only open already saved snapshots. [Read more about required system settings.](#internal/requirements/system-requirements/)
 
-1. [Download](https://www.spdockit.com/downloads/) Application.
+1. [Download](https://www.syskit.com/products/spdockit/download/) Application.
 1. Unpack and run __SPDocKitConsultantSetup.exe.__ The wizard will guide you through the installation steps, click Next > to proceed.
 1. Click I Accept the terms of the license agreement to accept the license and then click Next > to proceed.
 1. Choose the installation folder e.g. __C:\Program Files\SysKit\SPDocKit Consultant.__ Click __Next__ > to proceed.
