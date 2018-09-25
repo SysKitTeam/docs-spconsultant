@@ -5,13 +5,13 @@ private: true
 
 # [Product Updates](product-updates)
 Check out the new SPDocKit Consultant version delights. See the changes in the latest version and upgrade. 
-## [SPDocKit Consultant 8.0](spconsultant-release-note-8-0)
+## [SPDocKit Consultant 8.0](spconsultant-release-note-8-0.md)
 
 # [Requirements](requirements)
 Make sure that your environment and the account used for the application meet SPDocKit requirements. 
 ## [Supported SharePoint Editions](supported-sharepoint-editions.md)
 ## [System Requirements](system-requirements.md)
-## [SharePoint On-Premises User Permissions Requirements](user-permissions-requirements.md)
+## [SharePoint On-Premises User Permissions Requirements](user-permission-requirements.md)
 ## [Server Load Permission Requirements](server-load-permission-requirements.md)
 ## [Project Server Load Requirements](project-server-requirements.md)
 ## [Search Service Application Requirements](search-service-requirements.md)
@@ -39,7 +39,7 @@ Dive into a detailed overview of what SPDocKit has to offer. Check out the avail
 ### [Compare Wizard](compare-wizard.md)
 ## [Farm Explorer Screen](farm-explorer-screen)
 ### [Farm Explorer Reports](farm-explorer-reports.md)
-### [Passwords and Product keys](passwords-and-product-keys.md)
+### [Passwords and Product keys](password-and-product-keys.md)
 ## [Best Practices Screen](best-practices-screen.md)
 ## [Snapshots Screen](snapshots-screen.md)
 ## [PowerShell Commands](powershell-commands.md)
