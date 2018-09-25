@@ -4,8 +4,8 @@ private: true
 ---
 
 # [Product Updates](product-updates)
-Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
-## [SPDocKit 7.4.0](spdockit740-release-note.md)
+Check out the new SPDocKit Consultant version delights. See the changes in the latest version and upgrade. 
+## [SPDocKit Consultant 8.0](spdockit-consultant-release-note-8-0)
 
 # [Requirements](requirements)
 Make sure that your environment and the account used for the application meet SPDocKit requirements. 
@@ -32,17 +32,6 @@ Activate your fully featured version and explore all the amazing reports.
 ## [Activation FAQ](activation-faq.md)
 ## [Consultant License FAQ](consultant-license-faq.md)
 
-# [Configuration](configuration)
-Explore all possible configuration scenarios and choose the right one for your environment and license. 
-## [Configure SPDocKit](configure-spdockit.md)
-## [Configure SPDocKit Database](configure-spdockit-database.md)
-## [Configure SPDocKit LocalDB](configure-localdb.md)
-## [Configure Multiple Farms to Use the Same SPDocKit Database](configure-multiple-farms-to-use-same-spdockit-database.md)
-## [Import and Export SPDocKit Settings](import-and-export-spdockit-settings.md)
-## [Configure SPDocKit on a Workstation](configure-spdockit-on-a-workstation.md)
-## [Configure Multiple databases on a Workstation](configure-multiple-databases-on-a-workstation.md)
-## [Configuration FAQ](configuration-faq.md)
-
 # [Get to Know SPDocKit](get-to-know-spdockit)
 Dive into a detailed overview of what SPDocKit has to offer. Check out the available report types and feature sets. 
 ## [Backstage Screen](backstage-screen)
@@ -53,16 +42,11 @@ Dive into a detailed overview of what SPDocKit has to offer. Check out the avail
 ### [Passwords and Product keys](passwords-and-product-keys.md)
 ## [Best Practices Screen](best-practices-screen.md)
 ## [Snapshots Screen](snapshots-screen.md)
-## []PowerShell Commands](powershell-commands.md)
-
-
+## [PowerShell Commands](powershell-commands.md)
 
 # [How To](how-to)
 When you get stuck trying to make magic happen, these guides will tell you the secret. 
-## [SharePoint Farm Snapshots](sharepoint-farm-snapshots)
-### [Manual Snapshots](manual-snapshots.md)
-### [Automatic Snapshots](automatic-snapshots.md)
-### [Generate an AutoSPInstaller XML Configuration File](generate-autospinstaller-xml-configuration-file.md)
+## [Create Snapshot](create-snapshot.md)
 ## [Farm Documentation](farm-documentation)
 ### [Create Farm Documentation](create-farm-documentation.md)
 ### [Customize Documentation Template](customize-documentation-template.md)
@@ -71,37 +55,15 @@ When you get stuck trying to make magic happen, these guides will tell you the s
 ### [Compare Servers](compare-servers.md)
 ### [Compare Web Applications](compare-web-applications.md)
 ### [Compare Site Collections](compare-site-collections.md)
-### [Compare SharePoint Permissions](compare-sharepoint-permissions.md)
 ### [Compare Web.Config Files](compare-web-config-files.md)
-## [Subscriptions and Alerts](subscriptions-and-alerts)
-### [Create New Subscription](create-new-subscription.md)
-### [Create New Alert](create-new-alert.md)
-## [Reports](reports)
-### [Customize View](customize-view.md)
-### [Install SPDocKit Extensions](install-spdockit-extensions.md)
-### [Change the limit on Site topology Report](change-limit-site-topology-report.md)
-### [Activate SPCAF Extension](activate-spcaf-extension.md)
-### [Explore Administrative Actions](administrative-actions.md)
-### [Audit Permissions Changes](security-audit.md)
-### [Add Comments and Tags](comments-and-tags.md)
 ## [Best Practices](best-practices)
 ### [Available Best Practices Reports](available-best-practices-reports.md)
 ### [Create Custom Best Practices Reports](create-custom-best-practices-reports.md)
 ### [Personalize Best Practices Reports](personalize-best-practices-reports.md)
-## [Queries and Rules](queries-and-rules)
-### [Create SharePoint Governance Policy Rule](create-governance-policy-rule.md)
-### [Create SPDocKit Query](create-spdockit-query.md)
-### [Change SPDocKit Query Results Limit](change-query-results-limit.md)
-### [Create Audit Queries and Rules](create-audit-queries-and-rules.md)
-## [Role Based Security](role-based-security)
-### [Manage Roles](manage-roles.md)
-### [Manage Users](manage-users.md)
-## [Workstation](workstation)
-### [SPDocKit on a Workstation](spdockit-workstation.md)
+### [Generate an AutoSPInstaller XML Configuration File](generate-autospinstaller-xml-configuration-file.md)
 
 # [FAQ](faq)
 These are some of the most common questions and answers about SPDocKit. If you cannot find the answer to your problem, please contact us.
-## [How to FAQ](how-to-faq.md)
 ## [Miscellaneous](miscellaneous.md)
 ## [Security](security.md)
 ## [Troubleshooting](troubleshooting)
@@ -111,34 +73,17 @@ These are some of the most common questions and answers about SPDocKit. If you c
 ### [Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’](error-while-loading-problems-solutions-rule-definitions.md)
 ### [Errors while trying to load the SharePoint farm](errors-while-loading-farm.md)
 ### [Failed at retrieving SQL Accounts from the following servers](failed-at-retrieving-accounts-from-servers.md)
-### [My permissions loading status is reported as ”Failed”](permissions-loading-status.md)
 ### [The service application ‘UPA Name’ does not have any proxies that are default in a proxy group](service-app-does-not-have-proxies.md)
-### [Service was unable to read Active Directory properties](service-was-unable-to-read-active-directory-properties.md)
 ### [SQL Server is unavailable](sql-server-unavailable.md)
 ### [All Personal Sites will be loaded](warning-personal-sites-loaded.md)
-### [Error adding service account to "spdockit_service_role" database role](error-adding-service-account-to-role.md)
-## [Troubleshooting SQL Server Connection](troubleshooting-sql-server-connection)
-### [SPDocKit won’t connect to a provided server and database](configuration-wizard-connect-to-server-and-database.md)
-### [Configure SQL server to listen on a specific port](configure-server-to-specific-port.md)
-### [Is SQL Server configured to use a named instance](configure-server-to-use-named-instance.md)
-### [Inbound traffic on TCP Port 1433 needs to be allowed on the SQL](inbound-traffic.md)
-### [Service user does not have rights to connect to the SQL server](service-user-doesnt-have-rights-to-connect-to-server.md)
-### [TCP/IP network traffic not enabled on the SQL Server](tcp-ip-network-traffic-not-enabled-on-server.md)
 
 # [Known Issues](known-issues)
 Even the best of us fail sometimes. We are working on it! 
 ## [CREATE TABLE permissions denied](create-table.md)
 ## [Custom features missing in reports](custom-features-missing.md)
-## [Data retention not working properly](data-retention.md)
 ## [Distributed Cache loading issue](distributed-cache.md)
-## [SharePoint On-Premises Forms Authentication ](forms-authentication-on-prem.md)
 ## [Load crashes with NullReference exception](load-crashes-nullexception.md)
 ## [Available Windows updates](load-windows-updates.md)
-## [Permissions Wizard issue](permissions-wizard-issue.md)
 ## [PowerPivot FileNotFoundException issue](powerpivot-load-filenotfound.md)
-## [SQL Clusters support](sql-cluster-support.md)
-## [Storage Metrics report subscription](subscription-storage-metrics.md)
 ## [Unaccounted differences in the UPA settings](spdockit-reporting-upa-changes.md)
-## [Custom Query issue with URL export](custom-query-issue.md)
-## [Recursive groups issue with export](recursive-groups-export.md)
 
