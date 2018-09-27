@@ -18,7 +18,7 @@ Make sure that your environment and the account used for the application meet SP
 ## [User Profile Service Application Requirements](user-profile-service-requirements.md)
 
 # [Installation](installation)
-Learn how to install SPDocKit or update it to the latest version. 
+Learn how to install SPDocKit Consultant or update it to the latest version. 
 ## [Installation Guide](installation-guide.md)
 ## [Upgrade to the Latest Version](upgrade-to-the-latest-version.md)
 ## [Uninstallation Guide](uninstallation-guide.md)
@@ -32,8 +32,8 @@ Activate your fully featured version and explore all the amazing reports.
 ## [Activation FAQ](activation-faq.md)
 ## [Consultant License FAQ](consultant-license-faq.md)
 
-# [Get to Know SPDocKit](get-to-know-spdockit)
-Dive into a detailed overview of what SPDocKit has to offer. Check out the available report types and feature sets. 
+# [Get to Know SPDocKit Consultant](get-to-know-spdockit)
+Dive into a detailed overview of what SPDocKit Consultant has to offer. Check out the available report types and feature sets. 
 ## [Backstage Screen](backstage-screen)
 ### [Options Wizard](options-wizard.md)
 ### [Compare Wizard](compare-wizard.md)
