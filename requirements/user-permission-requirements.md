@@ -55,20 +55,6 @@ Here is how you can give user these privileges:
 
 To be able to create a new SPDocKit dedicated database, the user account running the installation and configuration wizard (i.e. install account) should be granted both the __dbcreator__ and __securityadmin__ roles on the preferred SQL Server. This allows the account to create a new database and to assign proper privileges after creation. The install account will be automatically given __db_owner__ privileges on the newly created database, if possible. Otherwise, it is advised that the account is given that privilege manually, as it is needed for upgrading the database.
 
-#### Privileges required to run the application
-
-These privileges will be granted automatically when a new SPDocKit database is created or during a database upgrade.
-
-* SPDocKit service account will be granted the __SPDocKit_service_role__ role on the SPDocKit database. This role will make the service account a member of the __db_datawrite__ and __db_datareader__ roles and grant __EXECUTE__ permissions on all the stored procedures in the database.
-  * In the event that the SPDocKit install account is not in the __securityAdmin__ role, please add the SPDocKit service account manually to the __SPDocKit_service_role__. [Consult the following article](#internal/faq/troubleshooting/error-adding-service-account-to-role/) for additional information.
- * The account running load from the SPDocKit console needs to have the same privileges as the SPDocKit service account (see above).
-
-### Workstation Requirements
-
-When running the application on a workstation, the SPDocKit user connecting to any SharePoint 2010, SharePoint 2013 or SharePoint 2016 site will need to be granted __Site Collection Administrator__ privileges for each site he is trying to explore and manage.
-
-To connect to an existing SPDocKit database from the workstation, the SPDocKit user will need to be granted the __db_datareader__ rights on SPDocKit database.
-
 ### Error Message
 
 If the user does not have proper privileges, the following error message will be shown:

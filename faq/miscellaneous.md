@@ -19,19 +19,6 @@ This is the issue on servers that don’t have access to the Internet. The Windo
 
 If this is not possible [contact us](https://www.syskit.com/company/contact-us/) and we will provide you with a certificate and instructions on how to import it to your problematic server.
 
-## I am getting "This product cannot be activated since it is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator".
-
-### Problem:
-
-When I tried to load a SharePoint farm with SPDocKit I received the following error:
-
->*This product cannot be activated because this is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator.*
-
-### Solution:
-* The product needs to run on the same server as SharePoint, so make sure SharePoint is installed on the server where you are trying to load the farm.
-* In order to load the SharePoint farm you need to have proper privileges. Check [this article](#internal/requirements/user-permissions-requirements) for more details.
-
-
 ## Error occurred while upgrading to the latest version.
 
 ### Problem:

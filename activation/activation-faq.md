@@ -9,13 +9,13 @@ The trial is the latest released application version containing all available ap
 
 ### What are the trial limitations?
 The trial version of SPDocKit Consultant has a couple of limitations:
-* Limited information in the generated documentation and exported reports. Export to .docx or .xlsx formats is not available. You can see examples of how exported [reports](https://www.syskit.com/products/spdockit/resources/reports/) and [documentation](https://www.syskit.com/products/spdockit/resources/documentation-examples/) look like in the full version.
+* Limited information in the generated documentation and exported reports. Export to .docx or .xlsx formats is not available. You can see examples of how exported [reports](https://www.syskit.com/products/spdockit/resources/documentation-report-examples/) and [documentation](https://www.syskit.com/products/spdockit/resources/documentation-report-examples/) look like in the full version.
 * Best Practices reports are limited to the dashboard overview.
 * Permissions management is limited to 20 actions.
 * The comparison feature is completely functional when comparing the same farm.
     * Comparison of different farms with snapshots made with the trial software is not possible.
 
-If you would like to see more about the limited features, [contact us](https://www.syskit.com/products/spdockit/support/contact-us/) and we will be more than happy to organize a demo for you and your colleagues to show SPDocKit at its full strength.
+If you would like to see more about the limited features, [contact us](https://www.syskit.com/company/contact-us/) and we will be more than happy to organize a demo for you and your colleagues to show SPDocKit at its full strength.
 
 ### What happens during product activation?
 
