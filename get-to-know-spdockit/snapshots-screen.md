@@ -7,7 +7,6 @@ date: 23/6/2018
 The __Snapshots Screen__ allows SharePoint administrators to track changes made to the SharePoint Farm during its lifetime. The snapshots contain information about all the [settings SPDocKit can retrieve](#internal/how-to/create-snapshot/).
 
 This screen will display snapshots found in SPDocKit database and snapshots folder on a disk and group them by the farm they were created on:
-* __Blue icon__ indicates that the snapshot is stored in a SPDocKit database. 
 * __Green icon__ means that the snapshot is saved in the snapshot folder (on the disk).
 * __Bolded__ snapshot name means that the snapshot is currently selected/opened. 
 

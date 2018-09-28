@@ -7,7 +7,7 @@ date: 28/6/2018
 
 __Summary:__ Errors appear in the ULS log that state that SPDocKit processes are trying to create tables in SharePoint databases.
 
-First and foremost, SPDocKit does not create tables or modify SharePoint databases during the snapshot process. The problem occurs when there is a permissions issue with the user account running the SPDocKit Consultant application.
+First and foremost, SPDocKit does not create tables or modify SharePoint databases during the snapshot process. The problem occurs when there is a permissions issue when taking a snapshot.
 
 SPDocKit queries the NeedsUpgrade property of the SharePoint database. The query fails because of the lack of __SELECT__ permission from the Versions table, and this causes SharePoint to erroneously conclude that the database should be upgraded, but fails because the __CREATE TABLE__ permission is missing as well. When the permissions are correctly set up, there are no attempts to create tables.
 

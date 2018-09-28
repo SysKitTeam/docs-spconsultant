@@ -13,12 +13,6 @@ Click the **Generate button**. Download **all of** the files, copy them to the s
 
 After you copy these files, please restart the application in order to apply the changes.
 
-## I am getting "The service did not respond to the start or control request in a timely fashion".
-
-This is the issue on servers that don’t have access to the Internet. The Windows server will try to check the code signing certificate that was used to sign the application executables. Allow Internet access on the server, then start the service and the issue is solved. Please note that you need to do this only once — the first time Windows will check the SysKit code signing certificate and from then on it will work fine.
-
-If this is not possible [contact us](https://www.syskit.com/company/contact-us/) and we will provide you with a certificate and instructions on how to import it to your problematic server.
-
 ## Error occurred while upgrading to the latest version.
 
 ### Problem:
@@ -54,34 +48,9 @@ The application will work on both the console and the Remote Desktop session.
 
 **Please note:** *You must create a shortcut that points directly to the file in the application directory, and not to the file in the Start menu.*
 
-## Cannot upgrade as "The specified service already exists".
-
-### Problem:
-When trying to upgrade to the latest version of SPDocKit you might receive an error:
-
->*The specified service already exists.*
-
-### Solution:
-The previous version has not been removed correctly. Here is what you need to do:
-
-1. Go to **Add/Remove programs** and uninstall the SPDocKit Consultant manually (if the product is not listed, you do not have the proper privileges or somebody else installed the application, e.g. an Administrator user, so logon as the user who initially installed the application then remove it).
-2. Once the program has been removed you can restart the new installation you have downloaded and install the application.
-
-### Additional notes:
-In case you encounter a similar error again, try the following:
-
-Stop the SPDocKit Service in the services MMC console, then open the Command Prompt and type in the following to delete the service:
-
->*sc delete SPDocKitService*
-
-The service will be reinstalled with the new installation.
-
 ## SQL server and SharePoint product versions warning
 We have an internal list of SQL Server and SharePoint product versions so that we can match build numbers to description. For example, if your SQL server build number is 10.50.1765.0, you will see “SQL Server 2008 R2 CU6, 21 Feb 2011” in your reports.  
 If the warning appears as in SPDocKit, you can click the Update button and SPDocKit will fetch the internal list from our servers, if you have Internet access on your servers.
-
-## I am receiving a 2103 error code during installation. How do I fix it?
-In order to install SPDocKit on a Windows server you will have to run it with administrative privileges.
 
 ## Network ports required for gathering the data.
 

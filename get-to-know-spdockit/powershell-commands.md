@@ -6,7 +6,7 @@ date: 24/8/2018
 ---
 
 
-Creates a snapshot file of the SharePoint farm and saves it to the disk.
+As explained in the [Create Snapshot article]()
 
 SYNTAX
 ```powershell
