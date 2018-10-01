@@ -40,7 +40,7 @@ We use the information only to verify that your product is used within the scope
 
 ### What is product activation?
 
-Product activation is an anonymous, secure and hassle-free process that authenticates licensed users during the installation process. The process verifies that the product activation code is genuine and has not been activated on more systems than allowed by the SysKit End-User License Agreement (EULA).
+Product activation is an anonymous, secure and hassle-free process that authenticates licensed users during the installation process. The process verifies that the product  product account information (email and password) is genuine and has not been activated on more systems than allowed by the SysKit End-User License Agreement (EULA).
 
 ### Why does SysKit  require their customers to activate the software?
 
