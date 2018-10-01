@@ -16,11 +16,11 @@ There are several restrictions in the Consultant edition:
 * The license file generated for the offline activation is only valid for 72 hours. If you try to activate SPDocKit with a license file generated more than 72 hours ago, the activation process will fail.
 * SPDocKit Service and the database are not available with the Consultant license. This also means that the following features are unavailable due to this restriction:
     * Automatic Snapshots*
-    * Automatic Data Retention*
-    * Automatic Email Subscriptions*
+    * Automatic Data Retention
+    * Automatic Email Subscriptions
     * Site and Permissions Explorer 
     * Permissions, Analytics & Usage, Audit report
-    * Automatic Queries and Rules*
+    * Automatic Queries and Rules
 
 *These actions can still be manually executed.
 

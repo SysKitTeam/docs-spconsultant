@@ -29,7 +29,7 @@ This article lists the minimum hardware and software requirements for SPDocKit.
 
 The application - __SPDocKit Consultant__ must be installed on a __consultants workstation__, and not at your client as you can activate it only once. You can only open already saved farm settings.
 
-Please note that the __SPDocKit Consultant__ application is not ment to be installed on a SharePoint server, but to serve as a hub. A managing place for all the snapshots you perform on your clients farms.
+Please note that the __SPDocKit Consultant__ application is not ment to be installed on a SharePoint server, but to serve as a hub. A managing place for all the snapshots you create on your clients farms.
 
 * Hardware:
   * CPU – any Windows 7, Windows 8 or Windows 10 capable CPU
