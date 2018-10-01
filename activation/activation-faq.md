@@ -18,11 +18,11 @@ If you would like to see more about the limited features, [contact us](https://w
 
 ### What happens during product activation?
 
-Product activation is a simple process that occurs during registration of the purchased product. The product key is entered and then authenticated with the SysKit product activation server in order to activate the product. The entire activation process is quick and easy, and the majority of users will have to perform product activation only once.
+Product activation is a simple process that occurs during registration of the purchased product. The user credentials are entered and then authenticated with the SysKit product activation server in order to activate the product. The entire activation process is quick and easy, and the majority of users will have to perform product activation only once.
 
 ### Who will be required to activate their products?
 
-Anyone who purchases SPDocKit will be required to activate the product. If the product is ordered online from the SysKit website, the product activation code will be sent via email.
+Anyone who purchases SPDocKit will be required to activate the product. If the product is ordered online from the SysKit website, the product account information will be sent via email.
 
 ### How soon must I activate my product?
 
@@ -31,7 +31,7 @@ It is recommended you activate your product within the 15 days of the trial peri
 
 ### How do I activate my product?
 
-You can activate your product 24 hours a day, seven days a week on the Internet. Product activation requires you to type in your product activation code and press activate. You must have an active connection to the Internet in order to activate your product.
+You can activate your product 24 hours a day, seven days a week on the Internet. Product activation requires you to type in your product product account information (email and password) and press activate. You must have an active connection to the Internet in order to activate your product.
 If you do not have access to internet, please use [offline activation](#internal/activation/offline-activation).
 
 ### What does SysKit do with the information sent during the product activation process?

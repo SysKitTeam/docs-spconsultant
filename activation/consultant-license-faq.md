@@ -48,7 +48,6 @@ A Consultant Subscription allows one consultant to install SPDocKit Consultant o
 
 1. This license is not for in-house IT staff (i.e. Jack Wagner, a system engineer working as a full-time employee for Ajax Corp, cannot buy an SPDocKit Consultant license for use at Ajax Corp).
 1. This is a PER CONSULTANT license and it can only be used by ONE consultant. If there is more than one consultant planning to use SPDocKit, each consultant will need to purchase an additional license.  
-If there are multiple consultants in a firm, you might want to try our [Team Subscription](https://www.syskit.com/products/spdockit/pricing) which allows for an unlimited amount of consultants to use SPDocKit.
 1. This license is a subscription and needs to be renewed after it expires (one year from the date of purchase).
 1. Subscriptions cannot be activated using a general email address (i.e. sales@, info@, ITteam@, etc.) or
 1. Subscriptions cannot be activated using an email addresses issued by Hotmail, gmail, Yahoo, etc.

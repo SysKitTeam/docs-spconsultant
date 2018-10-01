@@ -9,30 +9,9 @@ date: 22/5/2017
 ## How can I update the product versions offline?
 [Here](https://my.syskit.com/Utilities/productversions.aspx) is the link for the offline update. 
 
-Click the **Generate button**. Download **all of** the files, copy them to the server that has no internet access and overwrite the existing files (default location: **%ProgramData%\SPDocKit\Settings**).
+Click the **Generate button**. Download **all of** the files, copy them to the machine that has no internet access and overwrite the existing files (default location: **%ProgramData%\SPDocKit Consultant\Settings**).
 
 After you copy these files, please restart the application in order to apply the changes.
-
-## Error occurred while upgrading to the latest version.
-
-### Problem:
-You might encounter the following error if you are upgrading to the latest version of the application:
-
->*Error 1001. An exception occurred while uninstalling. The exception will be ignored and the uninstall will continue. However the application might not be fully uninstalled after the uninstall is complete. -> The specified service does not exists as an installed service.*
-
-When this error occurs you are not able to start the application and you cannot Remove/Repair it from Control Panel > Programs.
-
-### Solution:
-The installation was not able to remove the Windows service. The existing installation needs to be repaired and then removed before you can proceed with the upgrade.
-
-Here is what you need to do:
-1. Obtain the original MSI file you used to install the product (product version e.g. 1.0.3 is listed in **Control Panel > Programs**, but you can [contact us](https://www.syskit.com/company/contact-us/) to obtain the original installation).
-2. Right-click the MSI file and choose **Repair** to repair the application.
-3. Use **Control Panel > Programs** to uninstall the application.
-4. Once uninstalled, you can **install** the latest version as planned.
-
-During this procedure you might get the “Service Marked for Deletion” error message. In that case, make sure the Services dialog box is not running **(Control Panel > Administrative Tools > Services)**. If the dialog box is not running you will have to restart your computer before proceeding to the next step.
-
 
 ## Should this program only be opened on the server console or is it okay to open it via Remote Desktop?
 
@@ -40,7 +19,7 @@ The application will work on both the console and the Remote Desktop session.
 
 ## I am having problems running the application when UAC (User Access Control) is enabled.
 
-1. Locate the application installation directory in Program files and find the SPDocKit.exe file (usually: C:\Program files\SysKit\SPDocKit).
+1. Locate the application installation directory in Program files and find the SPDocKit Consultant.exe file (usually: C:\Program Files\SysKit\SPDocKit Consultant).
 2. Create a shortcut for that file on the desktop.
 3. To execute the application, right-click the shortcut then choose Run as the administrator.
 4. The UAC dialog box will be shown and you will be prompted to run the application as the administrator.

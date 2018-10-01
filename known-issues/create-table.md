@@ -11,7 +11,7 @@ First and foremost, SPDocKit does not create tables or modify SharePoint databas
 
 SPDocKit queries the NeedsUpgrade property of the SharePoint database. The query fails because of the lack of __SELECT__ permission from the Versions table, and this causes SharePoint to erroneously conclude that the database should be upgraded, but fails because the __CREATE TABLE__ permission is missing as well. When the permissions are correctly set up, there are no attempts to create tables.
 
-The issue can easily be reproduced in PowerShell by using the SPDocKit account or for that matter any account that lacks sufficient permissions:
+The issue can easily be reproduced in PowerShell by running the snapshot is taken using the account that lacks sufficient permissions:
 ```powershell
     $myDB = Get-SPDatabase | ?{$_.Name -eq "[SPDatabaseName]"}
     $myDB.NeedsUpgrade
@@ -28,7 +28,7 @@ __Solution:__ Please ensure that the user account running the SPDocKit Consultan
       GRANT SELECT ON OBJECT::[dbo].[Versions] TO [DOMAIN\USERNAME];  
       GO
 ```
-2. Now when your account/user has the proper privileges, please restart both the SPDocKit application and the SPDocKit service.
+2. Now when your account/user has the proper privileges, please restart/rerun the Snapshot Wizard or the PowerShell Module.
 
 
  
