@@ -8,10 +8,14 @@ This article explains how to install SPDocKit Consultant.
 
 There are few things you need to know, so lets get started.  
 
-__SPDocKit Snapshot Wizard (or the PowerShell Module)__ uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. Therefore, the SPDocKit Consultant Snapshot Wizard needs to be run on a server inside of your SharePoint farm. This is a __zero-footprint wizard and there is no installation__.  
+## Client Farm
+
+__SPDocKit Snapshot Wizard (or the PowerShell Module)__ uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. Therefore, the SPDocKit Consultant Snapshot Wizard needs to be run on a server inside your client's farm. This is a __zero-footprint wizard and there is no installation__.  
 [Here](#internal/how-to/create-snapshot) are more information about the snapshot process. 
 
-The application - __SPDocKit Consultant__ must be installed on a workstation with a __Windows 7, Windows 8 or Windows 10__ operating system. You will not be able to load SharePoint farm settings, only open already made snapshots. [Read more about required system settings.](#internal/requirements/system-requirements/)
+## Consultant Workstation
+
+The application - __SPDocKit Consultant__ must be installed on a __consultants workstation__, and not at your client as you can activate it only once. You only open already saved farm settings. [Read more about required system settings.](#internal/requirements/system-requirements/)
 
 1. [Download](https://www.syskit.com/products/spdockit/download/) Application.
 1. Unpack and run __SPDocKitConsultantSetup.exe.__ The wizard will guide you through the installation steps, click Next > to proceed.

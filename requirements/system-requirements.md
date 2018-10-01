@@ -6,7 +6,7 @@ date: 25/6/2018
 ---
 This article lists the minimum hardware and software requirements for SPDocKit. 
 
-### Requirements
+## Client Farm Requirements
 
 * The product __(SPDocKit Snapshot Wizard or the PowerShell Module)__ needs to be started on a **SharePoint 2019, SharePoint 2016, SharePoint 2013 or SharePoint 2010 Server**
    * For SharePoint 2013 & 2010: SharePoint Foundation, Standard and Enterprise are supported.
@@ -25,11 +25,11 @@ This article lists the minimum hardware and software requirements for SPDocKit.
   * Memory – up to 200 MB RAM while idle, up to 1GB RAM during the data load
   * Disk – 200 MB disk space
   
-### Running on a workstation
+## Consultant Workstation Requirements
 
-The application __(SPDocKit Consultant)__ must be installed on a __workstation__ with __Windows 10, Windows 8 or Windows 7__ 64-bit operating system, but you will not be able to load new SharePoint farm settings, only open already saved farm settings.
+The application - __SPDocKit Consultant__ must be installed on a __consultants workstation__, and not at your client as you can activate it only once. You only open already saved farm settings.
 
-Please note that the __SPDocKit Consultant__ application is not ment to be installed on a SharePoint server, but to serve as a hu. A managing place for all the snapshots you perform on your clients farms.
+Please note that the __SPDocKit Consultant__ application is not ment to be installed on a SharePoint server, but to serve as a hub. A managing place for all the snapshots you perform on your clients farms.
 
 * Hardware:
   * CPU – any Windows 7, Windows 8 or Windows 10 capable CPU
