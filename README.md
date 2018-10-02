@@ -12,7 +12,7 @@ Features:
 * Generate SharePoint farm documentation with a few clicks
 * Audit and validate farm configuration according to the latest best practices
 * Compare farms (e.g. Production, QA, DEV) and track changes
-* Compare Web Applications, Site Collections, Permissions, Servers and Web.config Files
+* Compare Web Applications, Site Collections, Servers and Web.config Files
 * Create reports on farm storage, structure, features and content usage
 * Generate an AutoSPInstaller XML Configuration File
 
