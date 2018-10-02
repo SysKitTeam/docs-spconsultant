@@ -75,7 +75,6 @@ These are some of the most common questions and answers about SPDocKit. If you c
 ### [Failed at retrieving SQL Accounts from the following servers](failed-at-retrieving-accounts-from-servers.md)
 ### [The service application ‘UPA Name’ does not have any proxies that are default in a proxy group](service-app-does-not-have-proxies.md)
 ### [SQL Server is unavailable](sql-server-unavailable.md)
-### [All Personal Sites will be loaded](warning-personal-sites-loaded.md)
 
 # [Known Issues](known-issues)
 Even the best of us fail sometimes. We are working on it! 
