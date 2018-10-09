@@ -5,6 +5,11 @@ author: Mia Tomaić
 date: 22/5/2017
 ---
 
+## How does the Snapshot Wizard process differ from using SPDocKit in Run mode?
+
+The __Run mode__ required you to use the full installation package and a somewhat complex license activation process before it could be used. Many of the customers would give up once they noticed that they had to run the installation package, without trying to run it and discovering the Run Only option. That way the option remained hidden, and we received complaints from our customers regarding the old process.
+
+Now it is possible to take a snapshot without any installations by using __SPDockit Snapshot Wizard - Consultant__ or __SPDocKit PowerShell__ module. To find more about this process, read the following [article](#internal/how-to/create-snapshot).
 
 ## How can I update the product versions offline?
 [Here](https://my.syskit.com/Utilities/productversions.aspx) is the link for the offline update. 
