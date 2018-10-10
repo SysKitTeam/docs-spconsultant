@@ -5,7 +5,7 @@ private: true
 
 # [Product Updates](product-updates)
 Check out the new SPDocKit Consultant version delights. See the changes in the latest version and upgrade. 
-## [SPDocKit Consultant 8.0.2](spconsultant-release-note-8-0-2.md)
+## [SPDocKit Consultant 8.0.2](spconsultant-release-note-8.md)
 
 # [Requirements](requirements)
 Make sure that your environment and the account used for the application meet SPDocKit requirements. 
