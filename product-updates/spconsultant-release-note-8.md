@@ -7,7 +7,17 @@ date: 10/10/2018
 
 SPDocKit Consultant comes as a new product with revamped architecture which simplifies consultants’ day to day operations when working with clients. The new approach helps you to take care of your clients’ farms more efficiently! We simplified the collection of data and SharePoint farm settings. As a highly requested feature, we removed the need to install any software on your client's farm servers, so there is no need to install or activate any product in your client’s environment anymore. To create snapshots use the zero-footprint executable __SPDocKit Snapshot Wizard - Consultant__ or the new __[SPDocKit Powershell module](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS)__ if you prefer to use PowerShell. More information on how the new product works available [here](#internal/how-to/create-snapshot).
 
-Features above are designed to leave zero-footprint – avoid leaving any trace and files in your client’s environment.
+Features above are designed to avoid leaving any trace and files in your client's environment.
+
+Give it a try and let us know what you think! 
+
+__Product version:__ 8.0.2 
+
+__Build number:__ ????? 
+
+__Release date:__ Oct 18, 2018 
+
+[Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
 
 
 ## Features
