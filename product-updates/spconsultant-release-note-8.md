@@ -1,13 +1,13 @@
 ---
-title: SPDocKit Consultant 8.0.2 - Release Note
+title: SPDocKit Consultant 8 - Release Note
 description: This article describes the new features, improvements, and bug fixes that are delivered in SPDocKit Consultant 8. 
 author: Tomislav Sirovec
 date: 10/10/2018
 ---
 
-New SPDocKit Consultant comes as a new product with revamped architecture which simplifies consultants’ day to day operations when working with clients. This new simplified approach helps you take care of your clients’ farms more efficiently! We simplified collecting data and SharePoint farm settings. There is no need to install and activate product in your client’s environment any more.  As a highly requested feature, we removed the need to install any software on your client's farm servers. To create snapshots use the zero footprint executable __SPDocKit Snapshot Wizard - Consultant__ or the new __[SPDocKit Powershell module](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS)__ if you prefer to use PowerShell. More info which explains how this new product works is available [here](#internal/how-to/create-snapshot).
+SPDocKit Consultant comes as a new product with revamped architecture which simplifies consultants’ day to day operations when working with clients. The new approach helps you to take care of your clients’ farms more efficiently! We simplified the collection of data and SharePoint farm settings. As a highly requested feature, we removed the need to install any software on your client's farm servers, so there is no need to install or activate any product in your client’s environment anymore. To create snapshots use the zero-footprint executable __SPDocKit Snapshot Wizard - Consultant__ or the new __[SPDocKit Powershell module](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS)__ if you prefer to use PowerShell. More information on how the new product works available [here](#internal/how-to/create-snapshot).
 
-Features above are designed to leave zero-footprint – avoid leaving any trace and files in your client’s environment. 
+Features above are designed to leave zero-footprint – avoid leaving any trace and files in your client’s environment.
 
 
 ## Features
