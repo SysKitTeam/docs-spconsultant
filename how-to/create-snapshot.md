@@ -113,6 +113,6 @@ The documentation is also available [here](#internal/get-to-know-spdockit/powers
 
 __Please note!__  
 - The PowerShell module can be used with __PowerShell version 3.0 or higher.__ To create a snapshot in such environments, please use __SPDocKit Snapshot Wizard - Consultant.__
-- Creation of snapshot of SharePoint 2010 cannot be done using the PowerShell.
+- Creation of snapshot for SharePoint 2010 cannot be done using the PowerShell.
 - Adjustments and settings you make when using SPDocKit Snapshot Wizard - Consultant will be saved and used the next time you run it.
 The PowerShell module has no such abilities. However, you can copy and save your favorite command with a defined set of parameters in a text file and copy-paste it to PowerShell the next time you want to create a snapshot.

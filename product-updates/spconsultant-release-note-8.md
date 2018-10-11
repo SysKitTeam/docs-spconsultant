@@ -22,6 +22,8 @@ __Release date:__ Oct 18, 2018
 
 ## Features
 
+* __PS Module__ and __SPDocKit Consultant Snapshot Wizard__ - As already mentioned above, these are the two ways of creating a snapshot. There is no need to install or activate any product in your client’s environment anymore. For more information on how to create a snapshot, see [this article.](#internal/how-to/create-snapshot)
+
 
 * __New XLSX export__ introduced to SPDocKit that comes with an inbuilt functionality to sort and filter data in each column! It is available on all reports, subscriptions and compare results. The old export style available under a different name – Legacy Export as XLSX.
 
@@ -43,7 +45,7 @@ __Release date:__ Oct 18, 2018
 
 * Added the text ‘[MB]’ to headers of Storage Maximum Level, Storage Warning Level, and Usage Storage columns on the __Site Collection Quotas report__ to clarify which measurement units are displayed.
 
-* __Snapshot filter can now be extended__ in which case it shows the information about load depth, snapshot mode, permissions loaded status, and if a snapshot is marked as good configuration.
+* __Snapshot filter can now be extended__ in which case it shows the information about load depth, snapshot mode, and if a snapshot is marked as good configuration.
 
 * The __latest snapshot is now automatically opened__ when viewing Farm Explorer and Best Practices reports. The ‘Reopen last accessed snapshot on start up’ option was, therefore, removed from SPDocKit Options. 
 
