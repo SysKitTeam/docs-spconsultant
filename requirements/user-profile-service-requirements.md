@@ -22,4 +22,4 @@ Here is what you need to do:
 7. Now when your account/user has the proper privileges, please restart the SPDocKit Snapshot Wizard. 
 
 ### Learn More
-* [SharePoint User Permissions Requirements](#internal/requirements/user-permissions-requirements)
+* [SharePoint User Permissions Requirements](#internal/requirements/user-permission-requirements)
