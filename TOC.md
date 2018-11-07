@@ -71,6 +71,7 @@ These are some of the most common questions and answers about SPDocKit. If you c
 ### [Could not access content database](could-not-access-content-database-on-server.md)
 ### [Error occurred while loading Web Application](error-occurred-while-loading.md)
 ### [Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’](error-while-loading-problems-solutions-rule-definitions.md)
+### [Error while loading IIS Settings Information](error-while-loading-iis-settings.md)
 ### [Errors while trying to load the SharePoint farm](errors-while-loading-farm.md)
 ### [Failed at retrieving SQL Accounts from the following servers](failed-at-retrieving-accounts-from-servers.md)
 ### [The service application ‘UPA Name’ does not have any proxies that are default in a proxy group](service-app-does-not-have-proxies.md)
