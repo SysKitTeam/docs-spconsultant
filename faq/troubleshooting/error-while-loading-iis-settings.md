@@ -37,4 +37,4 @@ b) On the left side menu, click the __Local Server__ option, navigate to the __R
 1. __Confirmation__ step - check the __Restart the destination server automatically if required__ option and click __Install__.
 1. __Results__ step - displays the installation progress. Once the installation is finished, the __Installation succeeded__ message is displayed. 
 
-SPDocKit Snapshot Wizard and SPDocKit PowerShell module will now be able to collect the server's IIS Settings Information.
+SPDocKit Snapshot Wizard - Consultant and SPDocKit PowerShell module will now be able to collect the server's IIS Settings Information.
