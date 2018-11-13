@@ -34,7 +34,7 @@ b) On the left side menu, click the __Local Server__ option, navigate to the __R
 1. __Before You Begin__ step - continue to the next step by clicking Next.
 1. __Installation Type__ step - make sure the __Role-base or feature-based installation__ option is selected.
 1. __Server Selection__ step - make sure the IIS server is selected.
-1. __Server Roles__ step - make sure the __IIS 6 Metabase Compatibility__ option is checked. You can find it under Web Server (IIS) > Management Tools > IIS 6 Management Compatibility > IIS 6 Metabase Compatibility.<br/>
+1. __Server Roles__ step - make sure the __IIS 6 Metabase Compatibility__ option is checked. You can find it under Web Server (IIS) > Management Tools > IIS 6 Management Compatibility > IIS 6 Metabase Compatibility.<br/><br/>
 ![Add Roles and Features Wizard](#internal/_assets/faq/add-roles-and-features-wizard.png)
 <br/><br/>
 1. __Features__ step - continue to the next step.
