@@ -36,7 +36,7 @@ b) On the left side menu, click the __Local Server__ option, navigate to the __R
 1. __Server Selection__ step - make sure the IIS server is selected.
 1. __Server Roles__ step - make sure the __IIS 6 Metabase Compatibility__ option is checked. You can find it under Web Server (IIS) > Management Tools > IIS 6 Management Compatibility > IIS 6 Metabase Compatibility.<br/>
 ![Add Roles and Features Wizard](#internal/_assets/faq/add-roles-and-features-wizard.png)
-<br/>
+<br/><br/>
 1. __Features__ step - continue to the next step.
 1. __Confirmation__ step - check the __Restart the destination server automatically if required__ option and click __Install__.
 1. __Results__ step - displays the installation progress. Once the installation is finished, the __Installation succeeded__ message is displayed. 
