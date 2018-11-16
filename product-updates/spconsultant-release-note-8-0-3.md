@@ -16,7 +16,6 @@ __Release date:__ Nov 16, 2018
 ## Improvements:
 * Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](#internal/faq/troubleshooting/error-while-loading-iis-settings)
 * Improved error handling when opening snapshots.
-* Improved error logging in the Event log. 
 
 ## Bug fixes:
 * Resolved an issue involving the possibility that the PowerShell module could be run without elevated privileges, which resulted in snapshots with incomplete data loaded, causing further issues with reports. 
