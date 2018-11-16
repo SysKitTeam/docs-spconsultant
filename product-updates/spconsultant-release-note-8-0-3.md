@@ -26,4 +26,4 @@ __Release date:__ Nov 16, 2018
 * Resolved an issue relating to the app throwing a smart error when trying to load an SP2007 snapshot.
 * Fixed a bug involving the ESC key causing a smart error if pressed in specific situations in the Options dialog.
 * Fixed a bug involving a smart error showing when saving passwords to a snapshot from the Passwords and Product Keys reports.
-* Resolved an issue with the project server load in SharePoint 2016 and 2019 environments.
+* Resolved an issue with the Project Server load in SharePoint 2016 and 2019 environments.
