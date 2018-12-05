@@ -20,6 +20,7 @@ Make sure that your environment and the account used for the application meet SP
 # [Installation](installation)
 Learn how to install SPDocKit or update it to the latest version. 
 ## [Installation Guide](installation-guide.md)
+## [PowerShell Module Install/Uninstall Guide](powershell-module-installation.md)
 ## [Upgrade to the Latest Version](upgrade-to-the-latest-version.md)
 ## [Uninstallation Guide](uninstallation-guide.md)
 
