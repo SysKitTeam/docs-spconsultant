@@ -12,9 +12,9 @@ After acquiring PowerShell module from [PowerShell Gallery](https://www.powershe
 
 The PowerShell module can be used with __PowerShell version 3.0 or higher.__
 
-To be able to install SPDocKit PS module using PowerShell, PowerShell 5 is required.
-
 ## 1.	Using the <Install–Module> command: 
+
+To be able to __install__ SPDocKit PS module using PowerShell's __Install-Module__ command, PowerShell 5 is required.
 
 1.	Save the module to preferred location:
 
@@ -43,9 +43,9 @@ Running Get-SPDocKitVersion is used to check SPDocKit PS module version to make 
 
 ## 2.	Manually copy and paste PowerShell module:
 
-1.	Once you’ve downloaded syskit.spdockit.ps.1.0.X.nupkg, extract the file to location of your choosing. 
+1.	Once you’ve downloaded syskit.spdockit.ps.1.X.X.nupkg, extract the file to location of your choosing. 
 
-2.	Copy syskit.spdockit.ps.1.0.X folder to C:\Program Files\WindowsPowerShell\Modules
+2.	Copy syskit.spdockit.ps.1.X.X folder to C:\Program Files\WindowsPowerShell\Modules
 
 If you wish to uninstall SysKit.SPDocKit PS module from server inside your client’s farm you can use the following command. 
 
@@ -63,6 +63,8 @@ Update the SysKit.SPDocKit PS module:
 ```powershell
 Update-Module -Name “SysKit.SPDocKit.PS”
 ```
+SPDocKit PS module __does not support__ SharePoint 2010.
+
 General information on how to create a snapshot can be viewed [here](#internal/how-to/create-snapshot/).
 
 
