@@ -4,15 +4,14 @@ author: Tomislav Sirovec
 date: 17/6/2018
 description: This article lists required privileges to load SharePoint settings with tutorial how to acquire those privileges.
 --- 
-To run SPDocKit and to retrieve all SharePoint settings you want to document, both the user running SPDocKit and the SPDocKit service account need to have proper privileges. Here is the list of required privileges to load SharePoint farm settings:
+To run SPDocKit Consultant and to retrieve all SharePoint settings you want to document, the user running SPDocKit needs to have proper privileges. Here is the list of required privileges to load SharePoint farm settings:
 
 1. __Local Administrators__ and __WSS_ADMIN_WPG group member__ on every machine in the SharePoint farm. Required to retrieve list of installed applications on farm servers.
 2. __SharePoint farm administrator__. Required to retrieve SharePoint farm settings.
 3. __Member of SharePoint_Shell_Access role__ on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
-4. Special privileges for the __Service Account__: Service account needs to have privileges listed above as well as the __Log on as a Service__ right. [Click here for instructions](https://goo.gl/MRGS73) on how to configure that right.
-5. [Server specific requirements](#internal/requirements/server-load-permission-requirements/) needed to retrieve additional server configuration data (RAM, processors, disk space…) and SQL Server configuration information for DB servers.
-6. [Search service application requirements](#internal/requirements/search-service-requirements/) needed to retrieve Search service application configuration data (content sources, crawl rules, managed properties, search topologies...).
-7. [User Profile service application requirements](#internal/requirements/user-profile-service-requirements/) needed to retrieve User Profile service application configuration data (Synchronization Connections, MySite Settings, Audiences, User Profile Properties...).
+4. [Server specific requirements](#internal/requirements/server-load-permission-requirements/) needed to retrieve additional server configuration data (RAM, processors, disk space…) and SQL Server configuration information for DB servers.
+5. [Search service application requirements](#internal/requirements/search-service-requirements/) needed to retrieve Search service application configuration data (content sources, crawl rules, managed properties, search topologies...).
+6. [User Profile service application requirements](#internal/requirements/user-profile-service-requirements/) needed to retrieve User Profile service application configuration data (Synchronization Connections, MySite Settings, Audiences, User Profile Properties...).
 
 Here is how you can give user these privileges:
 
@@ -49,27 +48,4 @@ Here is how you can give user these privileges:
   * The cmdlet Add-SPShellAdmin is going to apply to all current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
   * The cmdlet might fail in some environments; please contact us for further assistance.
      
-### SPDocKit database requirements
 
-#### Creating a new database
-
-To be able to create a new SPDocKit dedicated database, the user account running the installation and configuration wizard (i.e. install account) should be granted both the __dbcreator__ and __securityadmin__ roles on the preferred SQL Server. This allows the account to create a new database and to assign proper privileges after creation. The install account will be automatically given __db_owner__ privileges on the newly created database, if possible. Otherwise, it is advised that the account is given that privilege manually, as it is needed for upgrading the database.
-
-#### Privileges required to run the application
-
-These privileges will be granted automatically when a new SPDocKit database is created or during a database upgrade.
-
-* SPDocKit service account will be granted the __SPDocKit_service_role__ role on the SPDocKit database. This role will make the service account a member of the __db_datawrite__ and __db_datareader__ roles and grant __EXECUTE__ permissions on all the stored procedures in the database.
-  * In the event that the SPDocKit install account is not in the __securityAdmin__ role, please add the SPDocKit service account manually to the __SPDocKit_service_role__. [Consult the following article](#internal/faq/troubleshooting/error-adding-service-account-to-role/) for additional information.
- * The account running load from the SPDocKit console needs to have the same privileges as the SPDocKit service account (see above).
-
-### Workstation Requirements
-
-When running the application on a workstation, the SPDocKit user connecting to any SharePoint 2010, SharePoint 2013 or SharePoint 2016 site will need to be granted __Site Collection Administrator__ privileges for each site he is trying to explore and manage.
-
-To connect to an existing SPDocKit database from the workstation, the SPDocKit user will need to be granted the __db_datareader__ rights on SPDocKit database.
-
-### Error Message
-
-If the user does not have proper privileges, the following error message will be shown:
-> “You do not have privileges to load the current farm! Please contact your administrator.”

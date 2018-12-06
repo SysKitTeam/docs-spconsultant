@@ -13,11 +13,11 @@ This happens because SPDocKit queries only the server it is installed on for Dis
 
 __Application version:__ 4.1.0 and newer
 
-__Solution:__  Install SPDocKit and run the load process from a server that is part of the Distributed Cache Cluster.
+__Solution:__  Take snapshot and run the load process from a server that is part of the Distributed Cache Cluster.
 
-__Workaround:__ Distributed Cache API requires that the registry of the current server contains data providers and connection string for the cluster, or SPDocKit has to be installed and run from a server that is part of the Distributed Cache Cluster.
+__Workaround:__ Distributed Cache API requires that the registry of the current server contains data providers and connection string for the cluster, or take snapshot on a server that is part of the Distributed Cache Cluster.
 
-There is an unofficial workaround for this restriction which includes editing the registry of the server on which SPDocKit is installed on to include the fields required by the API. This means running a PowerShell script on the server SPDocKit is installed on in order to update the provider and connection string fields.
+There is an unofficial workaround for this restriction which includes editing the registry of the server on which you are taking a snapshot, to include the fields required by the API. This means running a PowerShell script on the server in order to update the provider and connection string fields.
 
 The registry fields will be correctly updated using this PowerShell script:
 ```powershell

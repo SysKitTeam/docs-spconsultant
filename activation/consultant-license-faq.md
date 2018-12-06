@@ -12,15 +12,15 @@ If you are doing SharePoint consulting for various customers, we recommend the C
 ### What are the Consultant license restrictions?
 
 There are several restrictions in the Consultant edition:
-* Consultant License Call Home – once activated on a SharePoint server or on a workstation, the Consultant license has to be re-activated every 30 days.
+* Consultant License Call Home – once activated, the Consultant license has to be re-activated every 30 days.
 * The license file generated for the offline activation is only valid for 72 hours. If you try to activate SPDocKit with a license file generated more than 72 hours ago, the activation process will fail.
-* SPDocKit Service is not available with the Consultant license. This also means that the following features are unavailable due to this restriction:
-    * Automatic Queries and Rules*
+* SPDocKit Service and the database are not available with the Consultant license. This also means that the following features are unavailable due to this restriction:
     * Automatic Snapshots*
-    * Automatic Data Retention*
-    * Automatic Email Subscriptions*
-    * Performance Monitoring
-    * Event Viewer Alerts
+    * Automatic Data Retention
+    * Automatic Email Subscriptions
+    * Site and Permissions Explorer 
+    * Permissions, Analytics & Usage, Audit report
+    * Automatic Queries and Rules
 
 *These actions can still be manually executed.
 
@@ -41,14 +41,13 @@ If you have selected the option to automatically renew then you do not need to d
 
 Prior to expiration, an email will go out to the email address on file, alerting you that your subscription is about to expire and that your card will be charged for another subsequent term.
 
-If for any reason it is not possible to charge the card (for example, your credit card has expired) you will receive a reminder by email advising you to update your credit or debit card information accordingly. If you are unable to resolve the problem immediately and your subscription expires, please [contact us](https://www.spdockit.com/support/contact-us/).
+If for any reason it is not possible to charge the card (for example, your credit card has expired) you will receive a reminder by email advising you to update your credit or debit card information accordingly. If you are unable to resolve the problem immediately and your subscription expires, please [contact us](https://www.syskit.com/company/contact-us/).
 
 ### How does the SPDocKit Consultant subscription work?
 A Consultant Subscription allows one consultant to install SPDocKit Consultant on a single machine of his/her choosing.
 
 1. This license is not for in-house IT staff (i.e. Jack Wagner, a system engineer working as a full-time employee for Ajax Corp, cannot buy an SPDocKit Consultant license for use at Ajax Corp).
 1. This is a PER CONSULTANT license and it can only be used by ONE consultant. If there is more than one consultant planning to use SPDocKit, each consultant will need to purchase an additional license.  
-If there are multiple consultants in a firm, you might want to try our [Team Subscription](https://www.spdockit.com/orders/) which allows for an unlimited amount of consultants to use SPDocKit.
 1. This license is a subscription and needs to be renewed after it expires (one year from the date of purchase).
 1. Subscriptions cannot be activated using a general email address (i.e. sales@, info@, ITteam@, etc.) or
 1. Subscriptions cannot be activated using an email addresses issued by Hotmail, gmail, Yahoo, etc.
@@ -59,4 +58,4 @@ If you purchase the Consultant license, you will be able to run SPDocKit on your
 
 ### How do I cancel my SPDocKit subscription?
 
-While we are sad to see you go, you may cancel your subscription at any time before the subsequent renewal is due, by notifying our [support team](https://www.spdockit.com/support/contact-us/). You will still be able to use the remaining days, but your subscription will be canceled at the end of your term.
+While we are sad to see you go, you may cancel your subscription at any time before the subsequent renewal is due, by notifying our [support team](https://www.syskit.com/company/contact-us/). You will still be able to use the remaining days, but your subscription will be canceled at the end of your term.
