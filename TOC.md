@@ -23,6 +23,7 @@ Learn how to install SPDocKit Consultant or update it to the latest version.
 ## [Installation Guide](installation-guide.md)
 ## [Upgrade to the Latest Version](upgrade-to-the-latest-version.md)
 ## [Uninstallation Guide](uninstallation-guide.md)
+## [PowerShell Guide](powershell-guide.md)
 
 # [Activation](activation)
 Activate your fully featured version and explore all the amazing reports. 
