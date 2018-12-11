@@ -14,6 +14,7 @@ This article lists the minimum hardware and software requirements for SPDocKit.
    * User must have [proper privileges](#internal/requirements/user-permission-requirements/) to perform the snapshot process. 
 
 * Software
+  * For SharePoint 2019: Windows 2012 R2 or Windows Server 2016
   * For SharePoint 2016: Windows 2012 R2 or Windows Server 2016
   * For SharePoint 2013: Windows 2012 or Windows 2008 R2
   * For SharePoint 2010: Windows 2012 or Windows 2008 
