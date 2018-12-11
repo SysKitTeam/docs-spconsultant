@@ -11,4 +11,3 @@ We are sorry to hear you are leaving the SysKit family. If you have any suggesti
 1. Select __Uninstall__ option from the wizard.
 1. Click __Next__ and wait for the wizard to remove SPDocKit.
 1. Your SPDocKit has been successfully removed!
-

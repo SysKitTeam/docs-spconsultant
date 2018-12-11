@@ -19,7 +19,7 @@ The following commands are available:
 * __Export as DOCX__ button allows you to export the selected report as a DOCX document.
 * __Compare Wizard__ – read more about the [Compare Wizard](#internal/get-to-know-spdockit/backstage-screen/compare-wizard/).
 * __Options__ – read more about the [Options Wizard](#internal/get-to-know-spdockit/backstage-screen/options-wizard/).
-* __Save XML Configuration__ – [wizard that helps you generate an AutoSPInstaller XML file](#internal/how-to/sharepoint-farm-snapshots/generate-autospinstaller-xml-configuration-file/) based on the currently opened snapshot.
+* __Save XML Configuration__ – [wizard that helps you generate an AutoSPInstaller XML file](#internal/how-to/generate-autospinstaller-xml-configuration-file/) based on the currently opened snapshot.
 
 ## View ribbon
 The following commands are available:

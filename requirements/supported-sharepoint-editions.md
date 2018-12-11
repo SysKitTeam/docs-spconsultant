@@ -6,6 +6,7 @@ date: 25/6/2018
 ---
 The following SharePoint editions and additional products are supported by SPDocKit Consultant:
 
+* SharePoint Server 2019
 * SharePoint Server 2016
 * SharePoint 2013
   * Microsoft SharePoint Foundation 2013

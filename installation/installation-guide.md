@@ -6,11 +6,18 @@ description: This article explains how to install SPDocKit Consultant.
 ---
 This article explains how to install SPDocKit Consultant.
 
-__System Requirements:__ The product uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. The SPDocKit Consultant Snapshot Wizard needs to be run on a __SharePoint 2010, SharePoint 2013 or SharePoint 2016 server to load farm information.__
+There are few things you need to know, so lets get started.  
 
-The application can be installed on a workstation with a __Windows 7, Windows 8 or Windows 10__ operating system, but you will not be able to load SharePoint farm settings, only open already saved snapshots. [Read more about required system settings.](#internal/requirements/system-requirements/)
+## Client Farm
 
-1. [Download](https://www.spdockit.com/downloads/) Application.
+__SPDocKit Snapshot Wizard (or the PowerShell Module)__ uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. Therefore, the SPDocKit Consultant Snapshot Wizard needs to be run on a server inside your client's farm. This is a __zero-footprint wizard and there is no installation__.  
+[Here](#internal/how-to/create-snapshot) are more information about the snapshot process. 
+
+## Consultant Workstation
+
+The application - __SPDocKit Consultant__ must be installed on a __consultants workstation__, and not at your client as you can activate it only once. You only open already saved farm settings. [Read more about required system settings.](#internal/requirements/system-requirements/)
+
+1. [Download](https://www.syskit.com/products/spdockit/download/) Application.
 1. Unpack and run __SPDocKitConsultantSetup.exe.__ The wizard will guide you through the installation steps, click Next > to proceed.
 1. Click I Accept the terms of the license agreement to accept the license and then click Next > to proceed.
 1. Choose the installation folder e.g. __C:\Program Files\SysKit\SPDocKit Consultant.__ Click __Next__ > to proceed.
