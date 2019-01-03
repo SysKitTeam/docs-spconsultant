@@ -14,7 +14,6 @@ Make sure that your environment and the account used for the application meet SP
 ## [System Requirements](system-requirements.md)
 ## [SharePoint On-Premises User Permissions Requirements](user-permission-requirements.md)
 ## [Server Load Permission Requirements](server-load-permission-requirements.md)
-## [Project Server Load Requirements](project-server-requirements.md)
 ## [Search Service Application Requirements](search-service-requirements.md)
 ## [User Profile Service Application Requirements](user-profile-service-requirements.md)
 
@@ -75,6 +74,7 @@ These are some of the most common questions and answers about SPDocKit. If you c
 ### [Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’](error-while-loading-problems-solutions-rule-definitions.md)
 ### [Error while loading IIS Settings Information](error-while-loading-iis-settings.md)
 ### [Errors while trying to load the SharePoint farm](errors-while-loading-farm.md)
+### [Error while loading server information](error-while-loading-server-information.md)
 ### [Failed at retrieving SQL Accounts from the following servers](failed-at-retrieving-accounts-from-servers.md)
 ### [The service application ‘UPA Name’ does not have any proxies that are default in a proxy group](service-app-does-not-have-proxies.md)
 ### [SQL Server is unavailable](sql-server-unavailable.md)
