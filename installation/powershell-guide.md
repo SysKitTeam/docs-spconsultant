@@ -70,5 +70,5 @@ Update-Module -Name “SysKit.SPDocKit.PS”
 
 SPDocKit PS module **does not support** SharePoint 2010.
 
-General information on how to create a snapshot can be viewed [here](powershell-guide.md#internal/how-to/create-snapshot/).
+General information on how to create a snapshot can be viewed [here](../how-to/create-snapshot.md).
 

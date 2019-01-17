@@ -7,7 +7,7 @@ date: 24/8/2018
 
 # powershell-commands
 
-As explained in the [create snapshot article](powershell-commands.md#internal/how-to/create-snapshot) there are two ways of creating a snapshot on your clients farm. Using either the SPDocKit Snapshot Wizard or the SPDocKit PowerShell Module.
+As explained in the [create snapshot article](../how-to/create-snapshot.md) there are two ways of creating a snapshot on your clients farm. Using either the SPDocKit Snapshot Wizard or the SPDocKit PowerShell Module.
 
 If you decided to use a PowerShell Module, here is a list of all the available commands. You can also view them in the PowerShell console it self, by running:
 
@@ -15,7 +15,7 @@ If you decided to use a PowerShell Module, here is a list of all the available c
 Get-Help New-SPDocKitSnapshot -full
 ```
 
-General information on how to create a snapshot can be viewed [here](powershell-commands.md#internal/how-to/create-snapshot).
+General information on how to create a snapshot can be viewed [here]../how-to/create-snapshot.md).
 
 If you need further assistance, please [contact us](https://www.syskit.com/company/contact-us/).
 

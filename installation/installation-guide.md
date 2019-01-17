@@ -14,11 +14,11 @@ There are few things you need to know, so lets get started.
 ## Client Farm
 
 **SPDocKit Snapshot Wizard \(or the PowerShell Module\)** uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. Therefore, the SPDocKit Consultant Snapshot Wizard needs to be run on a server inside your client's farm. This is a **zero-footprint wizard and there is no installation**.  
-[Here](installation-guide.md#internal/how-to/create-snapshot) are more information about the snapshot process.
+[Here](../how-to/create-snapshot.md) are more information about the snapshot process.
 
 ## Consultant Workstation
 
-The application - **SPDocKit Consultant** must be installed on a **consultants workstation**, and not at your client as you can activate it only once. You only open already saved farm settings. [Read more about required system settings.](installation-guide.md#internal/requirements/system-requirements/)
+The application - **SPDocKit Consultant** must be installed on a **consultants workstation**, and not at your client as you can activate it only once. You only open already saved farm settings. [Read more about required system settings.](../requirements/system-requirements.md)
 
 1. [Download](https://www.syskit.com/products/spdockit/download/) Application.
 2. Unpack and run **SPDocKitConsultantSetup.exe.** The wizard will guide you through the installation steps, click Next &gt; to proceed.
@@ -39,6 +39,6 @@ For example, if you want to place the log file named **spdockit\_installation\_l
 
 ## Learn more
 
-* [How to: Create Farm Documentation](installation-guide.md#internal/how-to/farm-documentation/create-farm-documentation/)
-* [How to: Compare SharePoint Farms](installation-guide.md#internal/how-to/compare-wizard/compare-sharepoint-farms/)
+* [How to: Create Farm Documentation](../how-to/farm-documentation/create-farm-documentation.md)
+* [How to: Compare SharePoint Farms](../how-to/compare-wizard/compare-sharepoint-farms.md)
 

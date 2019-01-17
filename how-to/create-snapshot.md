@@ -62,7 +62,7 @@ The snapshot can now be copied to the workstation and imported with SPDocKit Con
 
 ## 2. SPDocKit PowerShell Module
 
-Instructions on how to install SPDocKit PowerShell Module can be found [here](create-snapshot.md#internal/installation/powershell-guide/).
+Instructions on how to install SPDocKit PowerShell Module can be found [here](../installation/powershell-guide.md).
 
 ### Creating a snapshot:
 
@@ -80,7 +80,7 @@ To find out all about the **New-SPDocKitSnapshot** command, use the following co
 Get-Help New-SPDocKitSnapshot -full
 ```
 
-The documentation is also available [here](create-snapshot.md#internal/get-to-know-spdockit/powershell-commands/).
+The documentation is also available [here](../get-to-know-spdockit/powershell-commands.md).
 
 **Please note!**
 

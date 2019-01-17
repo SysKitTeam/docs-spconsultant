@@ -25,5 +25,5 @@ Here is what you need to do: 1. Open the **SharePoint Central Administration** o
 
 ## Learn More
 
-* [SharePoint User Permissions Requirements](user-profile-service-requirements.md#internal/requirements/user-permission-requirements)
+* [SharePoint User Permissions Requirements](../requirements/user-permission-requirements.md)
 

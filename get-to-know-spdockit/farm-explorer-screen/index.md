@@ -21,9 +21,9 @@ The following commands are available:
 * **Export as PDF** button allows you to export the selected report as a PDF document.
 * **Export as XLSX** button allows you to export the selected report as an XLSX document.
 * **Export as DOCX** button allows you to export the selected report as a DOCX document.
-* **Compare Wizard** – read more about the [Compare Wizard](index.md#internal/get-to-know-spdockit/backstage-screen/compare-wizard/).
-* **Options** – read more about the [Options Wizard](index.md#internal/get-to-know-spdockit/backstage-screen/options-wizard/).
-* **Save XML Configuration** – [wizard that helps you generate an AutoSPInstaller XML file](index.md#internal/how-to/generate-autospinstaller-xml-configuration-file/) based on the currently opened snapshot.
+* **Compare Wizard** – read more about the [Compare Wizard](../get-to-know-spdockit/backstage-screen/compare-wizard.md).
+* **Options** – read more about the [Options Wizard](../get-to-know-spdockit/backstage-screen/options-wizard.md).
+* **Save XML Configuration** – [wizard that helps you generate an AutoSPInstaller XML file](../how-to/generate-autospinstaller-xml-configuration-file.md) based on the currently opened snapshot.
 
 ## View ribbon
 

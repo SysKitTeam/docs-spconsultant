@@ -9,7 +9,7 @@ date: 10/10/2018
 
 # spconsultant-release-note-8
 
-SPDocKit Consultant comes as a new product with revamped architecture that simplifies consultants’ day-to-day operations when working with clients. The new approach helps you to take care of your clients’ farms more efficiently! We have simplified the collection of data and SharePoint farm settings. As part of this highly requested feature, we have removed the need to install or activate any software on your client's farm servers. To create snapshots, use the zero-footprint executable **SPDocKit Snapshot Wizard - Consultant**, or the new [**SPDocKit Powershell module**](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS) if you prefer to use PowerShell. More information on how the new product works is available [here](spconsultant-release-note-8.md#internal/how-to/create-snapshot).
+SPDocKit Consultant comes as a new product with revamped architecture that simplifies consultants’ day-to-day operations when working with clients. The new approach helps you to take care of your clients’ farms more efficiently! We have simplified the collection of data and SharePoint farm settings. As part of this highly requested feature, we have removed the need to install or activate any software on your client's farm servers. To create snapshots, use the zero-footprint executable **SPDocKit Snapshot Wizard - Consultant**, or the new [**SPDocKit Powershell module**](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS) if you prefer to use PowerShell. More information on how the new product works is available [here]../how-to/create-snapshot.md).
 
 The features above are designed to avoid leaving any trace of files in your client's environment.
 
@@ -25,7 +25,7 @@ Give it a try and let us know what you think!
 
 ## Features
 
-* **PS Module** and **SPDocKit Consultant Snapshot Wizard** - As already mentioned above, these are the two ways of creating a snapshot. There is no need to install or activate any product in your client’s environment anymore. For more information on how to create a snapshot, see [this article.](spconsultant-release-note-8.md#internal/how-to/create-snapshot)
+* **PS Module** and **SPDocKit Consultant Snapshot Wizard** - As already mentioned above, these are the two ways of creating a snapshot. There is no need to install or activate any product in your client’s environment anymore. For more information on how to create a snapshot, see [this article.](../how-to/create-snapshot.md)
 * The **new XLSX export** introduced to SPDocKit comes with built-in functionality to sort and filter data in each column! It is available on all reports, and compare results. The old export style is still available under a different name: Legacy Export as XLSX.
 * **SharePoint 2019 is supported!** SPDocKit has been tested on the latest SharePoint 2019 environments. All features are working flawlessly. Try it out yourself!
 
@@ -59,6 +59,6 @@ Give it a try and let us know what you think!
 
 ## Discontinued Features
 
-* **SPDocKit run mode** has been replaced with new apps used with SPDocKit Consultant. For more information, visit the [following link](spconsultant-release-note-8.md#internal/how-to/create-snapshot).
+* **SPDocKit run mode** has been replaced with new apps used with SPDocKit Consultant. For more information, visit the [following link](../how-to/create-snapshot.md).
 * The **XML File** option for saving snapshots has been removed.
 

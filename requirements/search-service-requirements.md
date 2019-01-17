@@ -31,5 +31,5 @@ Here is what you need to do: 1. Open the **SharePoint Central Administration** o
 
 ## Learn More
 
-* [SharePoint On-Premises User Permissions Requirements](search-service-requirements.md#internal/requirements/user-permission-requirements)
+* [SharePoint On-Premises User Permissions Requirements](../requirements/user-permission-requirements.md)
 

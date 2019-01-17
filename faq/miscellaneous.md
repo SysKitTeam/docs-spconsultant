@@ -11,7 +11,7 @@ date: 22/5/2017
 
 The **Run mode** required you to use the full installation package and a somewhat complex license activation process before it could be used. Many of our customers gave up once they noticed that they had to run the installation package, without trying to run it and discovering the Run Only option. As a result, the option remained hidden, and we received complaints from customers regarding the old process.
 
-Now it is possible to take a snapshot without any installations by using the **SPDockit Snapshot Wizard - Consultant** or **SPDocKit PowerShell** module. To find more about this process, read the following [article](miscellaneous.md#internal/how-to/create-snapshot).
+Now it is possible to take a snapshot without any installations by using the **SPDockit Snapshot Wizard - Consultant** or **SPDocKit PowerShell** module. To find more about this process, read the following [article](../how-to/create-snapshot.md).
 
 ## How can I update the product versions offline?
 
@@ -68,5 +68,5 @@ This message is sometimes generated when there are insufficient rights given to 
 
    All accounts taking a snapshot must have the same level of access.
 
-For more information, please see the [following article](miscellaneous.md#internal/requirements/user-profile-service-requirements).
+For more information, please see the [following article](../requirements/user-profile-service-requirements.md).
 

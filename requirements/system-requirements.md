@@ -16,7 +16,7 @@ This article lists the minimum hardware and software requirements for SPDocKit.
 * The product **\(SPDocKit Snapshot Wizard or the PowerShell Module\)** needs to be started on a **SharePoint 2019, SharePoint 2016, SharePoint 2013 or SharePoint 2010 Server**
   * For SharePoint 2013 & 2010: SharePoint Foundation, Standard and Enterprise are supported.
   * You can run the product on a WFE \(recommended\), Application, Index or any other server in the farm.
-  * User must have [proper privileges](system-requirements.md#internal/requirements/user-permission-requirements/) to perform the snapshot process. 
+  * User must have [proper privileges](../requirements/user-permission-requirements.md) to perform the snapshot process. 
 * Software
   * For SharePoint 2019: Windows 2012 R2 or Windows Server 2016
   * For SharePoint 2016: Windows 2012 R2 or Windows Server 2016
@@ -42,7 +42,7 @@ Please note that the **SPDocKit Consultant** application is not ment to be insta
 
 ### Learn more
 
-* [Installation Guide](system-requirements.md#internal/installation/installation-guide)
-* [How to create farm documentation](system-requirements.md#internal/how-to/farm-documentation/create-farm-documentation)
-* [How to compare SharePoint farms](system-requirements.md#internal/how-to/compare-wizard/compare-sharepoint-farms)
+* [Installation Guide](../installation/installation-guide.md)
+* [How to create farm documentation](../how-to/farm-documentation/create-farm-documentation.md)
+* [How to compare SharePoint farms](../how-to/compare-wizard/compare-sharepoint-farms.md)
 

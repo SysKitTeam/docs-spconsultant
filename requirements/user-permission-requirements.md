@@ -9,9 +9,9 @@ To run SPDocKit Consultant and to retrieve all SharePoint settings you want to d
 1. **Local Administrators** and **WSS\_ADMIN\_WPG group member** on every machine in the SharePoint farm. Required to retrieve list of installed applications on farm servers.
 2. **SharePoint farm administrator**. Required to retrieve SharePoint farm settings.
 3. **Member of SharePoint\_Shell\_Access role** on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
-4. [Server specific requirements](user-permission-requirements.md#internal/requirements/server-load-permission-requirements/) needed to retrieve additional server configuration data \(RAM, processors, disk space…\) and SQL Server configuration information for DB servers.
-5. [Search service application requirements](user-permission-requirements.md#internal/requirements/search-service-requirements/) needed to retrieve Search service application configuration data \(content sources, crawl rules, managed properties, search topologies...\).
-6. [User Profile service application requirements](user-permission-requirements.md#internal/requirements/user-profile-service-requirements/) needed to retrieve User Profile service application configuration data \(Synchronization Connections, MySite Settings, Audiences, User Profile Properties...\).
+4. [Server specific requirements](../requirements/server-load-permission-requirements.md) needed to retrieve additional server configuration data \(RAM, processors, disk space…\) and SQL Server configuration information for DB servers.
+5. [Search service application requirements](../requirements/search-service-requirements.md) needed to retrieve Search service application configuration data \(content sources, crawl rules, managed properties, search topologies...\).
+6. [User Profile service application requirements](../requirements/user-profile-service-requirements.md) needed to retrieve User Profile service application configuration data \(Synchronization Connections, MySite Settings, Audiences, User Profile Properties...\).
 
 Here is how you can give user these privileges:
 
@@ -36,7 +36,7 @@ Here is how you can give user these privileges:
 * Open SharePoint Management Shell.
 * Type the following PowerShell command: `<Add-SPShellAdmin -UserName DOMAIN\YourAccount>` [\(click here to learn more\)](http://technet.microsoft.com/en-us/library/ff607596.aspx).
 * If you want to grant PowerShell shell access to a single database [check this article](http://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
-* If you want to grant PowerShell shell access to all content databases, run this script [download Configure-SPShellAdmin.ps1](user-permission-requirements.md#internal/_assets/Configure-SPShellAdmin.zip):
+* If you want to grant PowerShell shell access to all content databases, run this script [download Configure-SPShellAdmin.ps1](../_assets/Configure-SPShellAdmin.zip):
 
   ```text
   if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null) 

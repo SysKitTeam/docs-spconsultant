@@ -24,6 +24,6 @@ The Consultant license can be activated on any server, but you need to have a va
 
 ### Related articles:
 
-* [SPDocKit Online Activation](offline-activation.md#internal/activation/online-activation/)
-* [Licensing FAQ](offline-activation.md#internal/activation/activation-faq/)
+* [SPDocKit Online Activation](../activation/online-activation.md)
+* [Licensing FAQ](../activation/activation-faq.md)
 

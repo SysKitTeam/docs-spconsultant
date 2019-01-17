@@ -15,12 +15,12 @@ The Best Practice section contains built-in reports that help SharePoint adminis
 The following options are available:
 
 * Using built-in best practice reports to verify SharePoint farm settings.
-* [Creating new best practice reports](best-practices-screen.md#internal/how-to/best-practices/create-custom-best-practices-reports).
+* [Creating new best practice reports](../how-to/best-practices/create-custom-best-practices-reports.md).
 * **Importing** and **Exporting** custom made reports.
 * **Editing** and **Deleting** custom made reports.
 * Organizing custom made reports by adding new folders.
 * Produce a **Best Practices Documentation** file containing all best practice reports and dashboard.
-* Personalize the Best Practices dashboard by hiding reports you do not wish to track or adjust some of the built-in values using the [Customize Best Practices](best-practices-screen.md#internal/how-to/best-practices/personalize-best-practices-reports) button.
+* Personalize the Best Practices dashboard by hiding reports you do not wish to track or adjust some of the built-in values using the [Customize Best Practices](../how-to/best-practices/personalize-best-practices-reports.md) button.
 
 Visit our [best practices library](https://docs.syskit.com/bp/) to read more about the available best practice reports.
 
