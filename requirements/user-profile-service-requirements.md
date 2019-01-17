@@ -9,7 +9,7 @@ author: Tomislav Sirovec
 date: 18/6/2018
 ---
 
-# user-profile-service-requirements
+# User Profile Service Application Requirements
 
 ## Problem:
 
@@ -25,5 +25,5 @@ Here is what you need to do: 1. Open the **SharePoint Central Administration** o
 
 ## Learn More
 
-* [SharePoint User Permissions Requirements](../requirements/user-permission-requirements.md)
+* [SharePoint User Permissions Requirements](user-permission-requirements.md)
 

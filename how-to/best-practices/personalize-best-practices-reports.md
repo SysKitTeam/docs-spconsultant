@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 25/6/2018
 ---
 
-# personalize-best-practices-reports
+# Personalize Best Practices Reports
 
 ## Create a new best practices report
 

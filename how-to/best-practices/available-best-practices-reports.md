@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 25/6/2018
 ---
 
-# available-best-practices-reports
+# Available Best Practices Reports
 
 We have prepared a detailed overview of all available reports in SPDocKit with descriptions and instructions in our [Best Practices Library](https://docs.syskit.com/bp/).
 

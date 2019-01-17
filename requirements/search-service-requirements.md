@@ -9,7 +9,7 @@ author: Tomislav Sirovec
 date: 18/6/2018
 ---
 
-# search-service-requirements
+# Search Service Application Requirements
 
 ## Problem:
 
@@ -31,5 +31,5 @@ Here is what you need to do: 1. Open the **SharePoint Central Administration** o
 
 ## Learn More
 
-* [SharePoint On-Premises User Permissions Requirements](../requirements/user-permission-requirements.md)
+* [SharePoint On-Premises User Permissions Requirements](user-permission-requirements.md)
 

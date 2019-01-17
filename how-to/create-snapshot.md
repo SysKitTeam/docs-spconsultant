@@ -5,7 +5,7 @@ author: Tomislav Sirovec
 date: 19/6/2018
 ---
 
-# create-snapshot
+# Create Snapshot
 
 This section describes how you can use SPDocKit Snapshot Wizard - Consultant or the PowerShell module to collect SharePoint farm settings and permissions.
 
@@ -82,6 +82,7 @@ Get-Help New-SPDocKitSnapshot -full
 
 The documentation is also available [here](../get-to-know-spdockit/powershell-commands.md).
 
+{% hint style="warning" %}
 **Please note!**
 
 * The PowerShell module can be used with **PowerShell version 3.0 or higher.** To create a snapshot in such environments, please use **SPDocKit Snapshot Wizard - Consultant.**
@@ -89,4 +90,5 @@ The documentation is also available [here](../get-to-know-spdockit/powershell-co
 * Any adjustments and settings you make when using SPDocKit Snapshot Wizard - Consultant will be saved and used the next time you run it.
 
   The PowerShell module has no such abilities. However, you can copy and save your favorite command with a defined set of parameters in a text file and copy and paste it to PowerShell the next time you want to create a snapshot.
+{% endhint %}
 

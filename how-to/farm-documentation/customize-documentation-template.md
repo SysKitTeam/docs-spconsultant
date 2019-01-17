@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 17/6/2018
 ---
 
-# customize-documentation-template
+# Customize Documentation Template
 
 ## Quick guide
 

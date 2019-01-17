@@ -5,7 +5,7 @@ author: Tomislav Sirovec
 date: 16/6/2018
 ---
 
-# server-load-permission-requirements
+# Server Load Permission Requirements
 
 ### Problem
 

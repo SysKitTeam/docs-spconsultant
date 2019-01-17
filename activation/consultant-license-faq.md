@@ -1,9 +1,4 @@
-# consultant-license-faq
-
-title: Consultant License FAQ author: Iva Novoselic  
-date: 22/5/2017
-
-## description: This article outlines SPDocKit Consultant license FAQs.
+# Consultant License FAQ
 
 ### How does the Consultant license differ from the Farm license?
 

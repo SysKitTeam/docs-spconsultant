@@ -1,2 +1,2 @@
-# compare-wizard
+# Compare Wizard
 

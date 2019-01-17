@@ -5,7 +5,7 @@ author: Dejan Stefulj
 date: 28/6/2017
 ---
 
-# rpc-server-unavailable
+# RPC Server is Unavailable
 
 ## Problem
 
@@ -55,7 +55,7 @@ Verify that RPC Client and RPC Server are using the correct DNS servers for a na
 Verify the firewall state between RPC Client and RPC Server.
 
 * If the firewall is disabled, there is no need for any additional changes.
-* If the firewall is enabled, verify that the required ports are also enabled, as stated [here](../faq/miscellaneous/#network-ports-required-for-gathering-the-data.md) in the section entitled “Network ports required for gathering the data”.
+* If the firewall is enabled, verify that the required ports are also enabled, as stated [here](https://github.com/SysKitTeam/docs-spconsultant/tree/59b0674af78e7a19f4bfa116146289e9139a86da/faq/faq/miscellaneous/README.md#network-ports-required-for-gathering-the-data.md) in the section entitled “Network ports required for gathering the data”.
 
 Also, **some users** had success with the following:
 

@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 25/6/2018
 ---
 
-# options-wizard
+# Options Wizard
 
 ## General
 

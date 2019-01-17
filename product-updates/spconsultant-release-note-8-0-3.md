@@ -7,7 +7,7 @@ author: Igor Mesarić
 date: 16/11/2018
 ---
 
-# spconsultant-release-note-8-0-3
+# SPDocKit Consultant 8.0.3
 
 This is a service release containing minor improvements and bug fixes.
 

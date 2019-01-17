@@ -1,9 +1,4 @@
-# online-activation
-
-title: Online Activation author: Matija Hanzic  
-date: 16/5/2017
-
-## description: This article outlines the steps needed to perform SPDocKit Consultant activation.
+# Online Activation
 
 The Consultant license can be activated on any server, but you need to have a valid SPDocKit Consultant subscription. Please take special care that the Consultant license is intended for external \(customers' farms\) usage only. Here is how to activate a Consultant license online.
 
@@ -16,6 +11,6 @@ The Consultant license can be activated on any server, but you need to have a va
 
 ### Related articles:
 
-* [SPDocKit Consultant Offline Activation](../activation/offline-activation.md)
-* [Licensing FAQ](../activation/activation-faq.md)
+* [SPDocKit Consultant Offline Activation](offline-activation.md)
+* [Licensing FAQ](activation-faq.md)
 

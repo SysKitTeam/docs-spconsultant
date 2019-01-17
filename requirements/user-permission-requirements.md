@@ -1,17 +1,13 @@
-# user-permission-requirements
-
-title: SharePoint On-Premises User Permissions Requirements author: Tomislav Sirovec date: 17/6/2018
-
-## description: This article lists required privileges to load SharePoint settings with tutorial how to acquire those privileges.
+# SharePoint On-Premises User Permissions Requirements
 
 To run SPDocKit Consultant and to retrieve all SharePoint settings you want to document, the user running SPDocKit needs to have proper privileges. Here is the list of required privileges to load SharePoint farm settings:
 
 1. **Local Administrators** and **WSS\_ADMIN\_WPG group member** on every machine in the SharePoint farm. Required to retrieve list of installed applications on farm servers.
 2. **SharePoint farm administrator**. Required to retrieve SharePoint farm settings.
 3. **Member of SharePoint\_Shell\_Access role** on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
-4. [Server specific requirements](../requirements/server-load-permission-requirements.md) needed to retrieve additional server configuration data \(RAM, processors, disk space…\) and SQL Server configuration information for DB servers.
-5. [Search service application requirements](../requirements/search-service-requirements.md) needed to retrieve Search service application configuration data \(content sources, crawl rules, managed properties, search topologies...\).
-6. [User Profile service application requirements](../requirements/user-profile-service-requirements.md) needed to retrieve User Profile service application configuration data \(Synchronization Connections, MySite Settings, Audiences, User Profile Properties...\).
+4. [Server specific requirements](server-load-permission-requirements.md) needed to retrieve additional server configuration data \(RAM, processors, disk space…\) and SQL Server configuration information for DB servers.
+5. [Search service application requirements](search-service-requirements.md) needed to retrieve Search service application configuration data \(content sources, crawl rules, managed properties, search topologies...\).
+6. [User Profile service application requirements](user-profile-service-requirements.md) needed to retrieve User Profile service application configuration data \(Synchronization Connections, MySite Settings, Audiences, User Profile Properties...\).
 
 Here is how you can give user these privileges:
 
@@ -36,7 +32,7 @@ Here is how you can give user these privileges:
 * Open SharePoint Management Shell.
 * Type the following PowerShell command: `<Add-SPShellAdmin -UserName DOMAIN\YourAccount>` [\(click here to learn more\)](http://technet.microsoft.com/en-us/library/ff607596.aspx).
 * If you want to grant PowerShell shell access to a single database [check this article](http://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
-* If you want to grant PowerShell shell access to all content databases, run this script [download Configure-SPShellAdmin.ps1](../_assets/Configure-SPShellAdmin.zip):
+* If you want to grant PowerShell shell access to all content databases, run this script [download Configure-SPShellAdmin.ps1](https://github.com/SysKitTeam/docs-spconsultant/tree/59b0674af78e7a19f4bfa116146289e9139a86da/_assets/Configure-SPShellAdmin.zip):
 
   ```text
   if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null) 
@@ -46,8 +42,10 @@ Here is how you can give user these privileges:
   Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database $_.Id}
   ```
 
+{% hint style="warning" %}
 Please note:
 
 * The cmdlet Add-SPShellAdmin is going to apply to all current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
 * The cmdlet might fail in some environments; please contact us for further assistance.
+{% endhint %}
 

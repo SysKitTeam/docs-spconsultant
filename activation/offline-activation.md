@@ -1,9 +1,4 @@
-# offline-activation
-
-title: Offline Activation author: Matija Hanzic  
-date: 16/5/2017
-
-## description: This article outlines the steps needed to perform an offline SPDocKit Consultant activation. Use this type of activation in case your SharePoint servers are not connected to the internet.
+# Offline Activation
 
 The Consultant license can be activated on any server, but you need to have a valid SPDocKit Consultant subscription. Please take special care that the Consultant license is intended for external \(customers' farms\) usage only. Here is how to activate a Consultant license offline.
 
@@ -20,10 +15,12 @@ The Consultant license can be activated on any server, but you need to have a va
 4. Click the **Activate** button. Activation takes a couple of seconds and is a one time process.
    * The **license file \(.lic\)** is **only valid** for the user account and server where the **License Details \(.dlic\) file** was generated in step 2.
 
+{% hint style="warning" %}
 **Please note!** The Consultant license file is valid for 72 hours from the time of generation.
+{% endhint %}
 
 ### Related articles:
 
-* [SPDocKit Online Activation](../activation/online-activation.md)
-* [Licensing FAQ](../activation/activation-faq.md)
+* [SPDocKit Online Activation](online-activation.md)
+* [Licensing FAQ](activation-faq.md)
 

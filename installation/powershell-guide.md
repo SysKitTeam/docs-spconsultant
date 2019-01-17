@@ -5,13 +5,11 @@ date: 4/12/2018
 description: This article explains how to install/uninstall SPDocKit PowerShell Module.
 ---
 
-# powershell-guide
-
-This article explains how to install/uninstall SPDocKit PowerShell Module.
+# PowerShell Guide
 
 SPDocKit PS module is used to collect SharePoint farm settings and permissions. SPDocKit PS module needs to run on a server inside your client’s farm.
 
-After acquiring PowerShell module from [PowerShell Gallery](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS/) or SysKit [Customers Web](https://my.syskit.com), the module can be imported by manually copying the module and pasting it to the PowerShell module path or by using the  command, whichever you prefer.
+After acquiring PowerShell module from [PowerShell Gallery](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS/) or SysKit [Customers Web](https://my.syskit.com), the module can be imported by manually copying the module and pasting it to the PowerShell module path or by using the command, whichever you prefer.
 
 The PowerShell module can be used with **PowerShell version 3.0 or higher.**
 
@@ -66,7 +64,9 @@ SysKit.SPDocKit module update can be done using the following command:
 Update-Module -Name “SysKit.SPDocKit.PS”
 ```
 
+{% hint style="warning" %}
 **Please note!** After a successful update of the module, restart of the Windows PowerShell is required before creating the snapshot, otherwise, the snapshot will be created using the old version of the module.
+{% endhint %}
 
 SPDocKit PS module **does not support** SharePoint 2010.
 

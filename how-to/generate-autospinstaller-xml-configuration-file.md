@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 19/6/2018
 ---
 
-# generate-autospinstaller-xml-configuration-file
+# Generate an AutoSPInstaller XML Configuration File
 
 ## What is AutoSPInstaller?
 

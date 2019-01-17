@@ -5,7 +5,7 @@ author: Mia Tomaić
 date: 22/5/2017
 ---
 
-# miscellaneous
+# Miscellaneous
 
 ## How does the Snapshot Wizard process differ from using SPDocKit in Run mode?
 

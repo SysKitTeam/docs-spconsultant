@@ -1,9 +1,4 @@
-# activation-faq
-
-title: Activation FAQ author: Matija Hanzic  
-date: 16/5/2017
-
-## description: This article outlines activation FAQs.
+# Activation FAQ
 
 ### Is the trial version a Farm or Consultant License?
 
@@ -34,7 +29,7 @@ It is recommended you activate your product within the 15 days of the trial peri
 
 ### How do I activate my product?
 
-You can activate your product 24 hours a day, seven days a week on the Internet. Product activation requires you to type in your product product account information \(email and password\) and press activate. You must have an active connection to the Internet in order to activate your product. If you do not have access to internet, please use [offline activation](../activation/offline-activation.md).
+You can activate your product 24 hours a day, seven days a week on the Internet. Product activation requires you to type in your product product account information \(email and password\) and press activate. You must have an active connection to the Internet in order to activate your product. If you do not have access to internet, please use [offline activation](offline-activation.md).
 
 ### What does SysKit do with the information sent during the product activation process?
 

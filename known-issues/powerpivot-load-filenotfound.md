@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-# powerpivot-load-filenotfound
+# PowerPivot FileNotFoundException issue
 
 **Summary:** During the snapshot process, the following error can be observed either in the Snapshot Wizard or the event log:
 
@@ -34,5 +34,7 @@ If the error still occurs, please do the following:
 
 4. Restart the wizard.
 
+{% hint style="info" %}
 Note: This is only possible if you are using the SPDocKit Snapshot Wizard to perform the load. If you are using the PowerShell Module, unfortunately there is no workaround.
+{% endhint %}
 

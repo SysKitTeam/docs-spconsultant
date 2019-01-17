@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 24/6/2018
 ---
 
-# password-and-product-keys
+# Passwords and Product keys
 
 This section allows you to define and document important information about your farm, including:
 

@@ -2,7 +2,7 @@
 private: true
 ---
 
-# SPDocKit COnsultant
+# SPDocKit Consultant
 
 SPDocKit Consultant is the ultimate SharePoint management and administration tool created by SysKit. It was developed for administrators and consultants to save time and automate their farm documentation process.
 

@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 25/6/2018
 ---
 
-# supported-sharepoint-editions
+# Supported SharePoint Editions
 
 The following SharePoint editions and additional products are supported by SPDocKit Consultant:
 

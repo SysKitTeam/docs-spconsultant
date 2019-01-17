@@ -7,7 +7,7 @@ author: Igor Mesarić
 date: 07/11/2018
 ---
 
-# error-while-loading-iis-settings
+# Error while loading IIS Settings Information
 
 ## Problem:
 
@@ -51,7 +51,9 @@ To enable the role, follow these steps:
 8. **Confirmation** step - check the **Restart the destination server automatically if required** option and click **Install**.
 9. **Results** step - displays the installation progress. Once the installation is finished, the **Installation succeeded** message is displayed. 
 
+{% hint style="warning" %}
 **Please note:** Make sure to install the role on all Web Front End servers in a Farm in order to collect the IIS Settings Information.
+{% endhint %}
 
 SPDocKit Snapshot Wizard - Consultant and SPDocKit PowerShell module will now be able to collect the server's IIS Settings Information.
 

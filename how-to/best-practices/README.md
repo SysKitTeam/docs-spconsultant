@@ -1,2 +1,2 @@
-# best-practices
+# Best Practices
 

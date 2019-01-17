@@ -5,11 +5,7 @@ date: 14/6/2018
 description: This article explains how to install SPDocKit Consultant.
 ---
 
-# installation-guide
-
-This article explains how to install SPDocKit Consultant.
-
-There are few things you need to know, so lets get started.
+# Installation Guide
 
 ## Client Farm
 

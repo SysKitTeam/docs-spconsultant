@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 18/6/2018
 ---
 
-# compare-web-config-files
+# Compare Web.Config Files
 
 This section describes how to use SPDocKit to compare web.config files across different servers, Web applications and Web application zones.
 
@@ -17,7 +17,7 @@ This section describes how to use SPDocKit to compare web.config files across di
 
    If you would like to compare the same web.config file but at different points in time, select two snapshots that correspond to the time period you would like to track changes to.
 
-   The Farm selection step will list all available snapshots. If the desired snapshot is not located here, click **Import** to select a snapshot file from another location. Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](../get-to-know-spdockit/snapshots-screen.md), click **Import** in the Snapshots tab.
+   The Farm selection step will list all available snapshots. If the desired snapshot is not located here, click **Import** to select a snapshot file from another location. Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](https://github.com/SysKitTeam/docs-spconsultant/tree/59b0674af78e7a19f4bfa116146289e9139a86da/how-to/get-to-know-spdockit/snapshots-screen.md), click **Import** in the Snapshots tab.
 
 4. In the **Compare Results** dialog box, you can adjust the filters such as the **Source** and the **Target** to compare and see the differences \(if there are any\) between two different web.config files associated with selected Web applications. The differences are highlighted. You can use the buttons to navigate between the files while looking for differences.
 
