@@ -1,23 +1,29 @@
 ---
 title: SPDocKit Consultant 8.0.3 — Release Note
-description: This article describes improvements and bug fixes delivered in SPDocKit Consultant 8.0.3
+description: >-
+  This article describes improvements and bug fixes delivered in SPDocKit
+  Consultant 8.0.3
 author: Igor Mesarić
 date: 16/11/2018
 ---
 
-This is a service release containing minor improvements and bug fixes. 
+# spconsultant-release-note-8-0-3
 
-__Product version:__ 8.0.3  
-__Build number:__   10628     
-__Release date:__ Nov 16, 2018    
+This is a service release containing minor improvements and bug fixes.
+
+**Product version:** 8.0.3  
+**Build number:** 10628  
+**Release date:** Nov 16, 2018
 
 [Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
 
 ## Improvements:
-* Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](#internal/faq/troubleshooting/error-while-loading-iis-settings)
+
+* Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](spconsultant-release-note-8-0-3.md#internal/faq/troubleshooting/error-while-loading-iis-settings)
 * Improved error handling when opening snapshots.
 
 ## Bug fixes:
+
 * Resolved an issue involving the possibility that the PowerShell module could be run without elevated privileges, which resulted in snapshots with incomplete data loaded, causing further issues with reports. 
 * Fixed a bug in which opening SPDocKit Consultant through double-clicking a SPDFarmx file resulted in a change of opened snapshot when navigating to Best Practice reports. 
 * Resolved an issue involving the analysis of solutions not being performed when the load was performed with Snapshot Wizard - Consultant or PowerShell module.  
@@ -27,3 +33,4 @@ __Release date:__ Nov 16, 2018
 * Fixed a bug involving the ESC key causing a smart error if pressed in specific situations in the Options dialog.
 * Fixed a bug involving a smart error showing when saving passwords to a snapshot from the Passwords and Product Keys reports.
 * Resolved an issue with the Project Server load in SharePoint 2016 and 2019 environments.
+

@@ -1,9 +1,14 @@
 ---
 title: Supported SharePoint Editions
-description: This article lists all SharePoint editions that are supported by SPDocKit Consultant.
-author: Tomislav Sirovec    
+description: >-
+  This article lists all SharePoint editions that are supported by SPDocKit
+  Consultant.
+author: Tomislav Sirovec
 date: 25/6/2018
 ---
+
+# supported-sharepoint-editions
+
 The following SharePoint editions and additional products are supported by SPDocKit Consultant:
 
 * SharePoint Server 2019
@@ -16,3 +21,4 @@ The following SharePoint editions and additional products are supported by SPDoc
   * Microsoft SharePoint Foundation 2010
   * SharePoint Standard 2010
   * SharePoint Enterprise 2010
+
