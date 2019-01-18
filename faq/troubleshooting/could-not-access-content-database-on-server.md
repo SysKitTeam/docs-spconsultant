@@ -26,9 +26,9 @@ The process of adding a user account to the role must be repeated each time a ne
 1. Open **SharePoint Management Shell**.
 2. Type the following PowerShell command: _Add-SPShellAdmin -UserName DOMAIN\YourAccount_ [\(click here to learn more\)](https://technet.microsoft.com/en-us/library/ff607596.aspx).
 3. If you want to grant PowerShell shell access to a single database [check this article](https://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
-4. If you want to grant PowerShell shell access to all content databases run this script
+4. If you want to grant PowerShell shell access to all content databases run this script:
 
-   [\(download Configure-SPShellAdmin.ps1\)](https://github.com/SysKitTeam/docs-spconsultant/tree/59b0674af78e7a19f4bfa116146289e9139a86da/faq/_assets/Configure-SPShellAdmin.zip):
+{% file src="../../.gitbook/assets/configure-spshelladmin.zip" %}
 
 ```text
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)

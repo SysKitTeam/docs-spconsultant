@@ -2,9 +2,7 @@
 title: Upgrade to the Latest Version
 author: Tomislav Sirovec
 date: 20/6/2018
-description: >-
-  This article explains how to upgrade SPDocKit to the latest major version.
-  Snapshots and application settings will be preserved in the upgrade process.
+description: This article explains how to upgrade SPDocKit to the latest major version.
 ---
 
 # Upgrade to the Latest Version
