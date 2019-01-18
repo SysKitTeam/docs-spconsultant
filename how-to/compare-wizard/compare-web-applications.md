@@ -24,7 +24,7 @@ Here is how to do it:
 
    If you would like to compare the same web application but at different points in time, select two snapshots that correspond to the time period you would like to track changes to.
 
-   The Farm selection step will list all available snapshots. If the desired snapshot is not located here, click **Import** to select a snapshot file from another location. Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](https://github.com/SysKitTeam/docs-spconsultant/tree/59b0674af78e7a19f4bfa116146289e9139a86da/how-to/compare-wizard/c../get-to-know-spdockit/snapshots-screen.md), click **Import** in the Snapshots tab.
+   The Farm selection step will list all available snapshots. If the desired snapshot is not located here, click **Import** to select a snapshot file from another location. Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](../../../compare-wizard/c../get-to-know-spdockit/snapshots-screen.md), click **Import** in the Snapshots tab.
 
 4. In the Compare results dialog box, you can see the web applications overview. To compare, specify your web application **Source** on the left-hand side, and the **Target** on the right-hand side.
 

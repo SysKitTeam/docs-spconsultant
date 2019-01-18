@@ -24,7 +24,7 @@ Here is how to do it:
 
    If you would like to compare the same site collection settings but at different points in time, select two snapshots that correspond to the time period you would like to track changes to.
 
-   The Farm selection step will list all available snapshots. If the desired snapshot is not located here, click **Import** to select a snapshot file from another location. Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](https://github.com/SysKitTeam/docs-spconsultant/tree/59b0674af78e7a19f4bfa116146289e9139a86da/how-to/get-to-know-spdockit/snapshots-screen.md), click **Import** in the Snapshots tab.
+   The Farm selection step will list all available snapshots. If the desired snapshot is not located here, click **Import** to select a snapshot file from another location. Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](../../../get-to-know-spdockit/snapshots-screen.md), click **Import** in the Snapshots tab.
 
 4. The **Compare Results** dialog box shows the differences between two site collections. The change in each object is indicated by a different color. To compare, specify the **Source** site collection on the left-hand side, as well as the **Target** on the right-hand side.
 
