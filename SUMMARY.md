@@ -70,5 +70,4 @@
   * [Distributed Cache loading issue](known-issues/distributed-cache.md)
   * [PowerPivot FileNotFoundException issue](known-issues/powerpivot-load-filenotfound.md)
   * [CREATE TABLE permissions denied](known-issues/create-table.md)
-* [TOC](toc.md)
 
