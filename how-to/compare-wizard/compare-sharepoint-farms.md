@@ -22,7 +22,7 @@ This section explains how you can use the Compare Wizard to compare different fa
 
    The Results windows shows the differences between two farm snapshots. Object changes are marked by a different colors. The upper part of the window shows all farm settings in a hierarchical structure, while the bottom half displays the differences between currently selected objects in the upper half.
 
-   Farm compare uses the [Compare template](https://github.com/SysKitTeam/docs-spconsultant/tree/9e13d429248cbcbda970f6080d09ff6d6f31d812/get-to-know-spdockit/backstage-screen/options-wizard/README.md#compare) when displaying changes between snapshots. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons.
+   Farm compare uses the [Compare template](../../get-to-know-spdockit/backstage-screen/options-wizard.md#compare) when displaying changes between snapshots. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons.
 
 ## Compare two different SharePoint farms
 
@@ -51,7 +51,7 @@ This section explains how you can use the Compare Wizard to compare different fa
 
    The Results windows shows the differences between two farm snapshots. Object changes are marked by a different colors. The upper part of the window shows all farm settings in a hierarchical structure, while the bottom half displays the differences between currently selected objects in the upper half.
 
-   Farm compare uses the [Compare template](https://github.com/SysKitTeam/docs-spconsultant/tree/9e13d429248cbcbda970f6080d09ff6d6f31d812/get-to-know-spdockit/backstage-screen/options-wizard/README.md#compare) when displaying changes between snapshots. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons.
+   Farm compare uses the [Compare template](../../get-to-know-spdockit/backstage-screen/options-wizard.md#compare) when displaying changes between snapshots. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons.
 
 ## Compare with out of the box farm
 
@@ -59,5 +59,5 @@ This section explains how you can use the Compare Wizard to compare different fa
 2. Under **Farm Selection**, select the snapshot you wish to compare with default farm settings and click Next.
 3. The compare results will appear.
 
-   Farm compare uses the [Compare template](https://github.com/SysKitTeam/docs-spconsultant/tree/9e13d429248cbcbda970f6080d09ff6d6f31d812/get-to-know-spdockit/backstage-screen/options-wizard/README.md#compare) when displaying changes between snapshots. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons.
+   Farm compare uses the [Compare template](../../get-to-know-spdockit/backstage-screen/options-wizard.md#compare) when displaying changes between snapshots. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons.
 
