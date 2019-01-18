@@ -42,10 +42,9 @@ To enable the role, follow these steps:
 4. **Installation Type** step - make sure the **Role-base or feature-based installation** option is selected.
 5. **Server Selection** step - make sure the IIS server is selected.
 6. **Server Roles** step - make sure the **IIS 6 Metabase Compatibility** option is checked. You can find it under Web Server \(IIS\) &gt; Management Tools &gt; IIS 6 Management Compatibility &gt; IIS 6 Metabase Compatibility.  
-  
 
 
-   ![Add Roles and Features Wizard](https://github.com/SysKitTeam/docs-spconsultant/tree/5be916d54078c27922c7adc60a4a8f4c079eeacf/faq/troubleshooting/#internal/_assets/faq/add-roles-and-features-wizard.png)
+   ![Add Roles and Features Wizard](../../.gitbook/assets/add-roles-and-features-wizard.png)
 
 7. **Features** step - continue to the next step.
 8. **Confirmation** step - check the **Restart the destination server automatically if required** option and click **Install**.
