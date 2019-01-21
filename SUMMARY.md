@@ -24,7 +24,7 @@
   * [Consultant License FAQ](activation/consultant-license-faq.md)
   * [Activation FAQ](activation/activation-faq.md)
   * [Activation Privacy Statement](activation/activation-privacy-statement.md)
-* [Get To Know SPDocKit Consusltant](get-to-know-spdockit/README.md)
+* [Get To Know SPDocKit Consultant](get-to-know-spdockit/README.md)
   * [Backstage Screen](get-to-know-spdockit/backstage-screen/README.md)
     * [Options Wizard](get-to-know-spdockit/backstage-screen/options-wizard.md)
     * [Compare Wizard](get-to-know-spdockit/backstage-screen/compare-wizard.md)

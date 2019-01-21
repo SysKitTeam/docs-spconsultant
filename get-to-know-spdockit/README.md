@@ -1,2 +1,2 @@
-# Get To Know SPDocKit Consusltant
+# Get To Know SPDocKit Consultant
 
