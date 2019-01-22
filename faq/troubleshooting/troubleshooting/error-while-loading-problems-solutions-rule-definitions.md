@@ -11,7 +11,7 @@ date: 18/5/2017
 
 # Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’
 
-## Problem:
+## Problem
 
 While trying to load the SharePoint farm the following errors occurred:
 
@@ -20,15 +20,15 @@ While trying to load the SharePoint farm the following errors occurred:
 
 There is an error message in the event log:
 
-> _System.Data.SqlClient.SqlException: Cannot open database “SharePoint\_AdminContent\_bfe62573-2067-4090-a95a-39a13ba51086” requested by the login.  
+> System.Data.SqlClient.SqlException: Cannot open database “SharePoint\_AdminContent\_bfe62573-2067-4090-a95a-39a13ba51086” requested by the login.  
 > The login failed.  
-> Login failed for user ‘CONTOSO\bob’_.
+> Login failed for user ‘CONTOSO\bob’.
 
-## Solution:
+## Solution
 
 The user running the SPDocKit needs to have the [proper privileges](../../../requirements/user-permission-requirements.md) to retrieve information from the SharePoint farm. To fix this issue make sure the user has Shell access to the given content database, using the following PowerShell code to grant access:
 
-```text
+```bash
 $spcdb = Get-SPContentDatabase SharePoint_AdminContent_bfe62573-2067-4090-a95a-39a13ba51086
 Add-SPShellAdmin -UserName CONTOSO\Bob -Database $spcdb
 ```
