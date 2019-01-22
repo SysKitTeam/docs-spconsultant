@@ -11,13 +11,13 @@ date: 18/6/2018
 
 # User Profile Service Application Requirements
 
-## Problem:
+## Problem
 
 While trying to load a SharePoint farm with SPDocKit I received:
 
 > Could not load User Profile Service Application, check your permissions or event log.
 
-## Solution:
+## Solution
 
 The account running SPDocKit does not have the proper privileges to load the User Profile Service Application properties.
 
