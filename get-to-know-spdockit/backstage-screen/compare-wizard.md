@@ -18,5 +18,7 @@ Compare Wizard provides the possibility to track farm configuration changes and 
 * [Compare Site Collections](../../how-to/compare-wizard/compare-site-collections.md) – compare differences between two site collections or track how a site collection's settings have changed over time.
 * [Compare Web.config files](../../how-to/compare-wizard/compare-web-config-files.md) – verify that web.config files on all of your web front end servers are identical for the same Web application. You can also check what the differences are between web.config files on various Web applications.
 
-_\*Learn more about comparing SharePoint objects by clicking on the feature you're interested in._
+{% hint style="info" %}
+Learn more about comparing SharePoint objects by clicking on the feature you're interested in.
+{% endhint %}
 
