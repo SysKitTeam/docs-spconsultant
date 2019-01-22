@@ -19,7 +19,7 @@ To be able to **install** SPDocKit PS module using PowerShell's **Install-Module
 
 1. Save the module to preferred location:
 
-```text
+```bash
 Save-Module -Name SysKit.SPDocKit.PS -Path < path >
 ```
 
@@ -29,7 +29,7 @@ Save–Module command automatically downloads and unzips module to location.
 
 1. Install the module:
 
-```text
+```bash
 Install-Module -Name SysKit.SPDocKit.PS
 ```
 
@@ -37,7 +37,7 @@ Install-Module command installs SPDocKit PS Module to default location: C:\Progr
 
 1. \(Optional\) Check the SPDocKit PS module version:
 
-```text
+```bash
 Get-SPDocKitVersion
 ```
 
@@ -52,7 +52,7 @@ If you wish to uninstall SysKit.SPDocKit PS module from a server inside your cli
 
 Uninstall the SysKit.SPDocKit PS module:
 
-```text
+```bash
 Get-InstalledModule -Name “SysKit.SPDocKit.PS” | Uninstall-Module
 ```
 
@@ -60,12 +60,13 @@ Or you can manually delete SysKit.SPDocKit PS file from the location you chose d
 
 SysKit.SPDocKit module update can be done using the following command:
 
-```text
+```bash
 Update-Module -Name “SysKit.SPDocKit.PS”
 ```
 
 {% hint style="warning" %}
-**Please note!** After a successful update of the module, restart of the Windows PowerShell is required before creating the snapshot, otherwise, the snapshot will be created using the old version of the module.
+**Please note!**   
+After a successful update of the module, restart of the Windows PowerShell is required before creating the snapshot, otherwise, the snapshot will be created using the old version of the module.
 {% endhint %}
 
 SPDocKit PS module **does not support** SharePoint 2010.
