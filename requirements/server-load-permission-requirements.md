@@ -48,7 +48,7 @@ During the Take Snapshot process SPDocKit will try to retrieve information about
 
 ## Additional SQL Server load requirements
 
-### Problem:
+### Problem
 
 While trying to create a SPDocKit snapshot, I received the following warning:
 
@@ -104,7 +104,7 @@ There are some additional SPDocKit permission requirements necessary to load SQL
 
 ## SQL Always On reports load requirements
 
-### Problem:
+### Problem
 
 After taking a SPDocKit snapshot, Always On reports show the following warning:
 
@@ -134,7 +134,7 @@ To retrieve data for Always On reports, the user running SPDocKit needs to have 
 
 ## Database Permissions load requirements
 
-### Problem:
+### Problem
 
 While trying to create a SPDocKit snapshot, I received the following warning:
 
