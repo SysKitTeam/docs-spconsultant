@@ -9,7 +9,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# Failed at retrieving SQL Accounts from the following servers
+# The service application 'UPA Name' does not have any proxies that are default in a proxy group
 
 ## Problem:
 
