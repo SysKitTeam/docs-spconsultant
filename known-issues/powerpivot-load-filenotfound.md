@@ -9,13 +9,17 @@ date: 25/5/2017
 
 # PowerPivot FileNotFoundException issue
 
-**Summary:** During the snapshot process, the following error can be observed either in the Snapshot Wizard or the event log:
+## **Summary** 
+
+During the snapshot process, the following error can be observed either in the Snapshot Wizard or the event log:
 
 > System.IO.FileLoadException: Could not load file or assembly ‘Microsoft.AnalysisServices.SPAddin, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91’ or one of its dependencies. The located assembly’s manifest definition does not match the assembly reference. \(Exception from HRESULT: 0x80131040\)…\`
 
 **Application version:** All versions
 
-**Solution:** Make sure that you take a snapshot on a server where “PowerPivot for SharePoint Add-in” is installed.
+## **Solution** 
+
+Make sure that you take a snapshot on a server where “PowerPivot for SharePoint Add-in” is installed.
 
 If the error still occurs, please do the following:
 
@@ -35,6 +39,7 @@ If the error still occurs, please do the following:
 4. Restart the wizard.
 
 {% hint style="info" %}
-Note: This is only possible if you are using the SPDocKit Snapshot Wizard to perform the load. If you are using the PowerShell Module, unfortunately there is no workaround.
+**Note!**   
+This is only possible if you are using the SPDocKit Snapshot Wizard to perform the load. If you are using the PowerShell Module, unfortunately there is no workaround.
 {% endhint %}
 
