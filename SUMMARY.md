@@ -67,8 +67,8 @@
 * [Known Issues](known-issues/README.md)
   * [CREATE TABLE permissions denied](known-issues/create-table.md)
   * [Distributed Cache loading issue](known-issues/distributed-cache.md)
-  * [Available Windows updates](known-issues/load-windows-updates.md)
-  * [PowerPivot FileNotFoundException issue](known-issues/spdockit-reporting-upa-changes.md)
   * [Load crashes with NullReference exception](known-issues/load-crashes-nullexception.md)
+  * [Available Windows updates](known-issues/load-windows-updates.md)
   * [PowerPivot FileNotFoundException issue](known-issues/powerpivot-load-filenotfound.md)
+  * [Unaccounted differences in the UPA settings](known-issues/spdockit-reporting-upa-changes.md)
 
