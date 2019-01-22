@@ -64,7 +64,7 @@ The snapshot can now be copied to the workstation and imported with SPDocKit Con
 
 Instructions on how to install SPDocKit PowerShell Module can be found [here](../installation/powershell-guide.md).
 
-### Creating a snapshot:
+### Creating a snapshot
 
 To create a snapshot with the **SysKit.SPDocKit.PS** module, use the following command:
 
