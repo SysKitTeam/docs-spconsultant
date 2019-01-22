@@ -44,7 +44,7 @@ To enable the role, follow these steps:
 6. **Server Roles** step - make sure the **IIS 6 Metabase Compatibility** option is checked. You can find it under Web Server \(IIS\) &gt; Management Tools &gt; IIS 6 Management Compatibility &gt; IIS 6 Metabase Compatibility.  
 
 
-   ![Add Roles and Features Wizard](../../.gitbook/assets/add-roles-and-features-wizard.png)
+   ![Add Roles and Features Wizard](../../../.gitbook/assets/add-roles-and-features-wizard.png)
 
 7. **Features** step - continue to the next step.
 8. **Confirmation** step - check the **Restart the destination server automatically if required** option and click **Install**.
