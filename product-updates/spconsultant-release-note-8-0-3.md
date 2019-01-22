@@ -17,12 +17,12 @@ This is a service release containing minor improvements and bug fixes.
 
 [Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
 
-## Improvements:
+## Improvements
 
 * Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](../faq/troubleshooting/troubleshooting/error-while-loading-iis-settings.md)
 * Improved error handling when opening snapshots.
 
-## Bug fixes:
+## Bug fixes
 
 * Resolved an issue involving the possibility that the PowerShell module could be run without elevated privileges, which resulted in snapshots with incomplete data loaded, causing further issues with reports. 
 * Fixed a bug in which opening SPDocKit Consultant through double-clicking a SPDFarmx file resulted in a change of opened snapshot when navigating to Best Practice reports. 
