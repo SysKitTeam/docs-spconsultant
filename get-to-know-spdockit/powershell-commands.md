@@ -19,13 +19,15 @@ General information on how to create a snapshot can be viewed \[here\]../how-to/
 
 If you need further assistance, please [contact us](https://www.syskit.com/company/contact-us/).
 
-SYNTAX
+### Syntax
 
 ```bash
     New-SPDocKitSnapshot [-SiteCollectionsOff] [-PersonalSitesOff][-FeaturesAndSolutionsOff] [-DatabasePermissionsOff] [-ProgramsAndUpdatesOff] [-SQLServerConfigurationOff] [-IISSettingsOff] [-ProjectServerSettingsOff] [-ProjectServerProjectsOff] [-Location [<String>]] [-NumberOfThreads [<UInt16>]] [-ServerLoadGlobalTimeout [<UInt16>]] [-ServerLoadOperationTimeout [<UInt16>]] [-FarmAccessTimeout [<UInt16>]] [<CommonParameters>]
 ```
 
-DESCRIPTION Crawls the SharePoint farm, creating a snapshot file containing the current state of the farm's configuration at the specified location. The created file can then be used by SPDocKit Consultant to browse the configuration and document it. Note that this process might take a while, depending on the farm size and the settings selected.
+### Description
+
+Crawls the SharePoint farm, creating a snapshot file containing the current state of the farm's configuration at the specified location. The created file can then be used by SPDocKit Consultant to browse the configuration and document it. Note that this process might take a while, depending on the farm size and the settings selected.
 
 By default, the New-SPDocKitSnapshot cmdlet does a full load of a SharePoint farm and creates the snapshot file in the current working directory. You can exclude the load of some settings by specifying the corresponding parameter.
 
