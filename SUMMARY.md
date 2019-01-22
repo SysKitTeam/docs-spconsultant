@@ -65,10 +65,10 @@
       * [The service application 'UPA Name' does not have any proxies that are default in a proxy group](faq/troubleshooting/troubleshooting/service-app-does-not-have-proxies.md)
       * [SQL Server is unavailable](faq/troubleshooting/troubleshooting/sql-server-unavailable.md)
 * [Known Issues](known-issues/README.md)
-  * [Load crashes with NullReference exception](known-issues/load-windows-updates.md)
+  * [CREATE TABLE permissions denied](known-issues/create-table.md)
+  * [Distributed Cache loading issue](known-issues/distributed-cache.md)
+  * [Available Windows updates](known-issues/load-windows-updates.md)
   * [PowerPivot FileNotFoundException issue](known-issues/spdockit-reporting-upa-changes.md)
   * [Load crashes with NullReference exception](known-issues/load-crashes-nullexception.md)
-  * [Distributed Cache loading issue](known-issues/distributed-cache.md)
   * [PowerPivot FileNotFoundException issue](known-issues/powerpivot-load-filenotfound.md)
-  * [CREATE TABLE permissions denied](known-issues/create-table.md)
 
