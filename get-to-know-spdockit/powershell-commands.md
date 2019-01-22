@@ -11,7 +11,7 @@ As explained in the [create snapshot article](../how-to/create-snapshot.md) ther
 
 If you decided to use a PowerShell Module, here is a list of all the available commands. You can also view them in the PowerShell console it self, by running:
 
-```text
+```bash
 Get-Help New-SPDocKitSnapshot -full
 ```
 
@@ -21,21 +21,19 @@ If you need further assistance, please [contact us](https://www.syskit.com/compa
 
 SYNTAX
 
-```text
+```bash
     New-SPDocKitSnapshot [-SiteCollectionsOff] [-PersonalSitesOff][-FeaturesAndSolutionsOff] [-DatabasePermissionsOff] [-ProgramsAndUpdatesOff] [-SQLServerConfigurationOff] [-IISSettingsOff] [-ProjectServerSettingsOff] [-ProjectServerProjectsOff] [-Location [<String>]] [-NumberOfThreads [<UInt16>]] [-ServerLoadGlobalTimeout [<UInt16>]] [-ServerLoadOperationTimeout [<UInt16>]] [-FarmAccessTimeout [<UInt16>]] [<CommonParameters>]
 ```
 
 DESCRIPTION Crawls the SharePoint farm, creating a snapshot file containing the current state of the farm's configuration at the specified location. The created file can then be used by SPDocKit Consultant to browse the configuration and document it. Note that this process might take a while, depending on the farm size and the settings selected.
 
-```text
 By default, the New-SPDocKitSnapshot cmdlet does a full load of a SharePoint farm and creates the snapshot file in the current working directory. You can exclude the load of some settings by specifying the corresponding parameter.
 
 Errors that occur will be logged in the Windows Event Log with the source SPDocKit PS.
-```
 
 Parameters:
 
-```text
+```bash
 -SiteCollectionsOff  or  -noSites
     If set, site collections will not be loaded. Load depth will be set to web applications.
 
@@ -177,7 +175,7 @@ Parameters:
 
 Outputs:
 
-```text
+```bash
 ———————— EXAMPLE 1 ————————
 
 New-SPDocKitSnapshot
