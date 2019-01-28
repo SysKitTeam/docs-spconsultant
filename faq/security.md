@@ -5,6 +5,8 @@ author: Iva Novoselic
 date: 22/5/2017
 ---
 
+# Security
+
 ## Does SPDocKit make changes to the farm?
 
 SPDocKit uses only Microsoft provided and supported SharePoint APIs and PowerShell to retrieve information about the structure of a SharePoint farm. During load operations nothing is being changed in the farm structure.
@@ -25,26 +27,5 @@ SysKit has helped some of the largest organizations worldwide to work around thi
 
 ## How does SPDocKit store passwords? Is storing passwords optional or mandatory?
 
-SPDocKit can store your passwords and products keys in the farm documentation files. If you decide to enter these, you will be prompted to provide an additional password (master password) that will be used to encrypt these files with AES 256bit encryption. You will only be able to retrieve these passwords if you provide the master password again.
+SPDocKit can store your passwords and products keys in the farm documentation files. If you decide to enter these, you will be prompted to provide an additional password \(master password\) that will be used to encrypt these files with AES 256bit encryption. You will only be able to retrieve these passwords if you provide the master password again.
 
-## How to exclude the installation folder from antivirus scans?
-This article explains how to exclude the installation folder from antivirus scans in the following SharePoint applications:
-
-* Microsoft SharePoint Standard 2016
-* Microsoft SharePoint Enterprise 2016
-* Microsoft SharePoint Foundation 2013
-* Microsoft SharePoint Standard 2013
-* Microsoft SharePoint Enterprise 2013
-* Microsoft SharePoint Foundation 2010
-* Microsoft SharePoint Standard 2010
-* Microsoft SharePoint Enterprise 2010
-* Windows SharePoint Services 3.0
-* Microsoft Office SharePoint Server – Standard 2007
-* Microsoft Office SharePoint Server – Enterprise 2007
-
-This folder may have to be excluded from antivirus scans when you use file-level antivirus software in SharePoint. If this folder is not excluded, you may see unexpected behavior. For example, you may receive “access denied” error messages.
-
-Please configure your antivirus software to exclude the following folder from antivirus scanning:
-> Drive:\Program Files\SysKit\SPDocKit
-
-__Please note:__ The placeholder Drive represents the letter of the drive on which you have your SharePoint application installed. Typically, this drive letter is C.
