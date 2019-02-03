@@ -29,14 +29,6 @@ date: 05/02/2018
 
 ## Improvements
 
-* **SPDocKit service improved!** Since adding a couple of new system jobs to SPDocKit, we have tweaked the underlying service that runs them. Now, after each automatic snapshot, the service restarts and frees the memory from unused resources. The job schedule was also improved, to ensure faster job execution and prevent possible locks when multiple jobs are running simultaneously.
-* **Database Disk Usage**, **Database Size Growth**, and **Logs Size Growth** reports are now **combined into a single report**: the **Database Growth** report. The new design enables you to more easily find the information you want, and track database growth over time. The revamped report now uses data collected by the **new Database Analytics system job** and has, therefore, become faster.
-* **Improved Data retention!**  It is now possible to define **separate data retention settings exclusively for audit logs and administrative actions** – just in case you want to hang on to your audit logs a bit longer. You can now view the progress when manually running data retention, and cancel the execution if you need to.
-* **Improved Farm Compare!**  Because some Windows services often change state between “stopped” and “running,” a newly created snapshot would often show a difference between itself and the previous snapshot. In order to reduce the number of false negatives, the following services are no longer considered in compare: **WinHTTP Web Proxy Auto-Discovery Service, Network Setup Service, Microsoft Passport, Application Experience, WMI Performance Adapter.**
-* **SharePoint Analytics** report **renamed Site Collection Analytics**.  The Active Subsites column was added to provide you with even more useful information about your site collection usage.
-* Site collection **search functionality enabled in Storage Metrics** report.  When a match is found for the entered term, the parent object of the site collection is expanded, and the site collection itself is highlighted.
-* **We retired the Content Overview** report and replaced it with the new, better, and faster **Analytics Dashboard**.
-* **Last Modified By information added** to Inactive Subsites and Unmodified Lists Analytics reports.
 * **Actions filter added** to the Administrative Actions report.
 * **Site Visitors List** report **renamed Site Collection Visitors**, and the date range filter limited to 30 days.
 * **Added search** in the Actions filter on Administrative Actions report.
@@ -46,8 +38,6 @@ date: 05/02/2018
 
 ## Bug Fixes
 
-* Fixed a bug where the System Account was displayed as Unknown in the Audit Log Details report.
-* Fixed a bug where querying recursive AD groups would cause a memory bottleneck and consequently performance problems with the SQL server.
 * Fixed an issue where the Disk Allocation Size and Database Files reports showed no data for servers with Always On Availability Groups configured.
 * Fixed a bug where the Storage Metrics report would erroneously handle and show data for content databases from different farms with the same name.
 * Fixed an issue where the Permissions Matrix report failed to show AD groups nested inside SharePoint Groups when the Principal Types filter was set to Active Directory Groups only.
@@ -61,6 +51,7 @@ date: 05/02/2018
 * Fixed a bug where the Extension filter selection was not shown in the exported Document Extension Details report.
 * Fixed a bug with Farm Differences Subscription on SharePoint 2010 Farms. When sending a subscription, the following error would appear: System.NotSupportedException: Unable to create a constant value of type 'Acceleratio.SPDocKit.UserControls.PrintContainer.
 * Fixed a bug where the app would crash when trying to create a subscription on a farm for which no snapshots had been created.
-* Consultant: Fixed a bug where the app would crash when trying to import a snapshot with the lower case extension ‘spdfarmx’ instead of the regular ‘SPDFarmx’ version. The import now supports both options.
-* Fixed a bug where the mouse wheel scroll would not work on the Document Extension Overview report.
+* Fixed a bug where the app would crash when trying to import a snapshot with the lower case extension ‘spdfarmx’ instead of the regular ‘SPDFarmx’ version. The import now supports both options.
+
+
 
