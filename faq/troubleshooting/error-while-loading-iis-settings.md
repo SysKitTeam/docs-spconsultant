@@ -25,7 +25,9 @@ The following error message is stored in the event log:
 
 To successfully load IIS Settings, the IIS 6 Metabase Compatibility role has to be enabled.
 
+{% hint style="warning" %}
 **Please note:** A server restart could be required for the changes to take effect.
+{% endhint %}
 
 To enable the role, follow these steps:
 
