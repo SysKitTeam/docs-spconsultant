@@ -38,8 +38,8 @@ If the error still occurs, please do the following:
 
 4. Restart the wizard.
 
-{% hint style="info" %}
-**Note!**  
+{% hint style="warning" %}
+**Please note!**  
 This is only possible if you are using the SPDocKit Snapshot Wizard to perform the load. If you are using the PowerShell Module, unfortunately there is no workaround.
 {% endhint %}
 
