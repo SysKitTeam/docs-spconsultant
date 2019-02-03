@@ -28,6 +28,7 @@
     * [Options Wizard](get-to-know-spdockit/backstage-screen/options-wizard.md)
     * [Compare Wizard](get-to-know-spdockit/backstage-screen/compare-wizard.md)
   * [Farm Explorer Screen](get-to-know-spdockit/farm-explorer-screen/README.md)
+    * [Farm Dashboard](get-to-know-spdockit/farm-explorer-screen/farm-dashboard.md)
     * [Farm Explorer Reports](get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports.md)
     * [Passwords and Product keys](get-to-know-spdockit/farm-explorer-screen/password-and-product-keys.md)
   * [Best Practices Screen](get-to-know-spdockit/best-practices-screen.md)
