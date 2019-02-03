@@ -120,7 +120,7 @@ To add your SPDocKit Consultant account to the Administrators group, follow thes
 1. In a browser navigate to your Project server site.
 2. Click **Settings** &gt; **PWA Settings** to open up the PWA Settings page.
 3. Under **Security** click **Manage Users**.
-4. Click **New User** and add your **SPDocKit Consultant user accounts** \(console account and the service account, if you are using automatic snapshots\).
+4. Click **New User** and add your **SPDocKit Consultant user account** \(console account\).
    * Under **User logon account** specify the **Domain\Username** of the **SPDocKit Consultant user account**.
    * Under **Security Groups** make sure that this user is a member of the **Administrators** security group.
 
