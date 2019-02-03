@@ -4,22 +4,22 @@
 
 ### Problem
 
-While trying to load SharePoint farm settings with SPDocKit I received:
+While trying to load SharePoint farm settings with SPDocKit Consultant I received:
 
 > Error occurred while loading server ‘ServerName’.
 
 ### Solution
 
-In order to allow SPDocKit to successfully gather all the information about your SharePoint farm servers, the following permissions are necessary:
+In order to allow SPDocKit Consultant to successfully gather all the information about your SharePoint farm servers, the following permissions are necessary:
 
 * Local Administrator on the server
 * Windows Update service up and running
 
-For more information on how to add the SPDocKit user to the Local Administrators group and how to start Windows Update service, read the [following article](../../requirements/server-load-permission-requirements.md#granting-permissions).
+For more information on how to add the SPDocKit Consultant user to the Local Administrators group and how to start Windows Update service, read the [following article](../../requirements/server-load-permission-requirements.md#granting-permissions).
 
 ### Affected reports
 
-* Adding SPDocKit user accounts to the **Local Administrator** group on the server is needed for WMI remote access and to get information about Windows updates. In case you can’t give that kind of permissions due to security requirements, see lower for what you can grant instead this. The following reports will not be available:
+* Adding SPDocKit Consultant user account to the **Local Administrator** group on the server is needed for WMI remote access and to get information about Windows updates. In case you can’t give that kind of permissions due to security requirements, see lower for what you can grant instead this. The following reports will not be available:
   * Farm Explorer -&gt; Servers in Farm -&gt; Processors Info
   * Farm Explorer -&gt; Servers in Farm -&gt; Programs List
   * Farm Explorer -&gt; Servers in Farm -&gt; Available Windows Updates
@@ -36,13 +36,13 @@ For more information on how to add the SPDocKit user to the Local Administrators
 
 ### Problem
 
-While trying to create a SPDocKit snapshot, I received the following warning:
+While trying to create a SPDocKit Consultant snapshot, I received the following warning:
 
 > Loaded Server ‘ServerName’.
 
 ### Solution
 
-In order to allow SPDocKit to successfully gather all the information about your SQL servers the following permissions are necessary:
+In order to allow SPDocKit Consultant to successfully gather all the information about your SQL servers the following permissions are necessary:
 
 * **Sysadmin** server role
 
@@ -50,25 +50,25 @@ In case that you can’t give those permissions due to security requirements, th
 
 ### Problem
 
-While trying to create a SPDocKit snapshot, I received the following warning:
+While trying to create a SPDocKit Consultant snapshot, I received the following warning:
 
 > Unable to load database permissions for ‘DatabaseName’.
 
 ### Solution
 
-In order to allow SPDocKit to successfully gather all the database permissions the following permissions are necessary:
+In order to allow SPDocKit Consultant to successfully gather all the database permissions the following permissions are necessary:
 
 * **db\_owner** database role on each of the affected databases.
 
-To eliminate this warning you either have to grant the necessary permissions to SPDocKit accounts or turn off the load **Database Permissions** option.
+To eliminate this warning you either have to grant the necessary permissions to SPDocKit Consultant account or turn off the load **Database Permissions** option.
 
 If you wish to turn off the load **Database Permissions** option, do the following:
 
 1. Select **Configuration** from the left navigation bar on the **Backstage Screen** and then click the **Options** button.
-2. On the **SPDocKit Options** dialog select **Snapshot Options**.
+2. On the **SPDocKit Consultant Options** dialog select **Snapshot Options**.
 3. Under the **Security** section uncheck **Database Permissions**.
 
-If you wish to grant the necessary permissions to the SPDocKit accounts, follow this [link](../../requirements/server-load-permission-requirements.md#granting-permissions-1).
+If you wish to grant the necessary permissions to the SPDocKit Consultant account, follow this [link](../../requirements/server-load-permission-requirements.md#granting-permissions-1).
 
 ### Affected reports
 
@@ -95,7 +95,7 @@ The **Public** server role is needed to fetch the real SQL server name. This per
 * Best Practices -&gt; Databases -&gt; ModelDB -&gt; ModelDB Files Initial Size
 * Best Practices -&gt; Databases -&gt; ModelDB -&gt; ModelDB Recovery Model
 
-**Db\_owner** database role on each of the affected databases is necessary in order to allow SPDocKit to successfully gather all the database permissions. In case this permission is not granted, the following report will not be available:
+**Db\_owner** database role on each of the affected databases is necessary in order to allow SPDocKit Consultant to successfully gather all the database permissions. In case this permission is not granted, the following report will not be available:
 
 * Farm Explorer -&gt; SQL -&gt; Database Permissions
 
@@ -103,21 +103,21 @@ The **Public** server role is needed to fetch the real SQL server name. This per
 
 ### Problem
 
-While trying to load Project server site settings with SPDocKit I received:
+While trying to load Project server site settings with SPDocKit Consultant I received:
 
 > The HTTP request is unauthorized with client authentication scheme 'Ntlm'. The authentication header received from the server was 'NTLM'.
 
 ### Solution
 
-In order to allow SPDocKit to successfully gather all the information about your Project server sites the following permissions are necessary:
+In order to allow SPDocKit Consultant to successfully gather all the information about your Project server sites the following permissions are necessary:
 
-* **SPDocKit account** needs to be a member of the Project Server **Administrators** group on each of the Project server sites
+* **SPDocKit Consultant account** needs to be a member of the Project Server **Administrators** group on each of the Project server sites
 
 Take the steps described in the [following article](../../requirements/server-load-permission-requirements.md#granting-permissions-2) to grant the required permissions.
 
 ### Affected reports
 
-The mentioned permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit. Without the above-mentioned permissions, the following reports will not be available:
+The mentioned permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit Consultant. Without the above-mentioned permissions, the following reports will not be available:
 
 * Farm Explorer -&gt; Project Server -&gt; all reports
 
