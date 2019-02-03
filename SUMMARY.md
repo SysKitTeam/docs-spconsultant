@@ -10,7 +10,7 @@
   * [Supported SharePoint Editions](requirements/supported-sharepoint-editions.md)
   * [System Requirements](requirements/system-requirements.md)
   * [Server Load Permission Requirements](requirements/server-load-permission-requirements.md)
-  * [Service Application Permission Requirements](service-app-perm-requirements.md)
+  * [Service Application Permission Requirements](requirements/service-application-permission-requirements.md)
 * [Installation](installation/README.md)
   * [Installation Guide](installation/installation-guide.md)
   * [Upgrade to the Latest Version](installation/upgrade-to-the-latest-version.md)
