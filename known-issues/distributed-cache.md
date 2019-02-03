@@ -9,7 +9,7 @@ date: 25/5/2017
 
 # Distributed Cache loading issue
 
-## **Summary** 
+## **Summary**
 
 SPDocKit does not load Distributed Cache settings data and displays a warning message during the load:
 
@@ -21,7 +21,7 @@ This happens because SPDocKit queries only the server it is installed on for Dis
 
 **Application version:** 4.1.0 and newer
 
-## **Solution** 
+## **Solution**
 
 Take snapshot and run the load process from a server that is part of the Distributed Cache Cluster.
 

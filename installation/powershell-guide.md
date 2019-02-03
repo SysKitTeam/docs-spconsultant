@@ -26,7 +26,7 @@ Save-Module -Name SysKit.SPDocKit.PS -Path < path >
 &lt; path &gt; can be any location of your choice such as: C:\Users\Public\Desktop  
 Save–Module command automatically downloads and unzips module to location.
 
-2. Install the module:
+1. Install the module:
 
 ```bash
 Install-Module -Name SysKit.SPDocKit.PS
@@ -34,7 +34,7 @@ Install-Module -Name SysKit.SPDocKit.PS
 
 Install-Module command installs SPDocKit PS Module to default location: C:\Program Files\WindowsPowerShell\Modules
 
-3. \(Optional\) Check the SPDocKit PS module version:
+1. \(Optional\) Check the SPDocKit PS module version:
 
 ```bash
 Get-SPDocKitVersion
@@ -64,7 +64,7 @@ Update-Module -Name “SysKit.SPDocKit.PS”
 ```
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 After a successful update of the module, restart of the Windows PowerShell is required before creating the snapshot, otherwise, the snapshot will be created using the old version of the module.
 {% endhint %}
 

@@ -19,7 +19,7 @@ The Consultant license can be activated on any server, but you need to have a va
 **Please note!** The Consultant license file is valid for 72 hours from the time of generation.
 {% endhint %}
 
-### Related articles:
+## Related articles:
 
 * [SPDocKit Online Activation](online-activation.md)
 * [Licensing FAQ](activation-faq.md)

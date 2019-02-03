@@ -15,7 +15,7 @@ SPDocKit is unable to read list of available Windows updates while taking a snap
 
 **Application Version:** 3.0.0
 
-## **Solution** 
+## **Solution**
 
 The only workaround for this problem is to connect the server to the Internet, which will enable SPDocKit to read the list of available Windows updates.
 

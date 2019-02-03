@@ -11,7 +11,7 @@ To run SPDocKit Consultant and to retrieve all SharePoint settings you want to d
 
 Here is how you can give user these privileges:
 
-### To add a user account to the **Local Administrators** group \(repeat the same steps for **WSS\_ADMIN\_WPG**\):
+## To add a user account to the **Local Administrators** group \(repeat the same steps for **WSS\_ADMIN\_WPG**\):
 
 * On the server, click Start, right-click Computer, and then click **Manage**.
 * Navigate to Configuration, expand **Local Users and Group** and then click Groups.
@@ -21,13 +21,13 @@ Here is how you can give user these privileges:
 * In the Administrators dialog box, click OK.
 * Close the Server Manager screen.
 
-### To add a user account to **SharePoint farm Administrators** group:
+## To add a user account to **SharePoint farm Administrators** group:
 
 * Open SharePoint **Central Administration**.
 * Navigate to Security &gt; Manage the farm administrators group.
 * Use the **New** button to add users to this group.
 
-### To add a user account to **SharePoint\_Shell\_Access role**:
+## To add a user account to **SharePoint\_Shell\_Access role**:
 
 * Open SharePoint Management Shell.
 * Type the following PowerShell command:  `<Add-SPShellAdmin -UserName DOMAIN\YourAccount>` [\(click here to learn more\)](http://technet.microsoft.com/en-us/library/ff607596.aspx)
@@ -45,9 +45,9 @@ Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database 
 ```
 
 {% hint style="warning" %}
+
 **Please note!**
 
 * The cmdlet Add-SPShellAdmin is going to apply to all current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
 * The cmdlet might fail in some environments; please contact us for further assistance.
-{% endhint %}
 

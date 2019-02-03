@@ -9,7 +9,7 @@ date: 25/5/2017
 
 # PowerPivot FileNotFoundException issue
 
-## **Summary** 
+## **Summary**
 
 During the snapshot process, the following error can be observed either in the Snapshot Wizard or the event log:
 
@@ -17,7 +17,7 @@ During the snapshot process, the following error can be observed either in the S
 
 **Application version:** All versions
 
-## **Solution** 
+## **Solution**
 
 Make sure that you take a snapshot on a server where “PowerPivot for SharePoint Add-in” is installed.
 
@@ -39,7 +39,7 @@ If the error still occurs, please do the following:
 4. Restart the wizard.
 
 {% hint style="info" %}
-**Note!**   
+**Note!**  
 This is only possible if you are using the SPDocKit Snapshot Wizard to perform the load. If you are using the PowerShell Module, unfortunately there is no workaround.
 {% endhint %}
 

@@ -9,7 +9,7 @@ The Consultant license can be activated on any server, but you need to have a va
 
 3. Click the **Activate** button to start the activation process. Activation takes a couple of seconds and it needs to be repeated on every server you choose to activate. You can activate your license on an unlimited number of customers' servers while your subscription is active.
 
-### Related articles:
+## Related articles:
 
 * [SPDocKit Consultant Offline Activation](offline-activation.md)
 * [Licensing FAQ](activation-faq.md)
