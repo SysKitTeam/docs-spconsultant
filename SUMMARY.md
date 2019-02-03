@@ -10,7 +10,6 @@
   * [System Requirements](requirements/system-requirements.md)
   * [SharePoint On-Premises User Permissions Requirements](requirements/user-permission-requirements.md)
   * [Server Load Permission Requirements](requirements/server-load-permission-requirements.md)
-  * [Project Server Load Requirements](requirements/project-server-requirements.md)
   * [Search Service Application Requirements](requirements/search-service-requirements.md)
   * [User Profile Service Application Requirements](requirements/user-profile-service-requirements.md)
 * [Installation](installation/README.md)
