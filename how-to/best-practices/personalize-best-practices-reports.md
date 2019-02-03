@@ -28,5 +28,3 @@ Best Practices reports checking some numerical values, like the amount of RAM pe
 If you edit these values, the Best Practice report will display a warning that the default values have been changed.
 {% endhint %}
 
-
-
