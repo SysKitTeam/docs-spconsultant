@@ -100,10 +100,10 @@ To grant the **db\_owner** database role to the SPDocKit Consultant accounts, fo
 
 ## Project Server Information
 
-During the snapshot creation process, SPDocKit Consultant will try to retrieve information about your Project server sites. 
+During the snapshot creation process, SPDocKit Consultant will try to retrieve information about your Project server sites.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 The following permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit Consultant.
 {% endhint %}
 
@@ -123,3 +123,4 @@ To add your SPDocKit Consultant account to the Administrators group, follow thes
 4. Click **New User** and add your **SPDocKit Consultant user accounts** \(console account and the service account, if you are using automatic snapshots\).
    * Under **User logon account** specify the **Domain\Username** of the **SPDocKit Consultant user account**.
    * Under **Security Groups** make sure that this user is a member of the **Administrators** security group.
+

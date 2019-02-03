@@ -60,7 +60,7 @@
     * [Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’](faq/troubleshooting/error-while-loading-problems-solutions-rule-definitions.md)
     * [Error while loading IIS Settings Information](faq/troubleshooting/error-while-loading-iis-settings.md)
     * [Errors while trying to load the SharePoint farm](faq/troubleshooting/errors-while-loading-farm.md)
-    * [Errors while loading server Information](errors-while-loading-server-information.md)
+    * [Errors while loading server Information](faq/troubleshooting/errors-while-loading-server-information.md)
     * [Failed at retrieving SQL Accounts from the following servers](faq/troubleshooting/failed-at-retrieving-accounts-from-servers.md)
     * [The service application 'UPA Name' does not have any proxies that are default in a proxy group](faq/troubleshooting/service-app-does-not-have-proxies.md)
     * [SQL Server is unavailable](faq/troubleshooting/sql-server-unavailable.md)
