@@ -2,6 +2,7 @@
 
 * [SPDocKit Consultant](README.md)
 * [Product Updates](product-updates/README.md)
+  * [SPDocKit Consultant 9](product-updates/spconsultant-release-note-9.md)
   * [SPDocKit Consultant 8.0.3](product-updates/spconsultant-release-note-8-0-3.md)
   * [SPDocKit Consultant 8](product-updates/spconsultant-release-note-8.md)
 * [Requirements](requirements/README.md)
