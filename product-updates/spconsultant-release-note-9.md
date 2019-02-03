@@ -9,7 +9,7 @@ date: 05/02/2018
 
 # SPDocKit Consultant 9
 
-**SPDocKit 9** is a major release that comes with a bunch of new reports, dashboards, and other neat things. The list is long, so, let's get to it!
+**SPDocKit Consultant 9** is a major release that comes with a new dashboard, and other neat things. The list is long, so, let's get to it!
 
 **Product version:** 9.0.0  
 **Build number:** 10941  
@@ -19,7 +19,7 @@ date: 05/02/2018
 
 ## Features
 
-* **Introducing the new Dashboard trio!**
+* **Introducing the new Dashboard!**
 
   Get the most important information at a glance with a new set of visually appealing dashboards. Each dashboard tile enables you to drill down to a more detailed report where you can find specific information of interest. As already mentioned, three new dashboards are available: [**Farm**](https://github.com/SysKitTeam/docs-spconsultant/tree/cef28636c8ab3ee012ee080b8f5f1ff35c997d74/explore-reports-and-create-documentation/farm-explorer/farm-dashboard.md), [**Analytics**](https://github.com/SysKitTeam/docs-spconsultant/tree/cef28636c8ab3ee012ee080b8f5f1ff35c997d74/explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-dashboard.md), and [**Audit**](https://github.com/SysKitTeam/docs-spconsultant/tree/cef28636c8ab3ee012ee080b8f5f1ff35c997d74/explore-reports-and-create-documentation/audit-reports/audit-dashboard.md). Each of them gives you a high-level view of information available in the related category; the Analytics Dashboard replaces the old Content Overview report**.**
 
