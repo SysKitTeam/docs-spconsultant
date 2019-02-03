@@ -1,6 +1,8 @@
 # Offline Activation
 
-The Consultant license can be activated on any server, but you need to have a valid SPDocKit Consultant subscription. Please take special care that the Consultant license is intended for external \(customers' farms\) usage only. Here is how to activate a Consultant license offline.
+The Consultant license can be activated on any workstation, but you need to have a valid SPDocKit Consultant subscription. Please take special care that the Consultant license is intended for consultant's usage only. 
+
+Here is how to activate a Consultant license offline:
 
 1. From the left navigation bar on the **Backstage Screen** select **Help** and click on the **License Details** section to begin the activation process.
 2. Click on the **Offline Activation** link and a new activation dialog will appear. Follow these steps:
