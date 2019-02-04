@@ -9,7 +9,7 @@ date: 05/02/2018
 
 # SPDocKit Consultant 9
 
-**SPDocKit Consultant 9** is a major release that comes with a new dashboard, and other neat things. The list is long, so, let's get to it!
+**SPDocKit Consultant 9** is a major release that comes with a new dashboard, numerous UX/UI improvements, and a couple of bug fixes.
 
 **Product version:** 9.0.0  
 **Build number:** 10941  
@@ -19,9 +19,9 @@ date: 05/02/2018
 
 ## Features
 
-* **Introducing the new Farm Dashboard!**
+* **Introducing the new** [**Farm Dashboard!**](../get-to-know-spdockit/farm-explorer-screen/farm-dashboard.md)\*\*\*\*
 
-  Get the most important information at a glance with a new visually appealing dashboard. Each dashboard tile enables you to drill down to a more detailed report where you can find specific information of interest. Find more about the **Farm dashboard** [here](../get-to-know-spdockit/farm-explorer-screen/farm-dashboard.md). 
+  Get the most important information at a glance with a new visually appealing dashboard. Each dashboard tile enables you to drill down to a more detailed report where you can find specific information of interest. Find more about the [**Farm dashboard** **here.** ](../get-to-know-spdockit/farm-explorer-screen/farm-dashboard.md)\*\*\*\*
 
 ## Improvements
 
