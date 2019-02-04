@@ -1,8 +1,8 @@
 ---
 title: Available Windows updates
 description: >-
-  SPDocKit Consultant is unable to read the list of available Windows updates from your
-  servers.
+  SPDocKit Consultant is unable to read the list of available Windows updates
+  from your servers.
 author: Iva Novoselic
 date: 25/5/2017
 ---

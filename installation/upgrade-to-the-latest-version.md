@@ -2,7 +2,9 @@
 title: Upgrade to the Latest Version
 author: Tomislav Sirovec
 date: 20/6/2018
-description: This article explains how to upgrade SPDocKit Consultant to the latest major version.
+description: >-
+  This article explains how to upgrade SPDocKit Consultant to the latest major
+  version.
 ---
 
 # Upgrade to the Latest Version

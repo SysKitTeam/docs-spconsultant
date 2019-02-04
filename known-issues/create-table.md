@@ -1,8 +1,8 @@
 ---
 title: CREATE TABLE permissions denied
 description: >-
-  An error that appears in the ULS log, stating that SPDocKit Consultant processes are
-  trying to create tables in SharePoint databases.
+  An error that appears in the ULS log, stating that SPDocKit Consultant
+  processes are trying to create tables in SharePoint databases.
 author: Matija Hanzic
 date: 28/6/2018
 ---
