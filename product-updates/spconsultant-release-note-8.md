@@ -26,8 +26,8 @@ Give it a try and let us know what you think!
 ## Features
 
 * **PS Module** and **SPDocKit Consultant Snapshot Wizard** - As already mentioned above, these are the two ways of creating a snapshot. There is no need to install or activate any product in your client’s environment anymore. For more information on how to create a snapshot, see [this article.](../how-to/create-snapshot.md)
-* The **new XLSX export** introduced to SPDocKit comes with built-in functionality to sort and filter data in each column! It is available on all reports, and compare results. The old export style is still available under a different name: Legacy Export as XLSX.
-* **SharePoint 2019 is supported!** SPDocKit has been tested on the latest SharePoint 2019 environments. All features are working flawlessly. Try it out yourself!
+* The **new XLSX export** introduced to SPDocKit Consultant comes with built-in functionality to sort and filter data in each column! It is available on all reports, and compare results. The old export style is still available under a different name: Legacy Export as XLSX.
+* **SharePoint 2019 is supported!** SPDocKit Consultant has been tested on the latest SharePoint 2019 environments. All features are working flawlessly. Try it out yourself!
 
 ## Improvements
 
@@ -39,7 +39,7 @@ Give it a try and let us know what you think!
 * The **IIS Instance ID column has been added** to the **IIS Sites report**.
 * We have added the text "\[MB\]" to headers of Storage Maximum Level, Storage Warning Level, and Usage Storage columns on the **Site Collection Quotas report**, to clarify which measurement units are displayed.
 * The **Snapshot filter can now be extended**, in which case it shows information about load depth, snapshot mode, and whether a snapshot is marked as a good configuration.
-* The **latest snapshot is now automatically opened** when viewing the Farm Explorer and Best Practices reports. The "Reopen last accessed snapshot on start up" option has been, therefore, removed from SPDocKit Options.
+* The **latest snapshot is now automatically opened** when viewing the Farm Explorer and Best Practices reports. The "Reopen last accessed snapshot on start up" option has been, therefore, removed from SPDocKit Consultant's Options.
 * The **details of inner exceptions are now displayed** if they occur while taking a snapshot to make the troubleshooting easier.
 * **Multiple Export buttons have been replaced with one Export button**. The default export type is set to XLSX, with an available dropdown option where you can select a different export type.
 * Servers in the **Browse for Servers list** in the Configuration Wizard are now listed in **alphabetical order**, so you can quickly find the server you need.

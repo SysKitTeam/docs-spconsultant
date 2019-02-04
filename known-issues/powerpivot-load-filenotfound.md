@@ -1,7 +1,7 @@
 ---
 title: PowerPivot FileNotFoundException issue
 description: >-
-  A FileNotFoundException error message keeps appearing during SPDocKit's
+  A FileNotFoundException error message keeps appearing during SPDocKit Consultant's
   snapshot process.
 author: Iva Novoselic
 date: 25/5/2017
@@ -40,6 +40,6 @@ If the error still occurs, please do the following:
 
 {% hint style="warning" %}
 **Please note!**  
-This is only possible if you are using the SPDocKit Snapshot Wizard to perform the load. If you are using the PowerShell Module, unfortunately there is no workaround.
+This is only possible if you are using the SPDocKit Snapshot Wizard - Consultant to perform the load. If you are using the PowerShell Module, unfortunately there is no workaround.
 {% endhint %}
 

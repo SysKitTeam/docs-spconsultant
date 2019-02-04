@@ -1,6 +1,6 @@
 # SharePoint On-Premises User Permissions Requirements
 
-To run SPDocKit Consultant and to retrieve all SharePoint settings you want to document, the user running SPDocKit needs to have proper privileges. Here is the list of required privileges to load SharePoint farm settings:
+To run SPDocKit Consultant and to retrieve all SharePoint settings you want to document, the user running SPDocKit Consultant needs to have proper privileges. Here is the list of required privileges to load SharePoint farm settings:
 
 1. **Local Administrators** and **WSS\_ADMIN\_WPG group member** on every machine in the SharePoint farm. Required to retrieve list of installed applications on farm servers.
 2. **SharePoint farm administrator**. Required to retrieve SharePoint farm settings.

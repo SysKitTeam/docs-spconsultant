@@ -11,15 +11,15 @@ date: 19/6/2018
 
 ## What is AutoSPInstaller?
 
-SPDocKit offers a feature that can generate an XML configuration file, which you can use later with [AutoSPInstaller](https://autospinstaller.com/) when creating new SharePoint farms. It helps you create farms that are identical or as similar as possible to your current environment.
+SPDocKit Consultant offers a feature that can generate an XML configuration file, which you can use later with [AutoSPInstaller](https://autospinstaller.com/) when creating new SharePoint farms. It helps you create farms that are identical or as similar as possible to your current environment.
 
 AutoSPInstaller is an open-source project by **Brian Lalancette**. It's based on PowerShell scripts that are used when installing and configuring SharePoint farms. It provisions SharePoint farms automatically, assisting SharePoint admins with their SharePoint farms.
 
-This feature allows you to create an AutoSPInstaller script based on previously loaded farm settings using SPDocKit. Once you load SharePoint farm settings and you are happy with your farm configuration, you can create a copy of that environment using the **Save XML configuration** feature.
+This feature allows you to create an AutoSPInstaller script based on previously loaded farm settings using SPDocKit Consultant. Once you load SharePoint farm settings and you are happy with your farm configuration, you can create a copy of that environment using the **Save XML configuration** feature.
 
-SPDocKit gathers all the relevant data from your farm, and allows you to modify the settings. It then creates an XML file containing the settings of the selected SharePoint farm, such as services and Web applications, as well as managed accounts or host named mappings.
+SPDocKit Consultant gathers all the relevant data from your farm, and allows you to modify the settings. It then creates an XML file containing the settings of the selected SharePoint farm, such as services and Web applications, as well as managed accounts or host named mappings.
 
-The combination of SPDocKit and AutoSPInstaller is a tremendous time-saver when you have to create two identical farms. It bypasses the painstaking manual configuration of those farms and it gives administrators the ability to copy the configuration of one farm quickly to another and then deploy it.
+The combination of SPDocKit Consultant and AutoSPInstaller is a tremendous time-saver when you have to create two identical farms. It bypasses the painstaking manual configuration of those farms and it gives administrators the ability to copy the configuration of one farm quickly to another and then deploy it.
 
 ## How to generate an AutoSPInstaller XML Configuration File?
 
@@ -37,5 +37,5 @@ To generate an AutoSPInstaller XML configuration file, follow these instructions
 10. In the last two steps, define the mappings for host names and databases. Click **Next** to generate your configuration file.
 11. Review your results on the last tab and click **Finish** to close the AutoSPInstaller wizard.
 
-After SPDocKit generates the XML file, visit [AutoSPInstaller Online](https://autospinstaller.com/) to validate the settings. Use the XML file as the input to another SharePoint server to create a farm that matches your settings. Find out more about generating an XML configuration file in SPDocKit in our [SPDocKit and AutoSPInstaller webinar](https://blog.syskit.com/video-create-a-copy-of-your-sharepoint-farm-with-spdockit-and-autospinstaller).
+After SPDocKit Consultant generates the XML file, visit [AutoSPInstaller Online](https://autospinstaller.com/) to validate the settings. Use the XML file as the input to another SharePoint server to create a farm that matches your settings. Find out more about generating an XML configuration file in SPDocKit Consultant in our [SPDocKit and AutoSPInstaller webinar](https://blog.syskit.com/video-create-a-copy-of-your-sharepoint-farm-with-spdockit-and-autospinstaller).
 

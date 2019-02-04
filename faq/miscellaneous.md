@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-description: SPDocKit troubleshooting questions
+description: SPDocKit Consultant troubleshooting questions
 author: Mia Tomaić
 date: 22/5/2017
 ---
@@ -31,7 +31,7 @@ The application will work on both the console and the Remote Desktop session.
 2. Create a shortcut for that file on the desktop.
 3. To execute the application, right-click the shortcut then choose Run as the administrator.
 4. The UAC dialog box will be shown and you will be prompted to run the application as the administrator.
-5. Click Yes and SPDocKit will run without any issues.
+5. Click Yes and SPDocKit Consultant will run without any issues.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -41,7 +41,7 @@ You must create a shortcut that points directly to the file in the application d
 ## SQL server and SharePoint product versions warning
 
 We have an internal list of SQL Server and SharePoint product versions so that we can match build numbers to description. For example, if your SQL server build number is 10.50.1765.0, you will see “SQL Server 2008 R2 CU6, 21 Feb 2011” in your reports.  
-If the warning appears as in SPDocKit, you can click the Update button and SPDocKit will fetch the internal list from our servers, if you have Internet access on your servers.
+If the warning appears, you can click the Update button and SPDocKit Consultant will fetch the internal list from our servers, if you have Internet access on your servers.
 
 ## Network ports required for gathering the data.
 

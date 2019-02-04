@@ -2,7 +2,7 @@
 title: Options Wizard
 description: >-
   This article explains how to use the Options wizard to adjust and change your
-  SPDocKit settings.
+  SPDocKit Consultant settings.
 author: Tomislav Sirovec
 date: 25/6/2018
 ---
@@ -32,7 +32,7 @@ You can define with which snapshot the current one is compared when detecting co
 1. **Previous snapshot** - the current snapshot is compared with the last snapshot taken. 
 2. **Last good configuration** - with this option selected, the current snapshot is compared with the latest snapshot that is marked as good.
 
-Note that if you choose option 2. and there are no snapshots marked as good, SPDocKit will compare the current snapshot to the last snapshot taken.
+Note that if you choose option 2. and there are no snapshots marked as good, SPDocKit Consultant will compare the current snapshot to the last snapshot taken.
 
 This section also allows you to define which farm settings should be compared in the Compare Wizard. The selection you make here will be used as a default template when comparing two farms, but you can modify it directly in the Compare Wizard each time you use it.
 

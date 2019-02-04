@@ -1,21 +1,20 @@
 ---
 title: Create Farm Documentation
 description: >-
-  This article describes how to produce SharePoint farm documentation using
-  SPDocKit.
+  This article describes how to produce SharePoint farm documentation using SPDocKit Consultant.
 author: Tomislav Sirovec
 date: 17/6/2018
 ---
 
 # Create Farm Documentation
 
-This section describes how you can generate SharePoint farm documentation using SPDocKit.
+This section describes how you can generate SharePoint farm documentation using SPDocKit Consultant.
 
 1. Navigate to the **Backstage Actions Screen** and click the **View Snapshots** button to view all of your snapshots. Double click the snapshot to open it and navigate to the [Farm Explorer](../../get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports.md). If you navigate to the Farm Explorer without opening a snapshot the newest snapshot will be opened automatically.
 2. Click **Generate** from the left-side navigation pane and select the format in which you wish to create your farm documentation. The available formats are **.doc, .pdf and .xlsx**.
 3. The farm settings you want to export can be selected from the drop-down options.
 
-   The selection you make can be saved and used as a template for generating documentation in the future. SPDocKit comes with predefined documentation templates, with commonly used options already pre-selected.
+   The selection you make can be saved and used as a template for generating documentation in the future. SPDocKit Consultant comes with predefined documentation templates, with commonly used options already pre-selected.
 
    The documentation templates available by default are: **All, Regular Documentation or Simple Documentation.** Use the Up and Down arrows to rearrange the order of your documentation.
 

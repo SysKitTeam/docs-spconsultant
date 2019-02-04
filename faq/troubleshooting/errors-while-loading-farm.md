@@ -26,7 +26,7 @@ There are also errors in the event log such as this one:
 
 ## Solution:
 
-The user running the SPDocKit needs to have the proper privileges to retrieve information from the SharePoint farm.
+The user running the SPDocKit Consultant needs to have the proper privileges to retrieve information from the SharePoint farm.
 
 Follow [these instructions](../../requirements/user-permission-requirements.md) to configure your SharePoint farm.
 

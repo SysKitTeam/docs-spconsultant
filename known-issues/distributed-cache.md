@@ -11,14 +11,14 @@ date: 25/5/2017
 
 ## **Summary**
 
-SPDocKit does not load Distributed Cache settings data and displays a warning message during the load:
+SPDocKit Consultant does not load Distributed Cache settings data and displays a warning message during the load:
 
 {% hint style="warning" %}
 **Please note!**   
 Distributed Cache settings cannot be loaded on a server that is not part of a Distributed Cache Cluster.
 {% endhint %}
 
-This happens because SPDocKit queries only the server it is installed on for Distributed Cache data, so if the server on which SPDocKit is running is not a host for the Distributed Cache service, no data will be loaded.
+This happens because SPDocKit Consultant queries only the server it is installed on for Distributed Cache data, so if the server on which SPDocKit Consultant is running is not a host for the Distributed Cache service, no data will be loaded.
 
 **Application version:** 4.1.0 and newer
 

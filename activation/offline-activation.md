@@ -8,7 +8,7 @@ Here is how to activate a Consultant license offline:
 2. Click on the **Offline Activation** link and a new activation dialog will appear. Follow these steps:
    * Click on the **Generate** button to generate a **License Details \(.dlic\) file**.
    * Navigate to the [Activation Page](https://my.syskit.com/activation/?P=SPDocKit) and select **Consultant License** activation option.
-   * Select the **Version** of SPDocKit you are creating a license for.
+   * Select the **Version** of SPDocKit Consultant you are creating a license for.
    * On the Activation Page, login with your username and password. You need to use the same email and password that you received during your online purchase. [Contact us](https://www.syskit.com/company/contact-us/) if you do not have the activation information.    
    * Upload the **License Details \(.dlic\) file**.
    * Click on **Generate license file!**.
@@ -23,6 +23,6 @@ Here is how to activate a Consultant license offline:
 
 ## Related articles:
 
-* [SPDocKit Online Activation](online-activation.md)
+* [SPDocKit Consultant Online Activation](online-activation.md)
 * [Licensing FAQ](activation-faq.md)
 

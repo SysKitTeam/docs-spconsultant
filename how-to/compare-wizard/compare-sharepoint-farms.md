@@ -31,7 +31,7 @@ This section explains how you can use the Compare Wizard to compare different fa
 
    The Farm selection step will list all available snapshots. If the desired snapshot is not located here, click **Import** to select a snapshot file from another location. Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](../../get-to-know-spdockit/snapshots-screen.md), click **Import** in the Snapshots tab.
 
-3. The next couple of steps allow you to map the properties of the two farms and perform a detailed comparisons. Grids will be displayed to allow you to map farm servers, accounts, service applications, and more, from one farm to the other. Use the drop down menu to define which farm properties should be paired. Once you have paired them, SPDocKit will remember the mappings you specified and reuse them for each subsequent comparison between these two farms.
+3. The next couple of steps allow you to map the properties of the two farms and perform a detailed comparisons. Grids will be displayed to allow you to map farm servers, accounts, service applications, and more, from one farm to the other. Use the drop down menu to define which farm properties should be paired. Once you have paired them, SPDocKit Consultant will remember the mappings you specified and reuse them for each subsequent comparison between these two farms.
 
    **1:N mappings** between properties is enabled. This can be very useful when comparing test with production environments. For example, you can map servers on a test farm, which contains only a few servers, multiple times to servers from a much larger production farm.
 

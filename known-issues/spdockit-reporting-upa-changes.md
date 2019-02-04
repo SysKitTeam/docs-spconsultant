@@ -13,7 +13,7 @@ Information about the User Profile Service Application is not being loaded corre
 
 ## **Solution**
 
-Manage the audience compilation schedule and the SPDocKit snapshot schedule so they do not occur at the same time.
+Manage the audience compilation schedule and the SPDocKit Consultant snapshot schedule so they do not occur at the same time.
 
 **Status:** Not resolved.
 

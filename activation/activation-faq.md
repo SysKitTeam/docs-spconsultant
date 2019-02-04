@@ -13,7 +13,7 @@ The trial version of SPDocKit Consultant has a couple of limitations:
 * The comparison feature is completely functional when comparing the same farm.
   * Comparison of different farms with snapshots made with the trial software is not possible.
 
-If you would like to see more about the limited features, [contact us](https://www.syskit.com/company/contact-us/) and we will be more than happy to organize a demo for you and your colleagues to show SPDocKit at its full strength.
+If you would like to see more about the limited features, [contact us](https://www.syskit.com/company/contact-us/) and we will be more than happy to organize a demo for you and your colleagues to show SPDocKit Consultant at its full strength.
 
 ## What happens during product activation?
 
@@ -21,7 +21,7 @@ Product activation is a simple process that occurs during registration of the pu
 
 ## Who will be required to activate their products?
 
-Anyone who purchases SPDocKit will be required to activate the product. If the product is ordered online from the SysKit website, the product account information will be sent via email.
+Anyone who purchases SPDocKit Consultant will be required to activate the product. If the product is ordered online from the SysKit website, the product account information will be sent via email.
 
 ## How soon must I activate my product?
 
@@ -59,7 +59,7 @@ One SPDocKit Consultant license can be activated on a single machine. However yo
 
 SysKit does not charge extra for different SharePoint versions simultaneously running in your environments.
 
-## Where can I find the EULA for SPDocKit?
+## Where can I find the EULA for SPDocKit Consultant?
 
 Our End User License Agreement is located at the following [link](https://www.syskit.com/eula/).
 

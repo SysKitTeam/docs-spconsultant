@@ -1,6 +1,6 @@
 # Manage License
 
-The SPDocKit license key is available at your profile in our [Customers Portal](https://my.syskit.com). In order to check your current license status in SPDocKit, navigate to **File &gt; Help &gt; License Details**. You can see if SPDocKit is activated or not, which license edition you are currently using, how many days is the license valid for and the farm ID.
+The SPDocKit Consultant license key is available at your profile in our [Customers Portal](https://my.syskit.com). In order to check your current license status in SPDocKit Consultant, navigate to **File &gt; Help &gt; License Details**. You can see if SPDocKit Consultant is activated or not, which license edition you are currently using, how many days is the license valid for and the farm ID.
 
 ## Change current license key
 
@@ -20,7 +20,7 @@ To deactivate your current license, please follow these steps:
 3. Click on the **Deactivate License** link. 
 4. Confirm you would like to deactivate the license.
 
-SPDocKit license is now deactivated and you can use it again.
+SPDocKit Consultant license is now deactivated and you can use it again.
 
 If you experience any problems reactivating the license, [contact our support team](https://www.syskit.com/company/contact-us/) to help you troubleshoot the issue.
 

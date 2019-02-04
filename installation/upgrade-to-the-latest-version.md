@@ -2,14 +2,14 @@
 title: Upgrade to the Latest Version
 author: Tomislav Sirovec
 date: 20/6/2018
-description: This article explains how to upgrade SPDocKit to the latest major version.
+description: This article explains how to upgrade SPDocKit Consultant to the latest major version.
 ---
 
 # Upgrade to the Latest Version
 
 ## Instructions
 
-1. Download the latest SPDocKit version and run the **SPDocKitConsultantSetup.exe**.
+1. Download the latest SPDocKit Consultant version and run the **SPDocKitConsultantSetup.exe**.
 2. If a previous SPDocKit Consultant version is already installed, the **Installation Wizard** will inform you that it will be **uninstalled automatically**.
 3. Click **I Accept the terms of the license agreement** to accept the license and then click **Next** &gt; to proceed.
 4. Choose the installation folder e.g. **C:\Program Files\SysKit\SPDocKit Consultant**. Click **Next** &gt; to proceed.

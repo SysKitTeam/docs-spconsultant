@@ -2,7 +2,7 @@
 title: Personalize Best Practices Reports
 description: >-
   This article describes how to create custom best practices reports in
-  SPDocKit.
+  SPDocKit Consultant.
 author: Tomislav Sirovec
 date: 25/6/2018
 ---
