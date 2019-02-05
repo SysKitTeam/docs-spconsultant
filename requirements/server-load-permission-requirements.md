@@ -183,5 +183,5 @@ If you wish to grant the necessary permissions to the SPDocKit accounts:
 
 ### Learn more
 
-* [RPC Server is Unavailable](../faq/troubleshooting-1/rpc-server-unavailable.md)
+* [RPC Server is Unavailable](../faq/troubleshooting/rpc-server-unavailable.md)
 
