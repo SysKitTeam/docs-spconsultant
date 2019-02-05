@@ -19,5 +19,5 @@ Document and improve your SharePoint farm performance with this user-friendly an
 
 SharePoint farm documentation is faster and easier with SPDocKit Consultant.
 
-\*\*\*\*[**Download free trial and give it a try!**](https://www.syskit.com/products/spdockit/)\*\*\*\*
+[**Download free trial and give it a try!**](https://www.syskit.com/products/spdockit/)
 
