@@ -45,5 +45,3 @@ The cmdlet **Add-SPShellAdmin** is going to apply to all the current SharePoint 
 The cmdlet might fail in some environments; please [contact us](https://www.syskit.com/company/contact-us/) for further assistance.
 {% endhint %}
 
-\*\*\*\*
-
