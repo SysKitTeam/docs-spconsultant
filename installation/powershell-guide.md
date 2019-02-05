@@ -19,7 +19,7 @@ The PowerShell module can be used with **PowerShell version 3.0 or higher.**
 
 {% hint style="warning" %}
 **Please note!**  
-To be able to **install** SPDocKit PS module using PowerShell's **Install-Module** command, PowerShell 5 or later is required.  
+To be able to install ****SPDocKit PS module using PowerShell's Install-Module command, PowerShell 5 or later is required.  
   
 You can easily upgrade PowerShell by downloading [WMF 5.0 or later.](https://www.microsoft.com/en-us/download/details.aspx?id=54616) 
 {% endhint %}
