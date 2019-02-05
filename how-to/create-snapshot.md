@@ -91,5 +91,3 @@ It is not possible to create a snapshot of SharePoint 2010 using the PowerShell.
 Any adjustments and settings you make when using SPDocKit Snapshot Wizard - Consultant will be saved and used the next time you run it. The PowerShell module has no such abilities. However, you can copy and save your favorite command with a defined set of parameters in a text file and copy and paste it to PowerShell the next time you want to create a snapshot.
 {% endhint %}
 
-\*\*\*\*
-
