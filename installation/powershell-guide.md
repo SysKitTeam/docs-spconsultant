@@ -51,7 +51,7 @@ Running Get-SPDocKitVersion is used to check SPDocKit PS module version to make 
 
 ### 2. Manually copy and paste PowerShell module:
 
-* Go to [PowerShell Gallery](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS/) to find latest version of SPDocKit PowerShell module.
+* Go to [PowerShell Gallery](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS/) to find the latest version of SPDocKit PowerShell module.
 * Navigate to the **Manual Download** tab, then select the **Download the raw nupkg file** option.
 * Once you’ve downloaded **syskit.spdockit.ps.1.X.X.nupkg**, change the file extension from .nupkg to .zip and extract it to a location of your choosing.
 
