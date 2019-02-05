@@ -1,6 +1,6 @@
 # Table of contents
 
-* [SPDocKit Consultant](README.md)
+* [SPDocKit Consultant by SysKit](README.md)
 * [Product Updates](product-updates/README.md)
   * [SPDocKit Consultant 8.0.3](product-updates/spconsultant-release-note-8-0-3.md)
   * [SPDocKit Consultant 8](product-updates/spconsultant-release-note-8.md)
