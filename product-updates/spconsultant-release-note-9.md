@@ -35,5 +35,3 @@ date: 05/02/2018
 * Fixed an issue where the snapshot backup files were visible when browsing snapshot files to open in SPDocKit Consultant.
 * Fixed a bug where the app would crash when trying to import a snapshot with the lower case extension ‘spdfarmx’ instead of the regular ‘SPDFarmx’ version. The import now supports both options.
 
-
-
