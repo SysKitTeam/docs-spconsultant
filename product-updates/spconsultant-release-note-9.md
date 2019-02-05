@@ -19,9 +19,9 @@ date: 05/02/2018
 
 ## Features
 
-* **Introducing the new** [**Farm Dashboard!**](../get-to-know-spdockit/farm-explorer-screen/farm-dashboard.md)\*\*\*\*
+* **Introducing the new** [**Farm Dashboard!**](../get-to-know-spdockit/farm-explorer-screen/farm-dashboard.md)
 
-  Get the most important information at a glance with a new visually appealing dashboard. Each dashboard tile enables you to drill down to a more detailed report where you can find specific information of interest. Find more about the [**Farm dashboard** **here.** ](../get-to-know-spdockit/farm-explorer-screen/farm-dashboard.md)\*\*\*\*
+  Get the most important information at a glance with a new visually appealing dashboard. Each dashboard tile enables you to drill down to a more detailed report where you can find specific information of interest. Find more about the [**Farm dashboard** **here.**](../get-to-know-spdockit/farm-explorer-screen/farm-dashboard.md)
 
 ## Improvements
 
