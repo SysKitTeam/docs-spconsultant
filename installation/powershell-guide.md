@@ -66,9 +66,7 @@ Find more about this topic [here.](https://docs.microsoft.com/en-us/powershell/g
 
 ## Uninstall SPDocKit PowerShell Module
 
-If you wish to uninstall SysKit.SPDocKit PS module from a server inside your client’s farm you can use the following command.
-
-Uninstall the SysKit.SPDocKit PS module:
+If you wish to uninstall SysKit.SPDocKit PS module from a server inside your client’s farm you can use the following command:
 
 ```bash
 Get-InstalledModule -Name “SysKit.SPDocKit.PS” | Uninstall-Module
