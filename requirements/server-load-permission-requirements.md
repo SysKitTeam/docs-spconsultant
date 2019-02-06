@@ -1,6 +1,8 @@
 ---
 title: Server Load Permission Requirements
-description: Server Load Requirements for SPDocKit Consultant
+description: >-
+  This article lists all permissions necessary for SPDocKit Consultant to gather
+  information about SharePoint farm servers.
 author: Tomislav Sirovec
 date: 16/6/2018
 ---
