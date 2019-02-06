@@ -1,6 +1,6 @@
 ---
 description: >-
-  This article describes how to grant permissions needed to load the Search and
+  This article explains how to grant permissions needed to load the Search and
   User Profile Service Application.
 ---
 
