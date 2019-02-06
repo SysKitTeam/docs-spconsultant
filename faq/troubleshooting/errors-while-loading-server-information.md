@@ -1,3 +1,9 @@
+---
+description: >-
+  This article gives you an overview of possible issues that might occur while
+  gathering information about farm servers.
+---
+
 # Errors while loading server information
 
 ## SharePoint Server Information
