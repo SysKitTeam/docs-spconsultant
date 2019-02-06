@@ -1,5 +1,5 @@
 ---
-description: This article explains available Farm Explorer options.
+description: This article explains all the options available in Farm Explorer.
 ---
 
 # Farm Explorer Screen
