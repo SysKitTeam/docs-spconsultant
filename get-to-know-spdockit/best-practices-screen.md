@@ -1,9 +1,8 @@
 ---
 title: Best Practices Screen
 description: >-
-  This article describes how to use SPDocKit Consultant best practices screen to
-  check if SharePoint farm has been configured according to the configuration
-  best practices.
+  This article describes how to use Best Practices Screen to check if SharePoint
+  farm has been configured according to the configuration best practices.
 author: Tomislav Sirovec
 date: 24/6/2018
 ---
