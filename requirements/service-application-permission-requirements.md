@@ -26,7 +26,7 @@ Here is what you need to do:
 4. Choose the account running SPDocKit Consultant from the popup dialog box and make sure it has **Full control** permission checked. 
 5. Repeat the process for the selected account but now in the **Administrators** group. Select your app from the list of Service Applications and click Administrators on the ribbon. 
 6. Choose the account running SPDocKit Consultant from the popup dialog box and make sure it has **Full control** permission checked. 
-7. Now when your account/user has the proper privileges, please restart both the SPDocKit Consultant application and the SPDocKit Consultant service. You should be able to load the Search Service Application properties now.
+7. Now when your account/user has the proper privileges, you should be able to load the Search Service Application properties.
 
 ### Learn More
 
@@ -52,7 +52,7 @@ Here is what you need to do:
 4. Choose the account running SPDocKit Consultant from the popup dialog box and make sure it has **Full control** permission checked. 
 5. Repeat the process for the selected account but now in the **Administrators** group. Select your app from the list of Service Applications and click Administrators on the ribbon. 
 6. Choose the account running SPDocKit Consultant from the popup dialog box and make sure it has **Full control** permission checked. 
-7. Now when your account/user has the proper privileges, please restart both the SPDocKit Consultant application and the SPDocKit Consultant service. You should be able to load the User Profile Service Application properties now.
+7. Now when your account/user has the proper privileges,you should be able to load the User Profile Service Application properties.
 
 ### Learn More
 
