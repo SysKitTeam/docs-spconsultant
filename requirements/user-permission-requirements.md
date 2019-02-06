@@ -6,8 +6,8 @@ To run SPDocKit Consultant and to retrieve all SharePoint settings you want to d
 2. **SharePoint farm administrator**. Required to retrieve SharePoint farm settings.
 3. **Member of SharePoint\_Shell\_Access role** on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
 4. [Server specific requirements](server-load-permission-requirements.md) needed to retrieve additional server configuration data \(RAM, processors, disk space…\) and SQL Server configuration information for DB servers.
-5. [Search service application requirements](user-permission-requirements.md) needed to retrieve Search service application configuration data \(content sources, crawl rules, managed properties, search topologies...\).
-6. [User Profile service application requirements](user-permission-requirements.md) needed to retrieve User Profile service application configuration data \(Synchronization Connections, MySite Settings, Audiences, User Profile Properties...\).
+5. [Search service application requirements](service-application-permission-requirements.md#search-service-application-requirements) needed to retrieve Search service application configuration data \(content sources, crawl rules, managed properties, search topologies...\).
+6. [User Profile service application requirements](service-application-permission-requirements.md#user-profile-service-application-requirements) needed to retrieve User Profile service application configuration data \(Synchronization Connections, MySite Settings, Audiences, User Profile Properties...\).
 
 Here is how you can give user these privileges:
 
