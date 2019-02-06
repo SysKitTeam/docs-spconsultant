@@ -2,7 +2,9 @@
 title: SPDocKit PowerShell Module Install/Uninstall
 author: Janko Ban
 date: 4/12/2018
-description: This article explains how to install/uninstall SPDocKit PowerShell Module.
+description: >-
+  This article explains how to install, uninstall, or update SPDocKit PowerShell
+  Module.
 ---
 
 # PowerShell Guide
