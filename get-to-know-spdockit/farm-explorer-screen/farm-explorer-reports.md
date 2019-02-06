@@ -1,6 +1,6 @@
 ---
 title: Farm Explorer Reports
-description: This article explains Farm Explorer reports.
+description: This article gives an overview of all Farm Explorer reports.
 author: Tomislav Sirovec
 date: 24/6/2018
 ---
