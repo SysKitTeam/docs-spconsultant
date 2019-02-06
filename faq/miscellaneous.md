@@ -1,6 +1,8 @@
 ---
 title: Troubleshooting
-description: SPDocKit Consultant troubleshooting questions
+description: >-
+  This article provides answers to various questions regarding SPDocKit
+  Consultant.
 author: Mia Tomaić
 date: 22/5/2017
 ---
