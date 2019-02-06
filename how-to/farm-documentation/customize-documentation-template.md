@@ -1,8 +1,8 @@
 ---
 title: Customize Documentation Template
 description: >-
-  This section describes how you can use your own documentation template (.dotx)
-  to generate SharePoint Farm documentation with the SPDocKit Consultant.
+  This article describes how to use a documentation template (.dotx) to generate
+  SharePoint Farm documentation with SPDocKit Consultant.
 author: Tomislav Sirovec
 date: 17/6/2018
 ---
