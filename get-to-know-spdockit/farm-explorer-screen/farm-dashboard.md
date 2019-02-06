@@ -1,3 +1,7 @@
+---
+description: This article lists all information available on Farm Dashboard.
+---
+
 # Farm Dashboard
 
 **The Farm Dashboard** gives you an overview of the farm configuration, drillable to specific detailed reports.
