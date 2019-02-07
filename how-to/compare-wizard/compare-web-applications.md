@@ -9,8 +9,6 @@ date: 18/6/2018
 
 # Compare Web Applications
 
-This section describes how to use SPDocKit Consultant to compare SharePoint farm **web application** configurations.
-
 You can use this wizard to:
 
 * Examine the web application’s configuration in relation to another SharePoint web application.
