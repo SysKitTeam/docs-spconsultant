@@ -1,13 +1,15 @@
 ---
 title: PowerShell available commands
-description: This article describes the available PowerShell commands
+description: >-
+  This article lists all commands available in the SPDocKit PowerShell Module
+  and explains how to use them.
 author: Tomislav Sirovec
 date: 24/8/2018
 ---
 
 # PowerShell Commands
 
-As explained in the [create snapshot article](../how-to/create-snapshot.md) there are two ways of creating a snapshot on your clients farm. Using either the SPDocKit Snapshot Wizard or the SPDocKit PowerShell Module.
+As explained in the [create snapshot article](../how-to/create-snapshot.md) there are two ways of creating a snapshot on your clients farm. Using either the SPDocKit Snapshot Wizard - Consultant or the SPDocKit PowerShell Module.
 
 If you decided to use a PowerShell Module, here is a list of all the available commands. You can also view them in the PowerShell console it self, by running:
 
@@ -19,13 +21,13 @@ General information on how to create a snapshot can be viewed \[here\]../how-to/
 
 If you need further assistance, please [contact us](https://www.syskit.com/company/contact-us/).
 
-### Syntax
+## Syntax
 
 ```bash
     New-SPDocKitSnapshot [-SiteCollectionsOff] [-PersonalSitesOff][-FeaturesAndSolutionsOff] [-DatabasePermissionsOff] [-ProgramsAndUpdatesOff] [-SQLServerConfigurationOff] [-IISSettingsOff] [-ProjectServerSettingsOff] [-ProjectServerProjectsOff] [-Location [<String>]] [-NumberOfThreads [<UInt16>]] [-ServerLoadGlobalTimeout [<UInt16>]] [-ServerLoadOperationTimeout [<UInt16>]] [-FarmAccessTimeout [<UInt16>]] [<CommonParameters>]
 ```
 
-### Description
+## Description
 
 Crawls the SharePoint farm, creating a snapshot file containing the current state of the farm's configuration at the specified location. The created file can then be used by SPDocKit Consultant to browse the configuration and document it. Note that this process might take a while, depending on the farm size and the settings selected.
 

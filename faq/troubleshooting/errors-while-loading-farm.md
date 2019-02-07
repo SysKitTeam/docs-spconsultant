@@ -1,13 +1,15 @@
 ---
 title: Errors while trying to load the SharePoint farm
-description: Article describes known issues that might occur while loading SharePoint farm.
+description: >-
+  This article describes known issues that might occur while loading SharePoint
+  farm.
 author: Mia Tomaić
 date: 18/5/2017
 ---
 
 # Errors while trying to load the SharePoint farm
 
-## Problem:
+## Problem
 
 While trying to load the SharePoint farm I received the following errors:
 
@@ -24,9 +26,9 @@ There are also errors in the event log such as this one:
 > System.Data.SqlClient.SqlException: Cannot open database ”WSS\_Content\_Intranet” requested by the login. The login failed.  
 > Login failed for user ‘DOMAIN\user’.
 
-## Solution:
+## Solution
 
-The user running the SPDocKit needs to have the proper privileges to retrieve information from the SharePoint farm.
+The user running the SPDocKit Consultant needs to have the proper privileges to retrieve information from the SharePoint farm.
 
 Follow [these instructions](../../requirements/user-permission-requirements.md) to configure your SharePoint farm.
 

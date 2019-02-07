@@ -1,8 +1,6 @@
 ---
 title: Error occurred while loading ‘Application Name’ Web Application
-description: >-
-  This article explains how to handle issue when Web Application load is not
-  working properly.
+description: This article explains how to handle the issue with Web Application load.
 author: Mia Tomaić
 date: 18/5/2017
 ---
@@ -22,9 +20,9 @@ and the following error messages are stored in the event log:
 > WSS\_Content\_99d31b6221f849079028a2ce91ad6d47
 >
 > Unavailable sites:  
-> http://intranet  
-> http://intranet/sites/HR  
-> http://intranet/sites/Sales
+> [http://intranet](http://intranet)  
+> [http://intranet/sites/HR](http://intranet/sites/HR)  
+> [http://intranet/sites/Sales](http://intranet/sites/Sales)
 
 ## Solution
 

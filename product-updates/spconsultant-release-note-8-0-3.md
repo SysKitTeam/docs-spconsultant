@@ -19,7 +19,7 @@ This is a service release containing minor improvements and bug fixes.
 
 ## Improvements
 
-* Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](../faq/troubleshooting-1/error-while-loading-iis-settings.md)
+* Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](https://github.com/SysKitTeam/docs-spconsultant/tree/39a0f16990818e241e70129da93430c0f5716d68/faq/troubleshooting-1/error-while-loading-iis-settings.md)
 * Improved error handling when opening snapshots.
 
 ## Bug fixes

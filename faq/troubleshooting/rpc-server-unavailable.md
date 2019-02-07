@@ -9,19 +9,19 @@ date: 28/6/2017
 
 ## Problem
 
-When taking a snapshot in SPDocKit you might receive the following error message:
+When taking a snapshot in SPDocKit Consultant you might receive the following error message:
 
 > The RPC server is unavailable.
 
 ## Information
 
-RPC \(Remote Procedure Call\) is standardized request-response protocol used by SPDocKit to fetch information from a particular server. **RPC Client** is an application or task which requests the information \(i.e. initiates the procedure call\), and **RPC Server** is an application or task which receives the request from RPC Client and sends back a response. Note that RPC Client and RPC Server can reside on different machines or on a single machine.
+RPC \(Remote Procedure Call\) is standardized request-response protocol used by SPDocKit Consultant to fetch information from a particular server. **RPC Client** is an application or task which requests the information \(i.e. initiates the procedure call\), and **RPC Server** is an application or task which receives the request from RPC Client and sends back a response. Note that RPC Client and RPC Server can reside on different machines or on a single machine.
 
-To simplify, we can refer to the machine where SPDocKit is installed as RPC Client, and any server in your farm from where you collect the data as RPC Server. \(In this case, RPC Server is the machine about which you receive the error message.\)
+To simplify, we can refer to the machine where SPDocKit Consultant is installed as RPC Client, and any server in your farm from where you collect the data as RPC Server. \(In this case, RPC Server is the machine about which you receive the error message.\)
 
 ## Solution
 
-The above error may arise if some of the configuration settings are not properly set, resulting in SPDocKit \(RPC Client\) being unable to establish a connection through the RPC protocol to RPC Server in your farm.
+The above error may arise if some of the configuration settings are not properly set, resulting in SPDocKit Consultant \(RPC Client\) being unable to establish a connection through the RPC protocol to RPC Server in your farm.
 
 There are many possible reasons for this error, but some of the most common solutions include the following:
 
@@ -62,7 +62,7 @@ Also, **some users** had success with the following:
 * Add an inbound firewall rule for "RPC Dynamic Ports" for program "C:\Windows\System32\inetsrv\inetinfo.exe" on the problematic servers.
 * Also add an inbound rule for "RPC Dynamic Ports" for program "%systemroot%\system32\dllhost.exe". 
 
-You can limit these rules to apply only to the account running SPDocKit.
+You can limit these rules to apply only to the account running SPDocKit Consultant.
 
 ### 4. Network connection not set properly
 

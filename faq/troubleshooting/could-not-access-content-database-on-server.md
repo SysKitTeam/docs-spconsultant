@@ -2,9 +2,7 @@
 title: >-
   I am receiving “Could not access content database ‘Database Name’ on server
   ‘Server Name’.”
-description: >-
-  This article explains how to handle issue when site collection load is not
-  working properly.
+description: This article explains how to handle the issue with site collection load.
 author: Mia Tomaić
 date: 18/5/2017
 ---
@@ -19,9 +17,9 @@ While trying to load SharePoint farm settings I received the following message:
 
 ## Solution
 
-In order for SPDocKit to load data from site collections, the user account running the load must be a member of the **SharePoint\_Shell\_Access** role on each of the content databases.
+In order for SPDocKit Consultant to load data from site collections, the user account running the load must be a member of the **SharePoint\_Shell\_Access** role on each of the content databases.
 
-The process of adding a user account to the role must be repeated each time a new content database is added to the SharePoint farm. The SPDocKit **console user** must be added to this role. To add a user account to the **SharePoint\_Shell\_Access** role:
+The process of adding a user account to the role must be repeated each time a new content database is added to the SharePoint farm. The SPDocKit Consultant **console user** must be added to this role. To add a user account to the **SharePoint\_Shell\_Access** role:
 
 1. Open **SharePoint Management Shell**.
 2. Type the following PowerShell command: _Add-SPShellAdmin -UserName DOMAIN\YourAccount_ [\(click here to learn more\)](https://technet.microsoft.com/en-us/library/ff607596.aspx).
@@ -39,9 +37,9 @@ Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database 
 ```
 
 {% hint style="warning" %}
-**Please note!**
+**Please note!**  
+The cmdlet **Add-SPShellAdmin** is going to apply to all the current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
 
-* The cmdlet **Add-SPShellAdmin** is going to apply to all the current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
-* The cmdlet might fail in some environments; please [contact us](https://www.syskit.com/company/contact-us/) for further assistance.
+The cmdlet might fail in some environments; please [contact us](https://www.syskit.com/company/contact-us/) for further assistance.
 {% endhint %}
 

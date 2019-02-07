@@ -1,21 +1,21 @@
 ---
 title: CREATE TABLE permissions denied
 description: >-
-  An error that appears in the ULS log, stating that SPDocKit processes are
-  trying to create tables in SharePoint databases.
+  An error appears in the ULS log, stating that SPDocKit Consultant processes
+  are trying to create tables in SharePoint databases.
 author: Matija Hanzic
 date: 28/6/2018
 ---
 
 # CREATE TABLE permissions denied
 
-## **Summary** 
+## **Summary**
 
-Errors appear in the ULS log that state that SPDocKit processes are trying to create tables in SharePoint databases.
+Errors appear in the ULS log that state that SPDocKit Consultant processes are trying to create tables in SharePoint databases.
 
-First and foremost, SPDocKit does not create tables or modify SharePoint databases during the snapshot process. The problem occurs when there is a permissions issue when taking a snapshot.
+First and foremost, SPDocKit Consultant does not create tables or modify SharePoint databases during the snapshot process. The problem occurs when there is a permissions issue when taking a snapshot.
 
-SPDocKit queries the NeedsUpgrade property of the SharePoint database. The query fails because of the lack of **SELECT** permission from the Versions table, and this causes SharePoint to erroneously conclude that the database should be upgraded, but fails because the **CREATE TABLE** permission is missing as well. When the permissions are correctly set up, there are no attempts to create tables.
+SPDocKit Consultant queries the NeedsUpgrade property of the SharePoint database. The query fails because of the lack of **SELECT** permission from the Versions table, and this causes SharePoint to erroneously conclude that the database should be upgraded, but fails because the **CREATE TABLE** permission is missing as well. When the permissions are correctly set up, there are no attempts to create tables.
 
 The issue can easily be reproduced in PowerShell by running the snapshot is taken using the account that lacks sufficient permissions:
 
@@ -24,7 +24,7 @@ The issue can easily be reproduced in PowerShell by running the snapshot is take
     $myDB.NeedsUpgrade
 ```
 
-After running these commands, two things can be noticed: 
+After running these commands, two things can be noticed:
 
 1. The NeedsUpgrade property will return the wrong value: it will always be true. 
 2. CREATE TABLE errors will appear in the ULS log.

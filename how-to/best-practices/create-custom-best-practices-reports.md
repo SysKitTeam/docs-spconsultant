@@ -1,15 +1,15 @@
 ---
 title: Create Custom Best Practices Reports
 description: >-
-  This section describes how SharePoint administrators can use SPDocKit to
-  create Best Practices reports for a SharePoint Farm.
+  This describes how SharePoint administrators and consultants can use SPDocKit
+  Consultant to create Best Practices reports for a SharePoint Farm.
 author: Tomislav Sirovec
 date: 25/6/2018
 ---
 
 # Create Custom Best Practices Reports
 
-This section describes how SharePoint administrators can use SPDocKit to create Best Practice reports for a SharePoint Farm. In this guide, we will show you how you can build a report that counts the number of content databases per Web application.
+In this guide, we will show you how you can build a report that counts the number of content databases per Web application.
 
 1. After loading/importing a snapshot, go to the Best Practices tab in your navigation bar. To create a custom report, click **New**.
 2. The Best Practice wizard will open. Type in the **Name** and the **Description** of your new report. Select a Location and then click Next to continue.
@@ -23,9 +23,7 @@ This section describes how SharePoint administrators can use SPDocKit to create 
 10. You can add conditions to filter data. Click the underlined value **specific** to edit the conditions. For example, when the condition **Does Not Contain** is selected, the report will not show Web applications that contain an entered value in their names. For this case, enter "Central Administration" to filter out that Web application from the report.
 11. Click Next, then click Finish to close the wizard. Wait a few seconds and your SharePoint Best Practice report will be created!
 
-Download this report: 
+Download this report:
 
 {% file src="../../.gitbook/assets/number-of-content-databases-per-web-application.zip" %}
-
-
 

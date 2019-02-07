@@ -1,10 +1,10 @@
 ---
-description: This article explains available Farm Explorer options.
+description: This article lists all options available in Farm Explorer.
 ---
 
 # Farm Explorer Screen
 
-Farm Explorer allows system administrators to explore SharePoint configuration settings that SPDocKit has loaded. Use the explorer on the left to browse and select specific reports.
+Farm Explorer allows system administrators to explore SharePoint configuration settings that SPDocKit Consultant has loaded. Use the explorer on the left to browse and select specific reports.
 
 ## Home ribbon
 
@@ -13,7 +13,7 @@ The following commands are available:
 * **Take Snapshot**– create a snapshot of your SharePoint farm.
 * **Open** – allows you to open a previously saved snapshot.
 * **Save** – save changes made to the snapshot.
-* **Generate** – generate SPDocKit farm documentation in a **.docx, .pdf or .xlsx** file format.
+* **Generate** – generate SPDocKit Consultant farm documentation in a **.docx, .pdf or .xlsx** file format.
 * **Change Styles** – customize the farm documentation's final look, choose different color styles or upload a custom template.
 * **Export as PDF** button allows you to export the selected report as a PDF document.
 * **Export as XLSX** button allows you to export the selected report as an XLSX document.

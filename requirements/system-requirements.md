@@ -2,7 +2,7 @@
 title: System Requirements
 description: >-
   This article lists the minimum hardware and software requirements for the
-  installation of the SPDocKit.
+  installation of SPDocKit Consultant.
 author: Tomislav Sirovec
 date: 25/6/2018
 ---
@@ -32,7 +32,8 @@ date: 25/6/2018
 The application - **SPDocKit Consultant** must be installed on a **consultants workstation**, and not at your client as you can activate it only once. You can only open already saved farm settings.
 
 {% hint style="warning" %}
-Please note that the **SPDocKit Consultant** application is not ment to be installed on a SharePoint server, but to serve as a hub. A managing place for all the snapshots you create on your clients farms.
+**Please note!**  
+**SPDocKit Consultant** is not meant to be installed on a SharePoint server, but to serve as a hub. A managing place for all the snapshots you create on your client's farms.
 {% endhint %}
 
 * Hardware:

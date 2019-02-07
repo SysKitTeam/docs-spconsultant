@@ -1,8 +1,8 @@
 ---
 title: Customize Documentation Template
 description: >-
-  This section describes how you can use your own documentation template (.dotx)
-  to generate SharePoint Farm documentation with the SPDocKit.
+  This article describes how to use a documentation template (.dotx) to generate
+  SharePoint Farm documentation with SPDocKit Consultant.
 author: Tomislav Sirovec
 date: 17/6/2018
 ---
@@ -11,7 +11,7 @@ date: 17/6/2018
 
 ## Quick guide
 
-To prepare a template for your documentation, you need to prepare a Word document template and customize Word styles. SPDocKit uses Word styles to generate customized output to match your corporate branding.
+To prepare a template for your documentation, you need to prepare a Word document template and customize Word styles. SPDocKit Consultant uses Word styles to generate customized output to match your corporate branding.
 
 1. Create a custom Word document template \(.dotx\). Use your existing template or download our [sample documentation template.](https://www.spdockit.com/wp-content/uploads/2017/06/spdockit-compare-editions.pdf)
 
@@ -21,7 +21,7 @@ To prepare a template for your documentation, you need to prepare a Word documen
 3. Customize headers and footers to add your company name, page numbers, etc.
 4. Customize the front page.
 5. Remove extra content except for the custom front page \(or first few pages\) that you wish to be included in every document.
-6. Start SPDocKit.
+6. Start SPDocKit Consultant.
 7. In the Home ribbon, click **Change Styles**.
 8. Select **Upload a Custom Template**. Click Next to continue.
 9. Browse your Word template \(.dotx\) and choose the table style you want to use when generating tables \(we recommend you use **Medium Shading 1 – Accent 1** with [our template](https://www.spdockit.com/wp-content/uploads/2017/06/spdockit-compare-editions.pdf)\).
@@ -29,13 +29,13 @@ To prepare a template for your documentation, you need to prepare a Word documen
 
 ## Customizing styles
 
-SPDocKit uses the following default Word styles to generate documentation:
+SPDocKit Consultant uses the following default Word styles to generate documentation:
 
 * **Heading1, Heading2, Heading3 and Heading4** – used to generate section headings.
 * **Normal** – used to generate paragraph text.
 * **Hyperlink** – used for hyperlinks.
 
-SPDocKit styles need to be customized to match your corporate or other desired branding. To modify a Style in Microsoft Word do the following:
+SPDocKit Consultant styles need to be customized to match your corporate or other desired branding. To modify a Style in Microsoft Word do the following:
 
 1. From the **Styles** ribbon right-click the style you want to customize.
 2. From the context menu choose **Modify**.

@@ -1,104 +1,83 @@
 ---
 title: Server Load Permission Requirements
-description: Server Load Requirements for SPDocKit
+description: >-
+  This article lists all permissions necessary for SPDocKit Consultant to gather
+  information about SharePoint farm servers.
 author: Tomislav Sirovec
 date: 16/6/2018
 ---
 
 # Server Load Permission Requirements
 
-### Problem
+## SharePoint Server Information
 
-While trying to load SharePoint farm settings with SPDocKit I received:
-
-> Error occurred while loading server ‘ServerName’.
-
-### Why is this warning showing?
-
-During the Take Snapshot process SPDocKit will try to retrieve information about your servers. 
+During the Snapshot creation process, SPDocKit Consultant will try to retrieve information about your servers.
 
 {% hint style="warning" %}
-Please note that the following rights on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practice reports will not be available in SPDocKit.
+**Please note!**  
+The following permissions on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practices reports will not be available in SPDocKit Consultant.
 {% endhint %}
 
- In order to allow SPDocKit to successfully gather all the information about your servers, the following rights are necessary:
+### Required permissions
+
+In order to allow SPDocKit Consultant to successfully gather all the information about your SharePoint farm servers, the following permissions are necessary:
 
 * **Local Administrator** on the server
 * **Windows Update service** up and running
 
-### What will these granted rights be used for?
+### Granting permissions
 
-1. Adding SPDocKit user accounts to the **Local Administrator** group on the server is needed for WMI remote access and to get information about Windows updates. In case that you can’t give that right due to security requirements, see lower for what you can grant instead this. The following reports will not be available:
-   * Farm Explorer -&gt; Servers in Farm -&gt; Processors Info
-   * Farm Explorer -&gt; Servers in Farm -&gt; Programs List
-   * Farm Explorer -&gt; Servers in Farm -&gt; Available Windows Updates
-   * Farm Explorer -&gt; Servers in Farm -&gt; Disks List
-   * Farm Explorer -&gt; Servers in Farm -&gt; Local Admins
-   * Best Practices -&gt; Hardware Requirements -&gt; Free Disk Space
-   * Best Practices -&gt; Hardware Requirements -&gt; RAM
-   * Best Practices -&gt; Servers -&gt; Hotfixes per Server Role -&gt; all reports
-2. To retrieve a list of available Windows updates please make sure that the Windows Update service is up and running. If the service is disabled or not running the following reports will not be available:
-   * Farm Explorer -&gt; Servers in Farm -&gt; Available Windows Updates
-   * Best Practices -&gt; Updates -&gt; Servers -&gt; Windows Updates
+To add the SPDocKit Consultant user to the **Local Administrator group** follow these steps:
 
-### Solution
+1. On the server open the **Local Users and Groups** management console. Find it by typing **"Edit local users and groups"** or **"lusrmgr.msc"** in Windows Search.
+2. Under Groups find the **Administrators** group.
+3. Click the **Add** button and enter the user accounts running SPDocKit Consultant.
+4. Confirm your changes by clicking **OK**.
 
-1. Add your SPDocKit user account to the **Local Administrators** group on the specified server. In case you have a very strict security policy and cannot add this account to the **Local Administrators** group, you can use this procedure to get most of the reports working:
-   * Add your SPDocKit accounts to the following local groups: **Backup Operators** and **Performance Log Users**. This will allow us to remotely execute WMI queries and get information about SQL servers.
-   * Start **winmgmt.msc**, right click on WMI Control and select Properties.
-   * Go to the **Security** tab and expand Root node. In the expanded list select **cimv2** and click on the **Security** button.
-   * Click on **Advanced** button, then click **Add…** and enter desired user and click OK.
-   * Select option **This namespace and subnamespaces** in a dropdown list Apply to.
-   * Make sure that you select **Enable Account** and **Remote Enable** on the **Allow list** and then click OK four times.
-2. Go to Windows Update service and start it in Service Microsoft Management Console.
+In case you have a very strict security policy and cannot add this account to the **Local Administrators** group, you can use the following procedure to get most of the reports working:
 
-## Additional SQL Server load requirements
+* Add your SPDocKit Consultant accounts to the following local groups: **Backup Operators** and **Performance Log Users**. This will allow us to remotely execute WMI queries and get information about SQL servers.
+* Start **winmgmt.msc**, right click on WMI Control and select Properties.
+* Go to the **Security** tab and expand Root node. In the expanded list select **cimv2** and click on the **Security** button.
+* Click on **Advanced** button, then click **Add…** and enter the desired user and click OK.
+* Select option **This namespace and subnamespaces** in a dropdown list Apply to.
+* Make sure that you select **Enable Account** and **Remote Enable** on the **Allow list** and then click OK four times.
 
-### Problem
+To start the **Windows Update service**, open the Service Microsoft Management Console, right click on the service and choose **Start**.
 
-While trying to create a SPDocKit snapshot, I received the following warning:
+## SQL Server Information
 
-> Loaded Server ‘ServerName’.
-
-### Why is this warning showing?
-
-There are some additional SPDocKit permission requirements necessary to load SQL servers information. 
+There are some additional SPDocKit Consultant permission requirements necessary to load SQL servers information.
 
 {% hint style="warning" %}
-Please note that the following rights on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practice reports will not be available in SPDocKit.
+**Please note!**  
+The following permissions on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practices reports will not be available in SPDocKit Consultant.
 {% endhint %}
 
- In order to allow SPDocKit to successfully gather all the information about your SQL servers the following rights are necessary:
+### Required permissions
+
+In order to allow SPDocKit Consultant to successfully gather all the information about your SQL servers the following permissions are necessary:
+
+* **Sysadmin** server role
+
+In case that you can’t give those permissions due to security requirements, you can use the following permissions to get most of the SQL specific reports working:
 
 * **Public** server role
 * **Dbcreator** server role and **VIEW SERVER STATE** permission
 * **Dbaccess** permission on **model** database
+* **Db\_owner** database role on each of the affected databases
 
-### What will these granted rights be used for?
+### Granting permissions
 
-**Public** server role is needed to fetch the real SQL server name. This right is necessary to connect to the SQL server and perform some basic T-SQL queries. Also when you add an account to SQL server, public role is automatically granted. If you are not granted this role, following reports will not be available:
+Follow these steps to grant required permissions:
 
-* Farm Explorer -&gt; SQL -&gt; SQL Aliases
-* Best Practices -&gt; Databases -&gt; SQL Aliases
+1. Create a new user on the SQL server that will be used by SPDocKit Consultant.
+2. Add the **sysadmin** role to your SPDocKit Consultant account.
 
-**dbcreator** role and **VIEW SERVER STATE** permission is necessary in order to load SQL server configuration data. Following reports will not be available:
+In case you have a very strict security policy and cannot add the sysadmin role to the SPDocKit Consultant account, you can use the following procedure to get most of the SQL reports working:
 
-* Farm Explorer -&gt; SQL -&gt; all reports
-* Best Practices -&gt; Databases -&gt; Database Files
-* Best Practices -&gt; Databases -&gt; Max Degree of Parallelism
-* Best Practices -&gt; Databases -&gt; SharePoint Database Autogrowth
-* Best Practices -&gt; Databases -&gt; TempDB -&gt; all reports
-
-**dbaccess** permission is necessary in order to load information about the model database. In case this right is not granted, the following reports will not be available:
-
-* Best Practices -&gt; Databases -&gt; ModelDB -&gt; ModelDB Files Autogrowth
-* Best Practices -&gt; Databases -&gt; ModelDB -&gt; ModelDB Files Initial Size
-* Best Practices -&gt; Databases -&gt; ModelDB -&gt; ModelDB Recovery Model
-
-### Solution
-
-1. Create a new user on the SQL server that will be used by SPDocKit.
-2. Add **dbcreator** role to your SPDocKit account and execute the following T-SQL query:
+1. Create a new user on the SQL server that will be used by SPDocKit Consultant.
+2. Add the **dbcreator** role to your SPDocKit Consultant account and execute the following T-SQL query:
 
    ```sql
       USE master  
@@ -114,74 +93,36 @@ Please note that the following rights on your SQL servers are optional, but depe
       EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
    ```
 
-## SQL Always On reports load requirements
-
-### Problem
-
-After taking a SPDocKit snapshot, Always On reports show the following warning:
-
-> There is no data to show for this report.
-
-### Why is this warning showing?
-
-It is possible that there are no Always On Groups configured in your SPDocKit farm. Therefore, no data is available. If that is not the case, the user running SPDocKit probably doesn't have necessary permissions to execute required system stored procedures on SQL server.
-
-To retrieve data for Always On reports, the user running SPDocKit needs to have the **sysadmin** database role on targeted SQL Server.
-
-### Solution
-
-1. The user running the SPDocKit snapshot needs to be given a sysadmin role.
-2. To add the user to the sysadmin role, execute the following T-SQL query:
-
-   ```sql
-      EXECUTE sp_addsrvrolemember 'DOMAIN\ACCOUNT', 'sysadmin';  
-      GO
-   ```
-
-   You can also make these changes by using the SQL **Server Management Studio**.
-
-   Navigate to **Security** &gt; **Logins** &gt; **'SPDocKit user'**, right click and select **Properties**.
-
-   Select the **Server Roles** page, mark the **sysadmin** checkbox under Server Roles, and click OK to apply changes.
-
-## Database Permissions load requirements
-
-### Problem
-
-While trying to create a SPDocKit snapshot, I received the following warning:
-
-> Unable to load database permissions for ‘DatabaseName’.
-
-### Why is this warning showing?
-
-There are some additional SPDocKit permission requirements necessary to load the database permission information. 
-
-{% hint style="warning" %}
-Please note that the following rights on your SQL Server databases are optional, but depending on them, data for the **Database Permissions** report will not be available in SPDocKit.
-{% endhint %}
-
- In order to allow SPDocKit to successfully gather all the database permissions the following rights are necessary:
-
-* **db\_owner** database role on each of the affected databases
-
-### Solution
-
-To eliminate this warning you either have to grant the necessary permissions to SPDocKit accounts or turn off the load **Database Permissions** option.
-
-If you wish to turn off the load **Database Permissions** option, do the following:
-
-1. Select **Configuration** from the left navigation bar on the **Backstage Screen** and then click the **Options** button.
-2. On the **SPDocKit Options** dialog select **Snapshot Options**.
-3. Under the **Security** section uncheck **Database Permissions**.
-
-If you wish to grant the necessary permissions to the SPDocKit accounts:
+To grant the **db\_owner** database role to the SPDocKit Consultant accounts, follow these steps:
 
 1. Connect to your SQL server using **SQL Server Management Studio**.
-2. Navigate to **Security** &gt; **Logins** and select the SPDocKit account.
+2. Navigate to **Security** &gt; **Logins** and select the SPDocKit Consultant account.
 3. Right click on the account and open the **Login Properties** dialog.
 4. Under **User Mappings**, make sure that the account has the **db\_owner** database role for all affected databases.
 
-### Learn more
+## Project Server Information
 
-* [RPC Server is Unavailable](../faq/troubleshooting-1/rpc-server-unavailable.md)
+During the snapshot creation process, SPDocKit Consultant will try to retrieve information about your Project server sites.
+
+{% hint style="warning" %}
+**Please note!**  
+The following permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit Consultant.
+{% endhint %}
+
+### Required Permissions
+
+In order to allow SPDocKit Consultant to successfully gather all the information about your Project server sites the following permissions are necessary:
+
+* **SPDocKit Consultant account** needs to be a member of the Project Server **Administrators** group on each of the Project server sites
+
+### Granting permissions
+
+To add your SPDocKit Consultant account to the Administrators group, follow these steps:
+
+1. In a browser navigate to your Project server site.
+2. Click **Settings** &gt; **PWA Settings** to open up the PWA Settings page.
+3. Under **Security** click **Manage Users**.
+4. Click **New User** and add your **SPDocKit Consultant user account** \(console account\).
+   * Under **User logon account** specify the **Domain\Username** of the **SPDocKit Consultant user account**.
+   * Under **Security Groups** make sure that this user is a member of the **Administrators** security group.
 

@@ -1,21 +1,21 @@
 ---
 title: I am receiving ”Failed at retrieving SQL Accounts from the following servers".
 description: >-
-  This article describes how to handle issue when SPDocKit fails at retrieving
-  SQL account from server.
+  This article describes how to handle the issue with SPDocKit Consultant not
+  being able to retrieve SQL account from the server.
 author: Mia Tomaić
 date: 18/5/2017
 ---
 
 # Failed at retrieving SQL Accounts from the following servers
 
-## Problem:
+## Problem
 
 While loading a SharePoint farm the following error message was displayed in the event log:
 
 > Failed at retrieving SQL Accounts from the following servers: ‘Server Name’. Check your permissions.
 
-## Solution:
+## Solution
 
 The user running the snapshot needs to be granted rights to read the registry on the remote server. To add a user account to the Local Administrators group do the following **on each server that you get this warning for:**
 

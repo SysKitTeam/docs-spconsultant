@@ -9,7 +9,7 @@ date: 07/11/2018
 
 # Error while loading IIS Settings Information
 
-## Problem:
+## Problem
 
 While trying to load a SharePoint 2019 farm with the enabled IIS Settings Information option, the following error message appears:
 
@@ -21,18 +21,19 @@ The following error message is stored in the event log:
 >
 > Acceleratio.SPCommon.SharePointCrawler.IISCompatibilityMissingException: IIS 6 Management Metabase Compatibility required. at Acceleratio.SPDocKit.Administration.IISSettingsLoader.IISMetabaseReader.GetAppPools\(String serverAddress, ConfigReader configReader\) at Acceleratio.SPDocKit.Administration.IISSettingsLoader.IISLoaders.IIS7Loader.Load\(\) at Acceleratio.SPDocKit.Administration.ServerDetailsLoader.\#ca3.\#uZgb\(\) at Acceleratio.SPCommon.TimeoutableAction.\#392.\#5Ygb\(\)
 
-## Solution:
+## Solution
 
 To successfully load IIS Settings, the IIS 6 Metabase Compatibility role has to be enabled.
 
-**Please note:** A server restart could be required for the changes to take effect.
+{% hint style="warning" %}
+**Please note!** A server restart could be required for the changes to take effect.
+{% endhint %}
 
 To enable the role, follow these steps:
 
 1. Open the Server Manager on IIS server  
-2. a\) On the Dashboard screen, select the **Add roles and features** option  
-     **OR**  
-     b\) On the left side menu, click the **Local Server** option, navigate to the **Roles and Features** section, and          select **Add Roles and Features** option in the **Tasks** drop-down menu on the right side of the screen.            The **Add Roles and Features Wizard** opens.  
+2. 1. On the Dashboard screen, select the **Add roles and features** option. **OR..**
+   2. On the left side menu, click the **Local Server** option, navigate to the **Roles and Features** section, and select **Add Roles and Features** option in the **Tasks** drop-down menu on the right side of the screen. The **Add Roles and Features Wizard** opens.  
 3. **Before You Begin** step - continue to the next step by clicking Next.  
 4. **Installation Type** step - make sure the **Role-base or feature-based installation** option is selected.  
 5. **Server Selection** step - make sure the IIS server is selected.  
@@ -40,9 +41,9 @@ To enable the role, follow these steps:
 
 ![](../../.gitbook/assets/add-roles-and-features-wizard.png)
 
-7. **Features** step - continue to the next step.  
-8. **Confirmation** step - check the **Restart the destination server automatically if required** option and click **Install**.  
-9. **Results** step - displays the installation progress. Once the installation is finished, the **Installation succeeded** message is displayed. 
+1. **Features** step - continue to the next step.    
+2. **Confirmation** step - check the **Restart the destination server automatically if required** option and click **Install**.    
+3. **Results** step - displays the installation progress. Once the installation is finished, the **Installation succeeded** message is displayed. 
 
 {% hint style="warning" %}
 **Please note!**  

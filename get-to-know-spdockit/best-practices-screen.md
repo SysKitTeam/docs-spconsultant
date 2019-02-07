@@ -1,9 +1,8 @@
 ---
 title: Best Practices Screen
 description: >-
-  This article describes how to use SPDocKit best practices screen to check if
-  SharePoint farm has been configured according to the configuration best
-  practices.
+  This article describes how to use Best Practices Screen to check if SharePoint
+  farm has been configured according to the configuration best practices.
 author: Tomislav Sirovec
 date: 24/6/2018
 ---
@@ -24,5 +23,5 @@ The following options are available:
 
 Visit our [best practices library](https://docs.syskit.com/bp/) to read more about the available best practice reports.
 
-Check our [SPDocKit resources center](https://www.syskit.com/products/spdockit/resources/) for videos and samples of SharePoint documentation and reports by SPDocKit.
+Check our [SPDocKit resources center](https://www.syskit.com/products/spdockit/resources/) for videos and samples of SharePoint documentation and reports by SPDocKit Consultant.
 

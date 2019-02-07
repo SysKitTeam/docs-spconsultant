@@ -3,21 +3,21 @@ title: >-
   I am receiving “The service application ‘UPA Name’ does not have any proxies
   that are default in a proxy group.”
 description: >-
-  This article explains how to handle issue when SharePoint farm settings load
-  is not working properly.
+  This article explains how to handle the issue with SharePoint farm settings
+  load.
 author: Mia Tomaić
 date: 18/5/2017
 ---
 
 # The service application 'UPA Name' does not have any proxies that are default in a proxy group
 
-## Problem:
+## Problem
 
-While trying to load SharePoint farm settings with SPDocKit I received the following message:
+While trying to load SharePoint farm settings with SPDocKit Consultant I received the following message:
 
 > The service application ‘UPA name’ does not have any proxies that are default in a proxy group.
 
-## Solution:
+## Solution
 
 For each UPA \(User Profile Application\) you need to have its proxy set as a default in a proxy group. This means that if you have three UPAs, you need to have at least three proxy groups.
 
