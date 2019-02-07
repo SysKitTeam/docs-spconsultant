@@ -1,3 +1,7 @@
+---
+description: This article lists steps for the offline license activation.
+---
+
 # Offline Activation
 
 The Consultant license can be activated on any workstation, but you need to have a valid SPDocKit Consultant subscription. Please take special care that the Consultant license is intended for consultant's usage only.
