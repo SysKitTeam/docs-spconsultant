@@ -1,3 +1,7 @@
+---
+description: This article describes how to manage your existing Consultant license.
+---
+
 # Manage License
 
 The SPDocKit Consultant license key is available at your profile in our [Customers Portal](https://my.syskit.com). In order to check your current license status in SPDocKit Consultant, navigate to **File &gt; Help &gt; License Details**. You can see if SPDocKit Consultant is activated or not, which license edition you are currently using, how many days is the license valid for and the farm ID.
