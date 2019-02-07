@@ -2,7 +2,7 @@
 title: Compare Servers
 description: >-
   This section explains how you can use the Compare Wizard to compare different
-  servers. Including IIS and SQL servers
+  servers. Including IIS and SQL servers.
 author: Tomislav Sirovec
 date: 30/6/2018
 ---
