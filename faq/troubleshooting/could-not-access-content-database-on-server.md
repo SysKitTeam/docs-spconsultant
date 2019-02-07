@@ -2,9 +2,7 @@
 title: >-
   I am receiving “Could not access content database ‘Database Name’ on server
   ‘Server Name’.”
-description: >-
-  This article explains how to handle issue when site collection load is not
-  working properly.
+description: This article explains how to handle the issue with site collection load.
 author: Mia Tomaić
 date: 18/5/2017
 ---
