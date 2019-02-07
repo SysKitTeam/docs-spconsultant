@@ -1,6 +1,8 @@
 ---
 title: Errors while trying to load the SharePoint farm
-description: Article describes known issues that might occur while loading SharePoint farm.
+description: >-
+  This article describes known issues that might occur while loading SharePoint
+  farm.
 author: Mia Tomaić
 date: 18/5/2017
 ---
