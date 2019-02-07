@@ -1,3 +1,9 @@
+---
+description: >-
+  This article provides answers to most frequently asked questions about the
+  Consultant license.
+---
+
 # Consultant License FAQ
 
 ## How does the Consultant license differ from the Farm license?
@@ -54,7 +60,7 @@ A Consultant Subscription allows one consultant to install SPDocKit Consultant o
 
 ## Will it run on my workstation and connect to the farm without installing on the actual servers?
 
-If you purchase the Consultant license, you will be able to run SPDocKit on your workstation and generate documentation from it, but in order to gather data you will still need to run the SPDocKit Consultant Snapshot Wizard tool on the actual SharePoint On-Premises server.
+If you purchase the Consultant license, you will be able to run SPDocKit Consultant on your workstation and generate documentation from it, but in order to gather data, you will still need to run the SPDocKit Consultant Snapshot Wizard tool or the SPDocKit PowerShell module on the actual SharePoint On-Premises server.
 
 ## How do I cancel my SPDocKit subscription?
 
