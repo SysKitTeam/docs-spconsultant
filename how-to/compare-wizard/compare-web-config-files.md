@@ -9,8 +9,6 @@ date: 18/6/2018
 
 # Compare Web.Config Files
 
-This section describes how to use SPDocKit Consultant to compare web.config files across different servers, Web applications and Web application zones.
-
 1. Navigate to the **Backstage Actions Screen** and click the **Compare Wizard** button.
 2. Select **Web.config Files** for the comparison type and click **Next** to continue.
 3. If you would like to compare web.config files from two different servers or zones for a specific date, selecting just one snapshot is sufficient.
