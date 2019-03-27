@@ -15,10 +15,8 @@ The features above are designed to avoid leaving any trace of files in your clie
 
 Give it a try and let us know what you think!
 
-**Product version:** 8.0.2
-
-**Build number:** 10521
-
+**Product version:** 8.0.2  
+**Build number:** 10521  
 **Release date:** Oct 18, 2018
 
 [Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
