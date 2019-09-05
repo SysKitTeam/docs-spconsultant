@@ -7,8 +7,8 @@ description: This article describes bug fixes delivered in SPDocKit Consultant 9
 **SPDocKit Consultant 9.1.0** is a minor release containing a couple of bug fixes.
 
 **Product version:** 9.1.0  
-**Build number:** 11114  
-**Release date:** Jun 14, 2019
+**Build number:** 11206  
+**Release date:** Sep 05, 2019
 
 [Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
 
