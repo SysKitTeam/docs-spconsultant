@@ -5,6 +5,8 @@ author: Iva Novoselic
 date: 22/5/2017
 ---
 
+# Security
+
 ## Does SPDocKit make changes to the farm?
 
 SPDocKit uses only Microsoft provided and supported SharePoint APIs and PowerShell to retrieve information about the structure of a SharePoint farm. During load operations nothing is being changed in the farm structure.
@@ -25,5 +27,5 @@ SysKit has helped some of the largest organizations worldwide to work around thi
 
 ## How does SPDocKit store passwords? Is storing passwords optional or mandatory?
 
-SPDocKit can store your passwords and products keys in the farm documentation files. If you decide to enter these, you will be prompted to provide an additional password (master password) that will be used to encrypt these files with AES 256bit encryption. You will only be able to retrieve these passwords if you provide the master password again.
+SPDocKit can store your passwords and products keys in the farm documentation files. If you decide to enter these, you will be prompted to provide an additional password \(master password\) that will be used to encrypt these files with AES 256bit encryption. You will only be able to retrieve these passwords if you provide the master password again.
 
