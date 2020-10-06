@@ -62,11 +62,11 @@ While trying to create a SPDocKit Consultant snapshot, I received the following 
 
 ### Solution
 
-In order to allow SPDocKit Consultant to successfully gather all the database permissions the following permissions are necessary:
+In order to allow SPDocKit Snapshot Wizard or SPDocKit PowerShell to successfully gather all the database permissions the following permissions are necessary:
 
 * **db\_owner** database role on each of the affected databases.
 
-To eliminate this warning you either have to grant the necessary permissions to SPDocKit Consultant account or turn off the load **Database Permissions** option.
+To eliminate this warning, you either have to grant the necessary permissions to the account running SPDocKit Snapshot Wizard or SPDocKit PowerShell or turn off the load **Database Permissions** option.
 
 If you wish to turn off the load **Database Permissions** option, do the following:
 
@@ -74,7 +74,7 @@ If you wish to turn off the load **Database Permissions** option, do the followi
 2. On the **SPDocKit Consultant Options** dialog select **Snapshot Options**.
 3. Under the **Security** section uncheck **Database Permissions**.
 
-If you wish to grant the necessary permissions to the SPDocKit Consultant account, follow this [link](../../requirements/server-load-permission-requirements.md#granting-permissions-1).
+If you wish to grant the necessary permissions to the account running SPDocKit Snapshot Wizard or SPDocKit PowerShell, follow this [link](../../requirements/server-load-permission-requirements.md#granting-permissions-1).
 
 ### Affected reports
 
@@ -101,7 +101,7 @@ The **Public** server role is needed to fetch the real SQL server name. This per
 * Best Practices -&gt; Databases -&gt; ModelDB -&gt; ModelDB Files Initial Size
 * Best Practices -&gt; Databases -&gt; ModelDB -&gt; ModelDB Recovery Model
 
-**Db\_owner** database role on each of the affected databases is necessary in order to allow SPDocKit Consultant to successfully gather all the database permissions. In case this permission is not granted, the following report will not be available:
+**Db\_owner** database role on each of the affected databases is necessary to allow the account running SPDocKit Snapshot Wizard or SPDocKit PowerShell to gather all the database permissions successfully. In case this permission is not granted, the following report will not be available:
 
 * Farm Explorer -&gt; SQL -&gt; Database Permissions
 

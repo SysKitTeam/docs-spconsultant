@@ -10,7 +10,7 @@ description: >-
 
 ### Problem
 
-While trying to load a SharePoint farm I encountered the following error:
+While trying to load a SharePoint farm, I encountered the following error:
 
 > Could not load Search Service Application, check your permissions or event log.
 
@@ -22,17 +22,17 @@ and the event log displays the following error message:
 
 ### Solution
 
-The account running SPDocKit Consultant does not have the proper privileges to load the Search Service Application properties.
+The account running SPDocKit Snapshot Wizard or SPDocKit PowerShell module does not have the proper privileges to load the Search Service Application properties.
 
 Here is what you need to do:
 
 1. Open the **SharePoint Central Administration** of your farm.
 2. Navigate to **Application Management &gt; Manage Service Applications**. 
 3. Select your app from the list of Service Applications and click **Permissions** on the ribbon. 
-4. Choose the account running SPDocKit Consultant from the popup dialog box and make sure it has **Full control** permission checked. 
+4. Choose the account running SPDocKit Snapshot Wizard or SPDocKit PowerShell module from the popup dialog box and make sure it has **Full control** permission checked. 
 5. Repeat the process for the selected account but now in the **Administrators** group. Select your app from the list of Service Applications and click Administrators on the ribbon. 
-6. Choose the account running SPDocKit Consultant from the popup dialog box and make sure it has **Full control** permission checked. 
-7. Now when your account/user has the proper privileges, you should be able to load the Search Service Application properties.
+6. Choose the account running SPDocKit Snapshot Wizard or SPDocKit PowerShell module from the popup dialog box and make sure it has **Full control** permission checked. 
+7. Now, when your account/user has the proper privileges, you should be able to load the Search Service Application properties.
 
 ### Learn More
 
@@ -42,23 +42,23 @@ Here is what you need to do:
 
 ### Problem
 
-While trying to load a SharePoint farm with SPDocKit Consultant I received:
+While trying to load a SharePoint farm with SPDocKit Snapshot Wizard or SPDocKit PowerShell module, I received:
 
 > Could not load User Profile Service Application, check your permissions or event log.
 
 ### Solution
 
-The account running SPDocKit Consultant does not have the proper privileges to load the User Profile Service Application properties.
+The account running SPDocKit Snapshot Wizard or SPDocKit PowerShell module does not have the proper privileges to load the User Profile Service Application properties.
 
 Here is what you need to do:
 
 1. Open the **SharePoint Central Administration** of your farm. 
 2. Navigate to **Application Management &gt; Manage Service Applications**. 
 3. Select your app from the list of Service Applications and click **Permissions** on the ribbon. 
-4. Choose the account running SPDocKit Consultant from the popup dialog box and make sure it has **Full control** permission checked. 
+4. Choose the account running SPDocKit Snapshot Wizard or SPDocKit PowerShell module from the popup dialog box and make sure it has **Full control** permission checked. 
 5. Repeat the process for the selected account but now in the **Administrators** group. Select your app from the list of Service Applications and click Administrators on the ribbon. 
-6. Choose the account running SPDocKit Consultant from the popup dialog box and make sure it has **Full control** permission checked. 
-7. Now when your account/user has the proper privileges,you should be able to load the User Profile Service Application properties.
+6. Choose the account running SPDocKit Snapshot Wizard or SPDocKit PowerShell module from the popup dialog box and make sure it has **Full control** permission checked. 
+7. Now, when your account/user has the proper privileges, you should be able to load the User Profile Service Application properties.
 
 ### Learn More
 

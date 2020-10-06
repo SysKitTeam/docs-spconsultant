@@ -1,12 +1,12 @@
 ---
 description: >-
   This article lists all user privileges needed to retrieve SharePoint farm
-  settings with SPDocKit Consultant.
+  settings with SPDocKit Snapshot Wizard or SPDocKit PowerShell module.
 ---
 
 # SharePoint On-Premises User Permissions Requirements
 
-To run SPDocKit Consultant and to retrieve all SharePoint settings you want to document, the user running SPDocKit Consultant needs to have proper privileges. Here is the list of required privileges to load SharePoint farm settings:
+To run SPDocKit Snapshot Wizard or SPDocKit PowerShell module and to retrieve all SharePoint settings you want to document, the user running SPDocKit Snapshot Wizard or SPDocKit PowerShell module needs to have proper privileges. Here is the list of required privileges to load SharePoint farm settings:
 
 1. **Local Administrators** and **WSS\_ADMIN\_WPG group member** on every machine in the SharePoint farm. Required to retrieve list of installed applications on farm servers.
 2. **SharePoint farm administrator**. Required to retrieve SharePoint farm settings.

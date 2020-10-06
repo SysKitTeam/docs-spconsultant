@@ -11,14 +11,14 @@ date: 25/5/2017
 
 ## **Summary**
 
-SPDocKit Consultant does not load Distributed Cache settings data and displays a warning message during the load:
+SPDocKit Snapshot Wizard or SPDocKit PowerShell module do not load Distributed Cache settings data and display a warning message during the load:
 
 {% hint style="warning" %}
 **Please note!**  
 Distributed Cache settings cannot be loaded on a server that is not part of a Distributed Cache Cluster.
 {% endhint %}
 
-This happens because SPDocKit Consultant queries only the server it is installed on for Distributed Cache data, so if the server on which SPDocKit Consultant is running is not a host for the Distributed Cache service, no data will be loaded.
+This happens because SPDocKit Snapshot Wizard or SPDocKit PowerShell module query only the server it is installed on for Distributed Cache data, so if the server on which SPDocKit Consultant is running is not a host for the Distributed Cache service, no data will be loaded.
 
 **Application version:** 4.1.0 and newer
 
@@ -47,7 +47,7 @@ The registry fields will be correctly updated using this PowerShell script:
     New-ItemProperty -Path "HKLM:\Software\Microsoft\AppFabric\V1.0\Providers\AppFabricCaching\SPDistributedCacheClusterProvider" -Name "Type" -Value "Microsoft.SharePoint.DistributedCaching.Utilities.SPDistributedCacheClusterCustomProvider, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" -PropertyType "string" -Force
 ```
 
-**Credit:** To learn more more about this workaround please visit Wouter Bleeker blog.
+**Credit:** To learn more about this workaround, please visit the Wouter Bleeker blog.
 
 **Status:** Not resolved.
 

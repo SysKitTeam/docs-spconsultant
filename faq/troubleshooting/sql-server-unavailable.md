@@ -19,7 +19,7 @@ While loading a SharePoint farm the following error message was displayed in the
 
 ## Solution
 
-The user running the snapshot needs to be granted rights to connect to the server for which this exception appears.
+The user running SPDocKit Snapshot Wizard or SPDocKit PowerShell needs to be granted rights to connect to the server for which this exception appears.
 
 Here is how to do it:
 
