@@ -8,7 +8,7 @@ description: >-
 
 **SPDocKit Consultant 10** is a major release containing many highly requested features. At SysKit, it's still giving season, so scroll down to find your new gifts!
 
-**Product version:** 10.0.0   
+**Product version:** 10.0.0  
 **Build number:** 11521  
 **Release date:** Jan 15, 2020
 

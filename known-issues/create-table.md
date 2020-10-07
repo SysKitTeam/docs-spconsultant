@@ -1,8 +1,9 @@
 ---
 title: CREATE TABLE permissions denied
 description: >-
-  An error appears in the ULS log, stating that SPDocKit Snapshot Wizard or SPDocKit PowerShell module processes
-  are trying to create tables in SharePoint databases.
+  An error appears in the ULS log, stating that SPDocKit Snapshot Wizard or
+  SPDocKit PowerShell module processes are trying to create tables in SharePoint
+  databases.
 author: Matija Hanzic
 date: 28/6/2018
 ---

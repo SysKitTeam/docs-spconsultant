@@ -1,8 +1,9 @@
 ---
 title: Server Load Permission Requirements
 description: >-
-  This article lists all permissions necessary for SPDocKit Snapshot Wizard or SPDocKit PowerShell module to gather
-  information about SharePoint farm servers.
+  This article lists all permissions necessary for SPDocKit Snapshot Wizard or
+  SPDocKit PowerShell module to gather information about SharePoint farm
+  servers.
 author: Tomislav Sirovec
 date: 16/6/2018
 ---
