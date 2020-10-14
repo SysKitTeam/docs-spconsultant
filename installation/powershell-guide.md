@@ -21,9 +21,9 @@ The PowerShell module can be used with **PowerShell version 3.0 or higher.**
 
 {% hint style="warning" %}
 **Please note!**  
-To be able to install ****SPDocKit PS module using PowerShell's Install-Module command, PowerShell 5 or later is required.  
-  
-You can easily upgrade PowerShell by downloading [WMF 5.0 or later.](https://www.microsoft.com/en-us/download/details.aspx?id=54616) 
+To be able to install _\*\*_SPDocKit PS module using PowerShell's Install-Module command, PowerShell 5 or later is required.
+
+You can easily upgrade PowerShell by downloading [WMF 5.0 or later.](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
 {% endhint %}
 
 * Save the module to preferred location:
@@ -59,8 +59,8 @@ Running Get-SPDocKitVersion is used to check SPDocKit PS module version to make 
 
 {% hint style="warning" %}
 **Please note!**  
-The file you downloaded is just a .zip archive with extra files containing information about the contents of the package. You can unpack the downloaded file by changing the file extension from .nupkg to .zip.  
-  
+The file you downloaded is just a .zip archive with extra files containing information about the contents of the package. You can unpack the downloaded file by changing the file extension from .nupkg to .zip.
+
 Find more about this topic [here.](https://docs.microsoft.com/en-us/powershell/gallery/how-to/working-with-packages/manual-download)
 {% endhint %}
 
@@ -84,7 +84,7 @@ SysKit.SPDocKit module update can be done using the following command:
 Update-Module -Name “SysKit.SPDocKit.PS”
 ```
 
-To update the module manually, first, uninstall the existing version of module, then follow instructions in ****[section ****2](powershell-guide.md#2-manually-copy-and-paste-powershell-module) of this article. 
+To update the module manually, first, uninstall the existing version of module, then follow instructions in **\[section** 2\]\(powershell-guide.md\#2-manually-copy-and-paste-powershell-module\) of this article.
 
 {% hint style="warning" %}
 **Please note!**  
