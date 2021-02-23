@@ -1,10 +1,5 @@
 ---
-title: PowerShell available commands
-description: >-
-  This article lists all commands available in the SPDocKit PowerShell Module
-  and explains how to use them.
-author: Tomislav Sirovec
-date: 24/8/2018
+description: This article lists all commands available in the SPDocKit PowerShell Module and explains how to use them.
 ---
 
 # PowerShell Commands

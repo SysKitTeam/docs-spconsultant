@@ -1,7 +1,4 @@
 ---
-title: Uninstallation Guide
-author: Tomislav Sirovec
-date: 17/5/2018
 description: This article explains how to uninstall SPDocKit Consultant.
 ---
 

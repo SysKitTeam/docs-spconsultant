@@ -1,10 +1,5 @@
 ---
-title: Troubleshooting
-description: >-
-  This article provides answers to various questions regarding SPDocKit
-  Consultant.
-author: Mia Tomaić
-date: 22/5/2017
+description: This article provides answers to various questions regarding SPDocKit Consultant.
 ---
 
 # Miscellaneous

@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes new features, improvements and bug fixes delivered in
-  SPDocKit Consultant 11.
+description: This article describes new features, improvements and bug fixes delivered in SPDocKit Consultant 11.
 ---
 
 # SPDocKit Consultant 11

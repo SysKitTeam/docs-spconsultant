@@ -1,10 +1,5 @@
 ---
-title: Options Wizard
-description: >-
-  This article explains how to use the Options wizard to adjust and change your
-  SPDocKit Consultant settings.
-author: Tomislav Sirovec
-date: 25/6/2018
+description: This article explains how to use the Options wizard to adjust and change your SPDocKit Consultant settings.
 ---
 
 # Options Wizard

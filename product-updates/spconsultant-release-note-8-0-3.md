@@ -1,10 +1,5 @@
 ---
-title: SPDocKit Consultant 8.0.3 — Release Note
-description: >-
-  This article describes improvements and bug fixes delivered in SPDocKit
-  Consultant 8.0.3
-author: Igor Mesarić
-date: 16/11/2018
+description: This article describes improvements and bug fixes delivered in SPDocKit Consultant 8.0.3.
 ---
 
 # SPDocKit Consultant 8.0.3

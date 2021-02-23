@@ -1,10 +1,5 @@
 ---
-title: Security
-description: >-
-  This article gives you answers to questions regarding SPDocKit Consultant and
-  security.
-author: Iva Novoselic
-date: 22/5/2017
+description: This article gives you answers to questions regarding SPDocKit Consultant and security.
 ---
 
 # Security

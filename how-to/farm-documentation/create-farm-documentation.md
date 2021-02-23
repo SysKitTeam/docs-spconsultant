@@ -1,10 +1,5 @@
 ---
-title: Create Farm Documentation
-description: >-
-  This article describes how to produce SharePoint farm documentation using
-  SPDocKit Consultant.
-author: Tomislav Sirovec
-date: 17/6/2018
+description: This article describes how to produce SharePoint farm documentation using SPDocKit Consultant.
 ---
 
 # Create Farm Documentation

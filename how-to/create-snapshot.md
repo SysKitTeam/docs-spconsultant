@@ -1,8 +1,5 @@
 ---
-title: Create a snapshot using the SPDocKit Consultant
 description: This article describes how to create a snapshot using SPDocKit Consultant.
-author: Tomislav Sirovec
-date: 19/6/2018
 ---
 
 # Create Snapshot

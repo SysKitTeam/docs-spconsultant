@@ -1,10 +1,5 @@
 ---
-title: Generate an AutoSPInstaller XML Configuration File
-description: >-
-  This section describes how to generate an AutoSPInstaller XML configuration
-  file.
-author: Tomislav Sirovec
-date: 19/6/2018
+description: This section describes how to generate an AutoSPInstaller XML configuration file.
 ---
 
 # Generate an AutoSPInstaller XML Configuration File

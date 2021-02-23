@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article provides answers to most frequently asked questions about the
-  Consultant license.
+description: This article provides answers to most frequently asked questions about the Consultant license.
 ---
 
 # Consultant License FAQ

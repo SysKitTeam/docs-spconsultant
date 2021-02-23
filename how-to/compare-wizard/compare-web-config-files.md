@@ -1,10 +1,5 @@
 ---
-title: Compare Web.Config Files
-description: >-
-  This section describes how to use SPDocKit Consultant to compare web.config
-  files across different servers, web applications and web application zones.
-author: Tomislav Sirovec
-date: 18/6/2018
+description: This section describes how to use SPDocKit Consultant to compare web.config files across different servers, web applications and web application zones.
 ---
 
 # Compare Web.Config Files

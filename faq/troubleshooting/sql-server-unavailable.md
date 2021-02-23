@@ -1,12 +1,5 @@
 ---
-title: >-
-  I am receiving “SQL Server ‘Server Name’ is unavailable. Please check your
-  permissions.”
-description: >-
-  This article explains how to handle the issue with SharePoint farm load not
-  working properly because the SQL server was not available.
-author: Mia Tomaić
-date: 18/5/2017
+description: This article explains how to handle the issue with SharePoint farm load not working properly because the SQL server was not available.
 ---
 
 # SQL Server is unavailable

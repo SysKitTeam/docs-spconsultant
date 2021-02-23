@@ -1,10 +1,5 @@
 ---
-title: Passwords and Product Keys
-description: >-
-  This article describes how to define and document service account passwords,
-  product key and passphrase of your SharePoint farm.
-author: Tomislav Sirovec
-date: 24/6/2018
+description: This article describes how to define and document service account passwords, product key and passphrase of your SharePoint farm.
 ---
 
 # Passwords and Product keys

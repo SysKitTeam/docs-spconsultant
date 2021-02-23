@@ -1,10 +1,5 @@
 ---
-title: Compare SharePoint Farms
-description: >-
-  This section explains how you can use the Compare Wizard to compare different
-  farms or snapshots of an existing farm.
-author: Tomislav Sirovec
-date: 30/6/2018
+description: This section explains how you can use the Compare Wizard to compare different farms or snapshots of an existing farm.
 ---
 
 # Compare Farms

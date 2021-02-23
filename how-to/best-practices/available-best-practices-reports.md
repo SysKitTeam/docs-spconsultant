@@ -1,10 +1,5 @@
 ---
-title: Available Best Practices Reports
-description: >-
-  This article describes which best practices reports are available in SPDocKit
-  Consultant and can help you keep your SharePoint farm healthy.
-author: Tomislav Sirovec
-date: 25/6/2018
+description: This article describes which best practices reports are available in SPDocKit Consultant and can help you keep your SharePoint farm healthy.
 ---
 
 # Available Best Practices Reports

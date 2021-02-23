@@ -1,10 +1,5 @@
 ---
-title: Compare Site Collections
-description: >-
-  This sections describes how to use SPDocKit Consultant to compare SharePoint
-  farm site collection configurations.
-author: Tomislav Sirovec
-date: 18/6/2018
+description: This sections describes how to use SPDocKit Consultant to compare SharePoint farm site collection configurations.
 ---
 
 # Compare Site Collections

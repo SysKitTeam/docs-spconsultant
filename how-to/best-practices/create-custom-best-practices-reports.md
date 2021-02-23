@@ -1,10 +1,5 @@
 ---
-title: Create Custom Best Practices Reports
-description: >-
-  This describes how SharePoint administrators and consultants can use SPDocKit
-  Consultant to create Best Practices reports for a SharePoint Farm.
-author: Tomislav Sirovec
-date: 25/6/2018
+description: This describes how SharePoint administrators and consultants can use SPDocKit Consultant to create Best Practices reports for a SharePoint Farm.
 ---
 
 # Create Custom Best Practices Reports

@@ -1,10 +1,5 @@
 ---
-title: SPDocKit Consultant 9 — Release Note
-description: >-
-  This article describes the new features, improvements, and bug fixes that are
-  delivered in SPDocKit Consultant 9.
-author: Igor Mesaric
-date: 05/02/2018
+description: This article describes the new features, improvements, and bug fixes that are delivered in SPDocKit Consultant 9.
 ---
 
 # SPDocKit Consultant 9

@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article lists all user privileges needed to retrieve SharePoint farm
-  settings with SPDocKit Snapshot Wizard or SPDocKit PowerShell module.
+description: This article lists all user privileges needed to retrieve SharePoint farm settings with SPDocKit Snapshot Wizard or SPDocKit PowerShell module.
 ---
 
 # SharePoint On-Premises User Permissions Requirements

@@ -1,10 +1,5 @@
 ---
-title: SPDocKit Consultant 8 — Release Note
-description: >-
-  This article describes the new features, improvements, and bug fixes that are
-  delivered in SPDocKit Consultant 8.
-author: Tomislav Sirovec
-date: 10/10/2018
+description: This article describes the new features, improvements, and bug fixes that are delivered in SPDocKit Consultant 8.
 ---
 
 # SPDocKit Consultant 8

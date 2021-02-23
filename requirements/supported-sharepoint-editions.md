@@ -1,10 +1,5 @@
 ---
-title: Supported SharePoint Editions
-description: >-
-  This article lists all SharePoint editions that are supported by SPDocKit
-  Consultant.
-author: Tomislav Sirovec
-date: 25/6/2018
+description: This article lists all SharePoint editions that are supported by SPDocKit Consultant.
 ---
 
 # Supported SharePoint Editions
