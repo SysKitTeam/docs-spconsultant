@@ -18,9 +18,9 @@ The following commands are available:
 * **Export as PDF** button allows you to export the selected report as a PDF document.
 * **Export as XLSX** button allows you to export the selected report as an XLSX document.
 * **Export as DOCX** button allows you to export the selected report as a DOCX document.
-* **Compare Wizard** – read more about the [Compare Wizard](../backstage-screen/compare-wizard.md).
-* **Options** – read more about the [Options Wizard](../backstage-screen/options-wizard.md).
-* **Save XML Configuration** – [wizard that helps you generate an AutoSPInstaller XML file](../../how-to/generate-autospinstaller-xml-configuration-file.md) based on the currently opened snapshot.
+* **Compare Wizard** – enables you to compare SharePoint farms, servers, web applications, site collections, or web.config files.
+* **Options** – enables you to adjust and change your SPDocKit Consultant settings.
+* **Save XML Configuration** – enables you to generate an AutoSPInstaller XML configuration file based on the currently opened snapshot.
 
 ## View ribbon
 
