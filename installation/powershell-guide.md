@@ -1,5 +1,7 @@
 ---
-description: This article explains how to install, uninstall, or update SPDocKit PowerShell Module.
+description: >-
+  This article explains how to install, uninstall, or update SPDocKit PowerShell
+  Module.
 ---
 
 # PowerShell Guide
@@ -12,11 +14,11 @@ The PowerShell module can be used with **PowerShell version 3.0 or higher.**
 
 ## Install SPDocKit PowerShell Module
 
-### 1. Using the  command
+### 1. Using the command
 
 {% hint style="warning" %}
-**Please note!**  
-To be able to install _\*\*_SPDocKit PS module using PowerShell's Install-Module command, PowerShell 5 or later is required.
+**Please note!**\
+To be able to install \_\*\*\_SPDocKit PS module using PowerShell's Install-Module command, PowerShell 5 or later is required.
 
 You can easily upgrade PowerShell by downloading [WMF 5.0 or later.](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
 {% endhint %}
@@ -27,7 +29,7 @@ You can easily upgrade PowerShell by downloading [WMF 5.0 or later.](https://www
 Save-Module -Name SysKit.SPDocKit.PS -Path < path >
 ```
 
-&lt; path &gt; can be any location of your choice such as: C:\Users\Public\Desktop  
+< path > can be any location of your choice such as: C:\Users\Public\Desktop\
 Save–Module command automatically downloads and unzips module to location.
 
 * Install the module:
@@ -38,7 +40,7 @@ Install-Module -Name SysKit.SPDocKit.PS
 
 Install-Module command installs SPDocKit PS Module to default location: C:\Program Files\WindowsPowerShell\Modules
 
-* \(Optional\) Check the SPDocKit PS module version:
+* (Optional) Check the SPDocKit PS module version:
 
 ```bash
 Get-SPDocKitVersion
@@ -53,10 +55,8 @@ Running Get-SPDocKitVersion is used to check SPDocKit PS module version to make 
 * Once you’ve downloaded **syskit.spdockit.ps.1.X.X.nupkg**, change the file extension from .nupkg to .zip and extract it to a location of your choosing.
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**\
 The file you downloaded is just a .zip archive with extra files containing information about the contents of the package. You can unpack the downloaded file by changing the file extension from .nupkg to .zip.
-
-Find more about this topic [here.](https://docs.microsoft.com/en-us/powershell/gallery/how-to/working-with-packages/manual-download)
 {% endhint %}
 
 * Finally, copy the extracted content from syskit.spdockit.ps.1.X.X folder to **C:\Program Files\WindowsPowerShell\Modules\SysKit.SPDocKit.PS.**
@@ -79,10 +79,10 @@ SysKit.SPDocKit module update can be done using the following command:
 Update-Module -Name “SysKit.SPDocKit.PS”
 ```
 
-To update the module manually, first, uninstall the existing version of module, then follow instructions in **\[section** 2\]\(powershell-guide.md\#2-manually-copy-and-paste-powershell-module\) of this article.
+To update the module manually, first, uninstall the existing version of module, then follow instructions in **\[section** 2]\(powershell-guide.md#2-manually-copy-and-paste-powershell-module) of this article.
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**\
 After a successful update of the module, restart of the Windows PowerShell is required before creating the snapshot, otherwise, the snapshot will be created using the old version of the module.
 {% endhint %}
 
@@ -91,4 +91,3 @@ SPDocKit PS module **does not support** SharePoint 2010.
 {% endhint %}
 
 General information on how to create a snapshot can be viewed [here](../how-to/create-snapshot.md).
-
