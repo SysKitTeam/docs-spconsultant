@@ -21,11 +21,11 @@ If you would like to see more about the limited features, [contact us](https://w
 
 ## What happens during product activation?
 
-Product activation is a simple process that occurs during registration of the purchased product. The user credentials are entered and then authenticated with the SysKit product activation server in order to activate the product. The entire activation process is quick and easy, and the majority of users will have to perform product activation only once.
+Product activation is a simple process that occurs during registration of the purchased product. The user credentials are entered and then authenticated with the Syskit product activation server in order to activate the product. The entire activation process is quick and easy, and the majority of users will have to perform product activation only once.
 
 ## Who will be required to activate their products?
 
-Anyone who purchases SPDocKit Consultant will be required to activate the product. If the product is ordered online from the SysKit website, the product account information will be sent via email.
+Anyone who purchases SPDocKit Consultant will be required to activate the product. If the product is ordered online from the Syskit website, the product account information will be sent via email.
 
 ## How soon must I activate my product?
 
@@ -35,21 +35,21 @@ It is recommended you activate your product within the 15 days of the trial peri
 
 You can activate your product 24 hours a day, seven days a week on the Internet. Product activation requires you to type in your product product account information \(email and password\) and press activate. You must have an active connection to the Internet in order to activate your product. If you do not have access to internet, please use [offline activation](offline-activation.md).
 
-## What does SysKit do with the information sent during the product activation process?
+## What does Syskit do with the information sent during the product activation process?
 
-We use the information only to verify that your product is used within the scope allowed by the SysKit End-User License Agreement \(EULA\). The information is stored in a database and used only for product activation data. If you register your product, none of the activation information will ever be linked to your personal customer information.
+We use the information only to verify that your product is used within the scope allowed by the Syskit End-User License Agreement \(EULA\). The information is stored in a database and used only for product activation data. If you register your product, none of the activation information will ever be linked to your personal customer information.
 
 ## What is product activation?
 
-Product activation is an anonymous, secure and hassle-free process that authenticates licensed users during the installation process. The process verifies that the product product account information \(email and password\) is genuine and has not been activated on more systems than allowed by the SysKit End-User License Agreement \(EULA\).
+Product activation is an anonymous, secure and hassle-free process that authenticates licensed users during the installation process. The process verifies that the product product account information \(email and password\) is genuine and has not been activated on more systems than allowed by the Syskit End-User License Agreement \(EULA\).
 
-## Why does SysKit  require their customers to activate the software?
+## Why does Syskit  require their customers to activate the software?
 
-Product activation is a simple way to reduce and deter unauthorized use and casual copying of SysKit products with a minimal effect on our loyal customers.
+Product activation is a simple way to reduce and deter unauthorized use and casual copying of Syskit products with a minimal effect on our loyal customers.
 
-## Will the activation process ever send data to SysKit after I activate my product?
+## Will the activation process ever send data to Syskit after I activate my product?
 
-No. Activation is a secure and anonymous one-time process. After activation is complete, the license manager runs alongside the product for the sole purpose of verifying the integrity of the license file and the validity of the product license. The activation technology in the product does not send any additional information to SysKit.
+No. Activation is a secure and anonymous one-time process. After activation is complete, the license manager runs alongside the product for the sole purpose of verifying the integrity of the license file and the validity of the product license. The activation technology in the product does not send any additional information to Syskit.
 
 ## How long does the product activation take to complete?
 
@@ -61,7 +61,7 @@ One SPDocKit Consultant license can be activated on a single machine. However yo
 
 ## We have different SharePoint versions running in our environments — does this cost extra in terms of licensing?
 
-SysKit does not charge extra for different SharePoint versions simultaneously running in your environments.
+Syskit does not charge extra for different SharePoint versions simultaneously running in your environments.
 
 ## Where can I find the EULA for SPDocKit Consultant?
 

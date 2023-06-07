@@ -8,7 +8,7 @@ description: >-
 
 SPDocKit PS module is used to collect SharePoint farm settings and permissions. SPDocKit PS module needs to run on a server inside your client’s farm.
 
-After acquiring PowerShell module from [PowerShell Gallery](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS/) or SysKit [Customers Web](https://my.syskit.com), the module can be imported by manually copying the module and pasting it to the PowerShell module path or by using the command, whichever you prefer.
+After acquiring PowerShell module from [PowerShell Gallery](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS/) or Syskit [Customers Web](https://my.syskit.com), the module can be imported by manually copying the module and pasting it to the PowerShell module path or by using the command, whichever you prefer.
 
 The PowerShell module can be used with **PowerShell version 3.0 or higher.**
 

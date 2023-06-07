@@ -1,6 +1,6 @@
-# SPDocKit Consultant by SysKit
+# SPDocKit Consultant by Syskit
 
-**SPDocKit Consultant** by [**SysKit**](https://www.syskit.com/) is the **ultimate SharePoint management** and **administration tool.** It was developed for administrators and consultants to save time and automate their farm documentation process.
+**SPDocKit Consultant** by [**Syskit**](https://www.syskit.com/) is the **ultimate SharePoint management** and **administration tool.** It was developed for administrators and consultants to save time and automate their farm documentation process.
 
 Document and improve your SharePoint farm performance with this user-friendly and powerful solution trusted by thousands of global customers.
 

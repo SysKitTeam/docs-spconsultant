@@ -4,7 +4,7 @@ description: This article describes new features, improvements and bug fixes del
 
 # SPDocKit Consultant 10
 
-**SPDocKit Consultant 10** is a major release containing many highly requested features. At SysKit, it's still giving season, so scroll down to find your new gifts!
+**SPDocKit Consultant 10** is a major release containing many highly requested features. At Syskit, it's still giving season, so scroll down to find your new gifts!
 
 **Product version:** 10.0.0  
 **Build number:** 11521  
