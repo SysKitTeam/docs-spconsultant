@@ -10,7 +10,7 @@ There are two ways to create a snapshot of the selected farm \(both need to be r
 
 ## 1. SPDocKit Snapshot Wizard - Consultant
 
-SPDocKit Snapshot Wizard - Consultant files can be found in the installation folder of SPDocKit Consultant or downloaded from [SysKit Customers Web](https://my.syskit.com). To easily locate the installation folder, open SPDocKit Consultant and click the **Take Snapshot** button on the Backstage screen. An info window on how to take a snapshot appears. Click the **Quick Open** button. A folder containing the SPDocKit Snapshot Wizard - Consultant is opened and the .zip file is selected.
+SPDocKit Snapshot Wizard - Consultant files can be found in the installation folder of SPDocKit Consultant or downloaded from [Syskit Customers Web](https://my.syskit.com). To easily locate the installation folder, open SPDocKit Consultant and click the **Take Snapshot** button on the Backstage screen. An info window on how to take a snapshot appears. Click the **Quick Open** button. A folder containing the SPDocKit Snapshot Wizard - Consultant is opened and the .zip file is selected.
 
 Copy the preselected archive to the SharePoint server where you want to take a snapshot and extract the contents. Locate the **SPDocKitSnapshotWizard.exe** among the extracted files and run it. The **SPDocKit Snapshot Wizard - Consultant** opens.
 
