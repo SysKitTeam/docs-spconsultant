@@ -4,7 +4,7 @@ description: Distributed Cache settings cannot be loaded because the server is n
 
 # Distributed Cache loading issue
 
-## **Summary**
+## Summary
 
 SPDocKit Snapshot Wizard or SPDocKit PowerShell module do not load Distributed Cache settings data and display a warning message during the load:
 
@@ -17,11 +17,11 @@ This happens because SPDocKit Snapshot Wizard or SPDocKit PowerShell module quer
 
 **Application version:** 4.1.0 and newer
 
-## **Solution**
+## Solution
 
 Take snapshot and run the load process from a server that is part of the Distributed Cache Cluster.
 
-### **Workaround**
+### Workaround
 
 Distributed Cache API requires that the registry of the current server contains data providers and connection string for the cluster, or take snapshot on a server that is part of the Distributed Cache Cluster.
 
