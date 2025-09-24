@@ -1,8 +1,13 @@
 ---
 description: This article lists all options available in the Backstage Actions view.
+sidebar_position: 1
 ---
 
+import DocCardList from '@theme/DocCardList';
+
 # Backstage Screen
+
+<DocCardList />
 
 The Backstage Actions view is a set of commands that can be used to quickly approach major SPDocKit Consultant options.
 

@@ -1,4 +1,7 @@
 ---
+description: This article describes new features, improvements, and bug fixes delivered in SPDocKit Consultant 9.
+sidebar_position: 6
+---
 description: This article describes the new features, improvements, and bug fixes that are delivered in SPDocKit Consultant 9.
 ---
 

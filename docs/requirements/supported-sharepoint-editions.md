@@ -1,5 +1,6 @@
 ---
 description: This article lists all SharePoint editions that are supported by SPDocKit Consultant.
+sidebar_position: 2
 ---
 
 # Supported SharePoint Editions

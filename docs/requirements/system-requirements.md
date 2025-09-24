@@ -1,5 +1,6 @@
 ---
 description: This article lists the minimum hardware and software requirements for the installation of SPDocKit Consultant.
+sidebar_position: 3
 ---
 
 # System Requirements

@@ -2,7 +2,15 @@
 description: This article lists all options available in Farm Explorer.
 ---
 
+---
+sidebar_position: 2
+---
+
+import DocCardList from '@theme/DocCardList';
+
 # Farm Explorer Screen
+
+<DocCardList />
 
 Farm Explorer allows system administrators to explore SharePoint configuration settings that SPDocKit Consultant has loaded. Use the explorer on the left to browse and select specific reports.
 
