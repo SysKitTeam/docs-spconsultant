@@ -1,5 +1,6 @@
 ---
 description: This article explains how to install SPDocKit Consultant.
+sidebar_position: 1
 ---
 
 # Installation Guide

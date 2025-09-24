@@ -1,4 +1,5 @@
 ---
+sidebar_position: 4
 description: This article describes how to manage your existing Consultant license.
 ---
 

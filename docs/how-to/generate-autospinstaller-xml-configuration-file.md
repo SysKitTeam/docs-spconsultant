@@ -1,4 +1,5 @@
 ---
+sidebar_position: 5
 description: This section describes how to generate an AutoSPInstaller XML configuration file.
 ---
 

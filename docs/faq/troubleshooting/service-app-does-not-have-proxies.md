@@ -1,4 +1,5 @@
 ---
+sidebar_position: 9
 description: This article explains how to handle the issue with SharePoint farm settings load.
 ---
 

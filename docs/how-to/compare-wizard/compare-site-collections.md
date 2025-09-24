@@ -1,4 +1,5 @@
 ---
+sidebar_position: 4
 description: This sections describes how to use SPDocKit Consultant to compare SharePoint farm site collection configurations.
 ---
 

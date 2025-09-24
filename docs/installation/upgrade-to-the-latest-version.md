@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 description: This article explains how to upgrade SPDocKit Consultant to the latest version.
 ---
 

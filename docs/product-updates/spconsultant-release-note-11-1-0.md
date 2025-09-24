@@ -1,5 +1,6 @@
 ---
 description: This article describes improvements and bug fixes delivered in SPDocKit Consultant 11.1.0.
+title: SPDocKit Consultant 11.1.0
 sidebar_position: 2
 ---
 

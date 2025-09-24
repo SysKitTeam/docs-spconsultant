@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 description: This section explains how you can use the Compare Wizard to compare different farms or snapshots of an existing farm.
 ---
 

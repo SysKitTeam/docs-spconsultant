@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 description: This article describes how to troubleshoot the RPC related issues.
 ---
 

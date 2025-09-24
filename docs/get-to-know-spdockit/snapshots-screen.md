@@ -1,4 +1,5 @@
 ---
+sidebar_position: 4
 description: This article states how to use Snapshots Screen and track changes made to your SharePoint farm during its lifetime.
 ---
 

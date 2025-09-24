@@ -1,4 +1,5 @@
 ---
+sidebar_position: 4
 description: This article describes the issue with SPDocKit Consultant not being able to load Problems and Solutions and Rule Definitions.
 ---
 

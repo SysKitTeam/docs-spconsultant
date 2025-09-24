@@ -1,4 +1,5 @@
 ---
+sidebar_position: 5
 description: This article lists all commands available in the SPDocKit PowerShell Module and explains how to use them.
 ---
 

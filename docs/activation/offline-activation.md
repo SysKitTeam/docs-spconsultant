@@ -1,4 +1,5 @@
 ---
+sidebar_position: 3
 description: This article lists steps for the offline license activation.
 ---
 

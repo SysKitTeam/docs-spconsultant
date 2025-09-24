@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 description: This section explains how you can use the Compare Wizard to compare different servers. Including IIS and SQL servers.
 ---
 

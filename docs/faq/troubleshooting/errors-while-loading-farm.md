@@ -1,4 +1,5 @@
 ---
+sidebar_position: 6
 description: This article describes known issues that might occur while loading SharePoint farm.
 ---
 

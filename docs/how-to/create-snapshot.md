@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 description: This article describes how to create a snapshot using SPDocKit Consultant.
 ---
 

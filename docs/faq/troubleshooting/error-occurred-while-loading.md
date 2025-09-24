@@ -1,4 +1,5 @@
 ---
+sidebar_position: 3
 description: This article explains how to handle the issue with Web Application load.
 ---
 

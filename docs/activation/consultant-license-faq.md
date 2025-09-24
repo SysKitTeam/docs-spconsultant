@@ -1,4 +1,5 @@
 ---
+sidebar_position: 6
 description: This article provides answers to most frequently asked questions about the Consultant license.
 ---
 

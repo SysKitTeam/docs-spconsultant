@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 description: This article gives you answers to questions regarding SPDocKit Consultant and security.
 ---
 

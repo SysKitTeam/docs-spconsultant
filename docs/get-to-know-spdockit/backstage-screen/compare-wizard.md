@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 description: This article describes SPDocKit Consultant Compare Wizard and available comparison types. Compare SharePoint farms, server, web application, site collection or web.config files.
 ---
 

@@ -1,4 +1,5 @@
 ---
+sidebar_position: 8
 description: This article describes how to handle the issue with SPDocKit Consultant not being able to retrieve SQL account from the server.
 ---
 

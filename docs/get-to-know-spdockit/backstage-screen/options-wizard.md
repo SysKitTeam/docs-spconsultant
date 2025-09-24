@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 description: This article explains how to use the Options wizard to adjust and change your SPDocKit Consultant settings.
 ---
 

@@ -1,4 +1,5 @@
 ---
+sidebar_position: 3
 description: This section describes how to use SPDocKit Consultant to compare SharePoint farm web application configurations.
 ---
 

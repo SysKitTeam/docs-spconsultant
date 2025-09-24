@@ -1,4 +1,5 @@
 ---
+sidebar_position: 3
 description: This article describes how to use Best Practices Screen to check if SharePoint farm has been configured according to the configuration best practices.
 ---
 

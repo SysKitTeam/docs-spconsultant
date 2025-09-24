@@ -1,4 +1,5 @@
 ---
+sidebar_position: 5
 description: This section describes how to use SPDocKit Consultant to compare web.config files across different servers, web applications and web application zones.
 ---
 
