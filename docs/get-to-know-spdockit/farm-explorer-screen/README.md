@@ -1,8 +1,5 @@
 ---
 description: This article lists all options available in Farm Explorer.
----
-
----
 sidebar_position: 2
 ---
 

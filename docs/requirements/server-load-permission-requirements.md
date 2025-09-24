@@ -1,10 +1,8 @@
 ---
----
 description: >-
   Permission requirements for loading server information with SPDocKit
   Consultant.
 sidebar_position: 4
----
 ---
 
 # Server Load Permission Requirements
