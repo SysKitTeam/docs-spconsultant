@@ -3,6 +3,8 @@ description: This article lists all user privileges needed to retrieve SharePoin
 sidebar_position: 1
 ---
 
+import DownloadButton from '@site/src/components/DownloadButton';
+
 # SharePoint On-Premises User Permissions Requirements
 
 To run SPDocKit Snapshot Wizard or SPDocKit PowerShell module and to retrieve all SharePoint settings you want to document, the user running SPDocKit Snapshot Wizard or SPDocKit PowerShell module needs to have proper privileges. Here is the list of required privileges to load SharePoint farm settings:
@@ -39,9 +41,15 @@ Here is how you can give user these privileges:
 * If you want to grant PowerShell shell access to a single database [check this article](http://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
 * If you want to grant PowerShell shell access to all content databases,  download: Configure-SPShellAdmin.ps1
 
-[Download configure-spshelladmin.zip](/downloads/configure-spshelladmin.zip)
+<DownloadButton 
+  href="/downloads/configure-spshelladmin.zip"
+  filename="configure-spshelladmin.zip"
+  fileSize="5.7 KB"
+  fileType="ZIP"
+  description="PowerShell script to grant shell access to all SharePoint content databases"
+/>
 
-```bash
+```powershell
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null) 
 {Add-PSSnapin Microsoft.SharePoint.PowerShell;}  
 cls  

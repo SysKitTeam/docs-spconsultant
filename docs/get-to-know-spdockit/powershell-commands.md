@@ -9,7 +9,7 @@ As explained in the [create snapshot article](../how-to/create-snapshot.md) ther
 
 If you decided to use a PowerShell Module, here is a list of all the available commands. You can also view them in the PowerShell console it self, by running:
 
-```bash
+```powershell
 Get-Help New-SPDocKitSnapshot -full
 ```
 
@@ -19,7 +19,7 @@ If you need further assistance, please [contact us](https://www.syskit.com/compa
 
 ## Syntax
 
-```bash
+```powershell
     New-SPDocKitSnapshot [-SiteCollectionsOff] [-PersonalSitesOff][-FeaturesAndSolutionsOff] [-DatabasePermissionsOff] [-ProgramsAndUpdatesOff] [-SQLServerConfigurationOff] [-IISSettingsOff] [-ProjectServerSettingsOff] [-ProjectServerProjectsOff] [-Location [<String>]] [-NumberOfThreads [<UInt16>]] [-ServerLoadGlobalTimeout [<UInt16>]] [-ServerLoadOperationTimeout [<UInt16>]] [-FarmAccessTimeout [<UInt16>]] [<CommonParameters>]
 ```
 
@@ -33,7 +33,7 @@ Errors that occur will be logged in the Windows Event Log with the source SPDocK
 
 Parameters:
 
-```bash
+```powershell
 -SiteCollectionsOff  or  -noSites
     If set, site collections will not be loaded. Load depth will be set to web applications.
 
@@ -175,7 +175,7 @@ Parameters:
 
 Outputs:
 
-```bash
+```powershell
 ———————— EXAMPLE 1 ————————
 
 New-SPDocKitSnapshot

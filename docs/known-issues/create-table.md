@@ -14,7 +14,7 @@ SPDocKit Snapshot Wizard and SPDocKit PowerShell module query the NeedsUpgrade p
 
 The issue can easily be reproduced in PowerShell by running the snapshot is taken using the account that lacks sufficient permissions:
 
-```bash
+```powershell
     $myDB = Get-SPDatabase | ?{$_.Name -eq "[SPDatabaseName]"}
     $myDB.NeedsUpgrade
 ```

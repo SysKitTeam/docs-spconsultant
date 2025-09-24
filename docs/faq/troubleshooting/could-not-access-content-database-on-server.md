@@ -24,7 +24,7 @@ The process of adding a user account to the role must be repeated each time a ne
 
 [Download configure-spshelladmin.zip](/downloads/configure-spshelladmin.zip)
 
-```bash
+```powershell
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)
 {Add-PSSnapin Microsoft.SharePoint.PowerShell;}
 cls

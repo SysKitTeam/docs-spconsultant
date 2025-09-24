@@ -28,7 +28,7 @@ The user running SPDocKit Snapshot Wizard or SPDocKit PowerShell module needs to
 
 If you are still having issues with individual Web Applications or other items you need to do the following: make sure the user has Shell access to the given content database, using the following PowerShell code to grant access:
 
-```bash
+```powershell
  $spcdb = Get-SPContentDatabase WSS_Content_Intranet
  Add-SPShellAdmin -UserName DOMAIN\User -Database $spcdb
 ```

@@ -19,14 +19,14 @@ The PowerShell module can be used with **PowerShell version 3.0 or higher.**
 
 :::warning
 **Please note!**\
-To be able to install \_\*\*\_SPDocKit PS module using PowerShell's Install-Module command, PowerShell 5 or later is required.
+To be able to install SPDocKit PS module using PowerShell's Install-Module command, PowerShell 5 or later is required.
 
 You can easily upgrade PowerShell by downloading [WMF 5.0 or later.](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
 :::
 
 * Save the module to preferred location:
 
-```bash
+```powershell
 Save-Module -Name SysKit.SPDocKit.PS -Path < path >
 ```
 
@@ -35,7 +35,7 @@ Save–Module command automatically downloads and unzips module to location.
 
 * Install the module:
 
-```bash
+```powershell
 Install-Module -Name SysKit.SPDocKit.PS
 ```
 
@@ -43,7 +43,7 @@ Install-Module command installs SPDocKit PS Module to default location: C:\Progr
 
 * (Optional) Check the SPDocKit PS module version:
 
-```bash
+```powershell
 Get-SPDocKitVersion
 ```
 
@@ -66,7 +66,7 @@ The file you downloaded is just a .zip archive with extra files containing infor
 
 If you wish to uninstall SysKit.SPDocKit PS module from a server inside your client’s farm you can use the following command:
 
-```bash
+```powershell
 Get-InstalledModule -Name “SysKit.SPDocKit.PS” | Uninstall-Module
 ```
 
@@ -76,7 +76,7 @@ Or you can manually delete SysKit.SPDocKit PS file from the location you chose d
 
 SysKit.SPDocKit module update can be done using the following command:
 
-```bash
+```powershell
 Update-Module -Name “SysKit.SPDocKit.PS”
 ```
 

@@ -1,5 +1,5 @@
 .download-button-container {
-  margin: 0.5rem 0;
+  margin: 1.5rem 0;
 }
 
 .download-button {
@@ -25,7 +25,6 @@
   text-decoration: none;
   color: var(--ifm-color-content);
   border-color: var(--ifm-color-primary);
-  background: var(--ifm-color-emphasis-100);
 }
 
 .download-button:active {
@@ -138,7 +137,6 @@
 
 [data-theme='dark'] .download-button:hover {
   border-color: var(--ifm-color-primary);
-  background: var(--ifm-color-emphasis-200);
 }
 
 [data-theme='dark'] .file-type {
