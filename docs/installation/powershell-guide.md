@@ -80,7 +80,7 @@ SysKit.SPDocKit module update can be done using the following command:
 Update-Module -Name “SysKit.SPDocKit.PS”
 ```
 
-To update the module manually, first, uninstall the existing version of module, then follow instructions in **\[section** 2]\(powershell-guide.md#2-manually-copy-and-paste-powershell-module) of this article.
+To update the module manually, first, uninstall the existing version of module, then follow instructions in **[section 2](powershell-guide.md#2-manually-copy-and-paste-powershell-module)** of this article.
 
 :::warning
 **Please note!**\
