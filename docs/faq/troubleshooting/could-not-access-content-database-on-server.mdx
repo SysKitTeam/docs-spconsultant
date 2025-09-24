@@ -3,6 +3,8 @@ sidebar_position: 2
 description: This article explains how to handle the issue with site collection load.
 ---
 
+import DownloadButton from '@site/src/components/DownloadButton';
+
 # Could not access content database
 
 ## Problem
@@ -22,7 +24,13 @@ The process of adding a user account to the role must be repeated each time a ne
 3. If you want to grant PowerShell shell access to a single database [check this article](https://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
 4. If you want to grant PowerShell shell access to all content databases run this script:
 
-[Download configure-spshelladmin.zip](/downloads/configure-spshelladmin.zip)
+<DownloadButton 
+  href="/spdockit-consultant/downloads/configure-spshelladmin.zip"
+  filename="configure-spshelladmin.zip"
+  fileSize="5.7 KB"
+  fileType="ZIP"
+  description="PowerShell script to grant shell access to all SharePoint content databases"
+/>
 
 ```powershell
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)

@@ -33,7 +33,7 @@ Errors that occur will be logged in the Windows Event Log with the source SPDocK
 
 Parameters:
 
-```powershell
+```
 -SiteCollectionsOff  or  -noSites
     If set, site collections will not be loaded. Load depth will be set to web applications.
 

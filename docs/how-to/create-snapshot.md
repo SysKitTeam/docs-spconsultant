@@ -66,7 +66,7 @@ Instructions on how to install SPDocKit PowerShell Module can be found [here](..
 
 To create a snapshot with the **SysKit.SPDocKit.PS** module, use the following command:
 
-```text
+```powershell
 New-SPDocKitSnapshot
 ```
 
@@ -74,7 +74,7 @@ The load starts and the current Loading Target is displayed in the progress bar.
 
 To find out all about the **New-SPDocKitSnapshot** command, use the following command:
 
-```text
+```powershell
 Get-Help New-SPDocKitSnapshot -full
 ```
 
