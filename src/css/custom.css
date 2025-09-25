@@ -474,3 +474,10 @@ pre[class*="language-"] {
   border: none !important;
 }
 
+/* Center images in documentation articles using multiple approaches */
+.img_ev3q {
+  display: block !important;
+  margin: 1rem auto !important;
+  max-width: 100%;
+  height: auto;
+}
