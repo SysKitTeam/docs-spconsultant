@@ -19,7 +19,7 @@ name = "docs-spconsultant-production"
 vars = { ENVIRONMENT = "production" }
 # Production routes
 [[env.production.routes]]
-pattern = "docs3.syskit.com/spconsultant*"
+pattern = "docs3.syskit.com/spdockit-consultant*"
 zone_name = "syskit.com"
 
 # Staging environment configuration
@@ -28,5 +28,5 @@ name = "docs-spconsultant-staging"
 vars = { ENVIRONMENT = "staging" }
 # Staging routes
 [[env.staging.routes]]
-pattern = "docs-staging.syskit.com/spconsultant*"
+pattern = "docs-staging.syskit.com/spdockit-consultant*"
 zone_name = "syskit.com"
