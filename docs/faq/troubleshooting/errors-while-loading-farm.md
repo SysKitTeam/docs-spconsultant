@@ -26,6 +26,6 @@ There are also errors in the event log such as this one:
 
 The user running the SPDocKit Snapshot Wizard or SPDocKit PowerShell module needs to have the proper privileges to retrieve information from the SharePoint farm.
 
-Follow [these instructions](../../requirements/user-permission-requirements.md) to configure your SharePoint farm.
+Follow [these instructions](../../requirements/user-permission-requirements.mdx) to configure your SharePoint farm.
 
 

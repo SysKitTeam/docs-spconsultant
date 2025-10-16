@@ -10,7 +10,7 @@ sidebar_position: 3
 * The product **\(SPDocKit Snapshot Wizard or the PowerShell Module\)** needs to be started on a **SharePoint 2019, SharePoint 2016, SharePoint 2013 or SharePoint 2010 Server**
   * For SharePoint 2013 & 2010: SharePoint Foundation, Standard and Enterprise are supported.
   * You can run the product on a WFE \(recommended\), Application, Index or any other server in the farm.
-  * User must have [proper privileges](user-permission-requirements.md) to perform the snapshot process. 
+  * User must have [proper privileges](user-permission-requirements.mdx) to perform the snapshot process. 
 * Software
   * For SharePoint 2019: Windows Server 2012 R2, Windows Server 2016, or Windows Server 2019
   * For SharePoint 2016: Windows Server 2012 R2, Windows Server 2016, or Windows Server 2019

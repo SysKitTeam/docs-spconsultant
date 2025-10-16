@@ -10,7 +10,7 @@ The Best Practice section contains built-in reports that help SharePoint adminis
 The following options are available:
 
 * Using built-in best practice reports to verify SharePoint farm settings.
-* [Creating new best practice reports](../how-to/best-practices/create-custom-best-practices-reports.md).
+* [Creating new best practice reports](../how-to/best-practices/create-custom-best-practices-reports.mdx).
 * **Importing** and **Exporting** custom made reports.
 * **Editing** and **Deleting** custom made reports.
 * Organizing custom made reports by adding new folders.

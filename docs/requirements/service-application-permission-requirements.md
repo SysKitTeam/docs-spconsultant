@@ -35,7 +35,7 @@ Here is what you need to do:
 
 ### Learn More
 
-* [SharePoint On-Premises User Permissions Requirements](user-permission-requirements.md)
+* [SharePoint On-Premises User Permissions Requirements](user-permission-requirements.mdx)
 
 ## User Profile Service Application Requirements
 
@@ -61,6 +61,8 @@ Here is what you need to do:
 
 ### Learn More
 
-* [SharePoint On-Premises User Permissions Requirements](user-permission-requirements.md)
+* [SharePoint On-Premises User Permissions Requirements](user-permission-requirements.mdx)
+
+
 
 
