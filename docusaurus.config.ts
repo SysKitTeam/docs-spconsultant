@@ -17,8 +17,8 @@ const config: Config = {
   // Set the production url of your site here
   url: 'https://docs.syskit.com',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For deployment on /spdockit-consultant route
-  baseUrl: '/spdockit-consultant/',
+  // For deployment on /spconsultant route
+  baseUrl: '/spconsultant/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

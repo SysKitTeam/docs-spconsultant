@@ -1,6 +1,6 @@
 # SharePoint Best Practices Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/) and deployed to Cloudflare Workers on the `/spdockit-consultant` route at `docs.syskit.com/spdockit-consultant`.
+This website is built using [Docusaurus](https://docusaurus.io/) and deployed to Cloudflare Workers on the `/spdockit-consultant` route at `docs.syskit.com/spconsultant`.
 
 ## 🚀 Quick Start
 
