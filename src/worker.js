@@ -1,21 +1,21 @@
 /**
- * Cloudflare Worker for serving Docusaurus static site on /spdockit-consultant route
- * This worker handles routing and serves static assets for testforce.uk/spdockit-consultant
+ * Cloudflare Worker for serving Docusaurus static site on /spconsultant route
+ * This worker handles routing and serves static assets for docs.syskit.com/spconsultant
  */
 
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     
-    // Handle requests to /spdockit-consultant route
+    // Handle requests to /spconsultant route
     let pathname = url.pathname;
     
-    // If the path starts with /spdockit-consultant, remove it for internal routing
-    if (pathname.startsWith('/spdockit-consultant')) {
-      pathname = pathname.replace('/spdockit-consultant', '') || '/';
+    // If the path starts with /spconsultant, remove it for internal routing
+    if (pathname.startsWith('/spconsultant')) {
+      pathname = pathname.replace('/spconsultant', '') || '/';
     } else {
-      // Return 404 for non-/spdockit-consultant routes to maintain consistency
-      return new Response('Not Found - Please access via /spdockit-consultant route', { status: 404 });
+      // Return 404 for non-/spconsultant routes to maintain consistency
+      return new Response('Not Found - Please access via /spconsultant route', { status: 404 });
     }
     
     // Create a new URL for the asset request

@@ -1,6 +1,6 @@
 # SharePoint Best Practices Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/) and deployed to Cloudflare Workers on the `/spdockit-consultant` route at `docs.syskit.com/spdockit-consultant`.
+This website is built using [Docusaurus](https://docusaurus.io/) and deployed to Cloudflare Workers on the `/spconsultant` route at `docs.syskit.com/spconsultant`.
 
 ## 🚀 Quick Start
 
@@ -35,18 +35,18 @@ npm run deploy:staging
 npm run dev
 ```
 
-Then visit: **`http://127.0.0.1:8787/spdockit-consultant`**
+Then visit: **`http://127.0.0.1:8787/spconsultant`**
 
 ## 🔧 Configuration
 
-- **Production**: `https://docs.syskit.com/spdockit-consultant` ✅ **Working**
-- **Staging**: `https://docs-staging.syskit.com/spdockit-consultant` ✅ **Working**
-- **Route**: `/spdockit-consultant/*`
+- **Production**: `https://docs.syskit.com/spconsultant` ✅ **Working**
+- **Staging**: `https://docs-staging.syskit.com/spconsultant` ✅ **Working**
+- **Route**: `/spconsultant/*`
 - **Worker**: Serves the Docusaurus site with proper routing and caching
 
 ### URLs:
-- **Production**: `https://docs.syskit.com/spdockit-consultant` ✅ **Live**
-- **Staging**: `https://docs-staging.syskit.com/spdockit-consultant` ✅ **Live**
+- **Production**: `https://docs.syskit.com/spconsultant` ✅ **Live**
+- **Staging**: `https://docs-staging.syskit.com/spconsultant` ✅ **Live**
 
 ## 📁 Project Structure
 
