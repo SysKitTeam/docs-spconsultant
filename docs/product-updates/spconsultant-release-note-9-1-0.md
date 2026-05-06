@@ -1,7 +1,7 @@
 ---
 description: This article describes bug fixes delivered in SPDocKit Consultant 9.1.0.
 title: SPDocKit Consultant 9.1.0
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # SPDocKit Consultant 9.1.0

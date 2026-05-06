@@ -1,7 +1,7 @@
 ---
 description: This article describes new features, improvements, and bug fixes delivered in SPDocKit Consultant 8.
 title: SPDocKit Consultant 8
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # SPDocKit Consultant 8
